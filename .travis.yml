@@ -1,23 +1,18 @@
 sudo: true
 language: ruby
 rvm: 2.3.1
+branches:
+  only: master
 cache:
   bundler: true
   directories:
   - node_modules
-env:
-  global:
-  - GIT_COMMITTER_NAME='fullvirtue@travis-ci'
-  - GIT_COMMITTER_EMAIL='fullvirtue@gmail.com'
-  - GIT_AUTHOR_NAME='fullvirtue@travis-ci'
-  - GIT_AUTHOR_EMAIL='fullvirtue@gmail.com'
-  - secure: AWX6tMBss4tCQUSEK8k4/sqcHxtl8O3mvtcu7wuI+N2ljFiA2IN3MHySb0bVJp8sY+FfReiiWUR2MaLLQq309ljv2iklS4bdbk0077EaaJMYzzqXIpyPD9HjDPmre/fUa57WDNDyy+MPwoNwcqajNrf21sWEMNmD3OKpB2iRzFF1R4WOteNZaPMjTGUVy4lfaUjcfrSn71R29HNODrYlHR6WCqdm5oW1+Xn+IMH6Bx6YmKivaqBeavMftiCRQsOwUPHo37kYn32HvSdKqZ7CN9m7sLzNz8PlKC6zRRKAX/J6aORFmuu4h2O3oh1/GNz+Q/mLyVcHCd94pmFYkeCzrbu8rHXbKXOUtTds203WpGV2OaQ/aojC8qVywnqp9TCJQQ10q4cdvqLFEuquW7uPoBPpWL/GskmAn2yd8k/g/47Isb30D27ap56l2xmD0vK4cdXlhmwdCO9O0EOybGKrrLYTSFMR2nQKOFGwCZuibrPb/2tZVQA73pdYfcbVj7YrWQrURnQcCzPMceLfwI5HiAAzqtGiDnDc6ScXCNXEThMSkEaXGcGpLx34J+R1zN0Z+PX2OfEJrQpdomRZxuax/2QHnG1MS9pbfv1kZRbzn/sIVmp5cvPf9J4GghLGyxlPdQnly4aqsYE2M3wa/8mUrJqBVSOYysuqU1FtF9/xlEY=
-  - TRAVIS_NODE_VERSION="6.1"
 before_install:
   - "rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION"
   - "npm install"
 script:
+  - git config --global user.name 'fullvirtue@travis-ci'
+  - git config --global user.email 'fullvirtue@gmail.com'
+  - git remote set-url origin "https://fullvirtue:$GH_TOKEN@github.com/fullvirtue/sendaiitfes2017.git"
   - "bundle exec middleman build --verbose"
-after_success:
-- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec middleman deploy
-  >/dev/null 2>&1'
+  - bundle exec middleman deploy
