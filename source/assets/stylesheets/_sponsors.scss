@@ -1,0 +1,78 @@
+.sponsors {
+
+  &_title {
+    text-align: center;
+  }
+
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &_item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #eee;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      &-platina{
+        @extend .sponsors_list_item;
+        width: 260px;
+        height: 260px;
+      }
+
+      &-golds{
+        @extend .sponsors_list_item;
+        width: 190px;
+        height: 190px;
+        padding: 20px;
+      }
+
+      &-silvers {
+        @extend .sponsors_list_item;
+        width: 160px;
+        height: 160px;
+      }
+
+      &-drinks {
+        @extend .sponsors_list_item;
+        width: 120px;
+        height: 120px;
+      }
+
+      &-medias {
+        @extend .sponsors_list_item;
+        width: 120px;
+        height: 120px;
+      }
+
+      &-goods {
+        @extend .sponsors_list_item;
+        width: 120px;
+        height: 120px;
+      }
+    }
+  }
+
+  &_description {
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+    padding-top: 15px;
+    line-height: 1.8;
+    color: #888;
+    font-size: .8em;
+  }
+}

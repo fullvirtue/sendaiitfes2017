@@ -1,0 +1,199 @@
+.largeHeader
+  .containers
+    nav.largeHeaderNavigation
+      p.largeHeader_siteCaption
+        | 
+      h1.largeHeader_siteLogo
+        | 仙台IT文化祭
+      h2.largeHeader_date
+        | Comming on Fall...
+        / span.largeHeader_place @ ???
+/      .largeHeader_signup
+/        = link_to 'https://sendaiitfes.doorkeeper.jp/', class: 'largeHeader_signup_button', title: 'Doorkeeperで申込み', target: '_blank' do
+/          i.fa.fa-external-link
+/          | &nbsp;
+/          | 参加申込み
+
+section.section
+  .container
+    h2.section_title 仙台IT文化祭 とは
+    p
+      | xxxxxxxxxx。
+
+/ section.section
+/   .container
+/     h2.section_title 開催概要
+/     .row
+/       .col-sm-6
+/         <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyA752IhT1WuIsrSVesJ6U08Cm6qgsRhqbI"></script>
+/         <script type="text/javascript">google.maps.event.addDomListener(window,'load',function(){var lat = 35.658042;var lng = 139.698262;var latlng = new google.maps.LatLng(lat, lng);var map = document.getElementById('map');var options = {zoom: 16,center: latlng,mapTypeId: google.maps.MapTypeId.ROADMAP,scrollwheel: false};var mapObj = new google.maps.Map(map, options);var marker = new google.maps.Marker({position: latlng,map: mapObj});});</script>
+/         <div id="map" style="width:100%; height: 300px;"></div>
+/       .col-sm-6.section_body
+/         dl.section_eventNote
+/           dt
+/             i.fa.fa-fw.fa-calendar
+/             | &nbsp;
+/             | 開催日時
+/           dd
+/             span.date
+/               | 2017
+/             span.time
+/               | 00:00
+/           dt
+/             i.fa.fa-fw.fa-map-marker
+/             | &nbsp;
+/             | 開催場所
+/           dd
+/             | 調整中
+
+/ section.section
+/   .container
+/     h2.section_title SPEAKERS
+/     .speakers
+/       .speakers_list
+/         - data.speakers.keynotes.each do |keynotes|
+/           .speakers_list_item
+/             = image_tag keynotes.profile_image_url, class: 'speakers_list_image'
+/             .speakers_list_name = keynotes.name
+/             .speakers_list_organization = keynotes.organization
+/             .speakers_list_title = keynotes.title
+/         - data.speakers.specials.each do |specials|
+/           .speakers_list_item
+/             = image_tag specials.profile_image_url, class: 'speakers_list_image'
+/             .speakers_list_name = specials.name
+/             .speakers_list_organization = specials.organization
+/             .speakers_list_title = specials.title
+/         - data.speakers.staffs.each do |staffs|
+/           .speakers_list_item
+/             = image_tag staffs.profile_image_url, class: 'speakers_list_image'
+/             .speakers_list_name = staffs.name
+/             .speakers_list_organization = staffs.organization
+/             .speakers_list_title = staffs.title
+/         - data.speakers.sponsors.each do |sponsors|
+/           .speakers_list_item
+/             = image_tag sponsors.profile_image_url, class: 'speakers_list_image'
+/             .speakers_list_name = sponsors.name
+/             .speakers_list_organization = sponsors.organization
+/             .speakers_list_title = sponsors.title
+/         - if data.speakers.others.present?
+/           - data.speakers.others.each do |others|
+/             .speakers_list_item
+/               = image_tag others.profile_image_url, class: 'speakers_list_image'
+/               .speakers_list_name = others.name
+/               .speakers_list_organization = others.organization
+/               .speakers_list_title = others.title
+/       .speakers_schedulelink
+/         = link_to '/schedule', class: 'btn' do
+/           i.fa.fa-arrow-circle-right
+/           | &nbsp;
+/           | タイムテーブル を確認する
+/       .speakers_schedulelink
+/         = link_to '/documents', class: 'btn' do
+/           i.fa.fa-arrow-circle-right
+/           | &nbsp;
+/           | 公開資料まとめ を確認する
+
+
+/ Articles Block
+/ section.section
+/   .container
+/     h2.section_title 新着記事
+/     - page_articles('articles').each do |article|
+/       article.information
+/         h1.information_title = link_to article.title, article.url
+/         time.information_time = article.date.strftime('%Y/%m/%d')
+
+/ section.section
+/   .container
+/     h2.section_title OUR SPONSORS
+/     h3.sponsors_title PLATINUM SPONSORS
+/     .sponsors_list
+/       - data.sponsors.platina.each do |platina|
+/         = link_to image_tag(platina.logo_image_url), platina.url, class: 'sponsors_list_item-platina', target: '_blank', title: platina.name, 'data-toggle' => 'tooltip'
+/     h3.sponsors_title GOLD SPONSORS
+/     .sponsors_list
+/       - data.sponsors.golds.each do |golds|
+/         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
+/     - if data.sponsors.silvers.present?
+/       h3.sponsors_title SILVER SPONSORS
+/       .sponsors_list
+/         - data.sponsors.silvers.each do |silvers|
+/           = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
+/     h3.sponsors_title DRINK SPONSORS
+/     .sponsors_list
+/       - data.sponsors.drinks.each do |drinks|
+/         = link_to image_tag(drinks.logo_image_url), drinks.url, class: 'sponsors_list_item-drinks', target: '_blank', title: drinks.name, 'data-toggle' => 'tooltip'
+/     h3.sponsors_title 👕 T-SHIRTS SPONSOR
+/     .sponsors_list
+/       - data.sponsors.goods.each do |goods|
+/         = link_to image_tag(goods.logo_image_url), goods.url, class: 'sponsors_list_item-goods', target: '_blank', title: goods.name, 'data-toggle' => 'tooltip'
+/     h3.sponsors_title MEDIA SPONSORS
+/     .sponsors_list
+/       - data.sponsors.medias.each do |medias|
+/         = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
+/         
+/     .sponsors_description
+/       h4. スポンサーについて
+/       p Japan Product Manager Conference 2016 では、本カンファレンスにご協賛いただけるスポンサー企業を募集しております。プロダクト開発の現場で活躍するプロダクトマネージャーに、自社をアピールできるまたとない機会です。協賛プログラムの詳細については、以下の資料をご参照ください。皆様のご支援をお待ちしております。
+/       = link_to '/assets/files/pmconfjp_sponsorship_letter.pdf', target: '_blank', rel: 'nofollow'
+/         i.fa.fa-file-pdf-o
+/         | &nbsp;
+/         | Japan Product Manager Conference 2016 ご協賛のお願い
+
+/ section.section
+/   .container
+/     .sponsorJobs
+/       h2.section_title 📣 PRODUCT MANAGER JOBS
+/       p.section_subTitle スポンサー企業のプロダクトマネージャー求人です
+/       .sponsorJobs_table
+/         - data.jobs.each do |jobs|
+/           .sponsorJobs_item
+/             .sponsorJobs_item_organization = jobs.organization
+/             .sponsorJobs_item_title
+/               = link_to jobs.url, class: 'sponsorJobs_item_title_link', target: '_blank' do
+/                 i.fa.fa-fw.fa-external-link
+/                 =< jobs.title
+
+/ section.section
+/   .container
+/     h2.section_title OFFICIAL COMMUNITIES
+/     .sponsors_list
+/       - data.sponsors.communities.each do |communities|
+/         = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
+
+section.section.hidden-xs
+  .container
+    .row
+      .col-sm-6
+        aside
+          <div class="fb-page" data-href="https://www.facebook.com/pmconf.jp/" data-width="500px" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pmconf.jp/"><a href="https://www.facebook.com/pmconf.jp/">pmconf.jp 2016</a></blockquote></div></div>
+
+      .col-sm-6
+        aside
+          <a class="twitter-timeline" data-height="400" href="https://twitter.com/pmconfjp">Tweets by pmconfjp</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+section.section
+  .container
+    h2.section_title 😎 主催
+    h4.text-center プロダクトマネージャーカンファレンス実行委員会
+    p.text-center
+      = link_to '実行委員一覧', '/staff'
+    .sponsorsText
+      h4.text-center お問い合わせ先
+      p
+        | 事務局: 関 満徳 (
+        = link_to '@fullvirtue', 'https://twitter.com/fullvirtue', target: '_blank'
+        | )
+        | &nbsp;
+        i.fa.fa-envelope-o
+        =< link_to 'fullvirtue@vivaceplus.com', 'mailto:fullvirtue@vivaceplus.com', target: '_blank'
+    .sponsorsText
+      p
+        | Designed by #{link_to 'htomine', 'https://github.com/htomine', target: '_blank'} from Increments Inc.
+        br
+        | Hosted by #{link_to 'GitHub', 'https://github.com/fullvirtue/pmconfjp2017', target: '_blank'}
+    .socialBtns
+      .socialBtns_facebook
+        <div class="fb-like" data-href="http://pmconf.jp/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+      .socialBtns_twitter
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="pmconfjp">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

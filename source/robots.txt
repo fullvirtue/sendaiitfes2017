@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: http://2017.sendaiitfes.org/sitemap.xml
+Disallow: /assets/files/sendaiitfes_sponsorship_letter.pdf
+Disallow: /info_sponsor/
+Disallow: /info_speaker/

@@ -1,0 +1,39 @@
+organizers:
+  - name: fullvirtue
+    twitter: https://twitter.com/fullvirtue
+    github: https://github.com/fullvirtue
+    facebook: https://facebook.com/fullvirtue
+    link: http://fullvirtue.com/
+    profile_image_url: /assets/images/profile_images/fullvirtue.png
+  - name: takoratta
+    twitter: https://twitter.com/takoratta
+    github: https://github.com/takoratta
+    facebook: https://facebook.com/takoratta
+    profile_image_url: /assets/images/profile_images/takoratta.jpeg
+  - name: aomegane
+    twitter: https://twitter.com/aomegane1985
+    github: https://github.com/aomegane
+    facebook: https://facebook.com/sakamoto10423
+    profile_image_url: /assets/images/profile_images/aomegane.jpeg
+  - name: mizukitanno
+    twitter: https://twitter.com/mizukitanno
+    github: https://github.com/mizukitanno
+    facebook: https://facebook.com/mizukitanno
+    link: http://tannomizuki.hatenablog.com/
+    profile_image_url: /assets/images/profile_images/mizukitanno.png
+  - name: miuranobuaki
+    twitter: https://twitter.com/miuranobuak
+    github: https://github.com/miuranobuaki
+    facebook: https://www.facebook.com/nobuaki.miura
+    profile_image_url: /assets/images/blank_user.png
+  - name: ykmc09
+    twitter: https://twitter.com/ykmc09_dev
+    github: https://github.com/ykmc09
+    facebook: https://facebook.com/ykmc09
+    profile_image_url: /assets/images/profile_images/ykmc09.jpeg
+  - name: htomine
+    twitter: https://twitter.com/htomine
+    github: https://github.com/htomine
+    facebook: https://facebook.com/htomine
+    link: http://htomine.hateblo.jp/
+    profile_image_url: /assets/images/profile_images/htomine.png

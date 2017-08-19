@@ -1,0 +1,25 @@
+sudo: true
+language: ruby
+rvm: 2.3.1
+cache:
+  bundler: true
+  directories:
+  - node_modules
+env:
+  global:
+  - GIT_COMMITTER_NAME='fullvirtue@travis-ci'
+  - GIT_COMMITTER_EMAIL='fullvirtue@gmail.com'
+  - GIT_AUTHOR_NAME='fullvirtue@travis-ci'
+  - GIT_AUTHOR_EMAIL='fullvirtue@gmail.com'
+  - secure: HidsbWBQLsdSbZ7gEFQa63bzy71u6MSFtetElmezSwDJ3/BalZWeTs5nVwJhjszFMcyalxA4hzoyHvSsPo9slroxPj9HSUiFajYz/3Xvl2qj5VkC+exL3OL9e0543BVgvXT3gUXEnaBQCWwqfH2fS9ne0MjlVEoFi62lgc12rPhbpg1EtwGakUVq0C2As/q5NTgoIVJGxwh5xBWyurKgGO9yvJaVoghVtyT6Iyr+YlKoBrHqLQpxyf7Wxjr14/2sWnWkGIWqeAO93BuGBJtGmEp6kmS9uVGMr8aYQckmhiWwGm9kqofWCGOo3EMWuY1gI9Y+jApuk+FCvYPLEJ/yKVhqNoG3sxsxIyzkjxsDBB53i1/d3tKX3paGRMGhq7p9hhH3g1bNxfa/qY+k9KqOS34e80RRVV7rZ/CF7iFIqX1cg0rsyNx8SRGBnMOMXJ/6TD5fTQ3ctc0sjQjwv/7rEKpkqPKpoXcZ8MsXeGKBDst9A/aFvctrB9Hbtq+FrILQFWOruIo+PeJyLjGLJvGad+afiuw/Uo/LF/Et6gTkFngN22mn1zrqoL7X8iCdYrwVyurjgNc1npFEiPyz3uPGvHROI7lcUvLWpBjd9tr3IJCwN1DyRSPvdUj7WiEjjDGD4W4OxasRRDvVz1TdzgSSdNFo3dy7o+tQiInwTWlcYnw=
+  - TRAVIS_NODE_VERSION="6.1"
+before_install:
+- rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm
+  && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm
+  install $TRAVIS_NODE_VERSION
+- npm install
+script:
+- bundle exec middleman build --verbose
+after_success:
+- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec middleman deploy
+  >/dev/null 2>&1'
