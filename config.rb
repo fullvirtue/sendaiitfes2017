@@ -47,11 +47,11 @@ page 'sitemap.xml', layout: 'xml_layout'
 helpers do
   def page_title
     if current_page.data.title
-      "#{current_page.data.title} | プロダクトマネージャ―カンファレンス 2017"
+      "#{current_page.data.title} | 仙台IT文化祭 2017"
     elsif yield_content(:title)
-      "#{yield_content(:title)} | プロダクトマネージャーカンファレンス 2017"
+      "#{yield_content(:title)} | 仙台IT文化祭 2017"
     else
-      'プロダクトマネージャーカンファレンス 2017'
+      '仙台IT文化祭 2017'
     end
   end
 
@@ -61,12 +61,12 @@ helpers do
     elsif yield_content(:description)
       yield_content(:description)
     else
-      'Japan Product Manager Conference 2017 - プロダクトマネージャーが日本を救う'
+      '仙台IT文化祭 2017 - xxx'
     end
   end
 
   def page_url
-    "http://htomine.github.io/pmconf/#{current_page.url}"
+    "http://fullvirtue.github.io/sendaiitfes2017/#{current_page.url}"
   end
 
   def jobs
