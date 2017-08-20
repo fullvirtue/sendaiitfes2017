@@ -11,7 +11,7 @@ env:
   - GIT_COMMITTER_EMAIL='fullvirtue@gmail.com'
   - GIT_AUTHOR_NAME='fullvirtue@travis-ci'
   - GIT_AUTHOR_EMAIL='fullvirtue@gmail.com'
-  - secure: VCeOInn7CTOcGrsuQKmKPI3tpaO+hlL13nNLrjqgqeehWB4E+Y5CIpala7FuxJQuy0CDuxVWpYzg2MQd+RC2I9YGhBML0ose8zIkPoCGiaV45ho3U64iyOeWFDzi1vZ3xZn1eXPNPzNFFVX3N+yR+3/ncRAHXwtsSTYO7dTizYsT1Juud3rWT2zxCc2emHy6S6PL2lLSAhJo3bS/yfmqLLeU/pwE8OB0/eheLz62xBLzQKUlgs7h7BEaaul0hNsQEPP/YhHwiVt46daEllDCi9CfS3Mj+Itk6ts6bXMBkeJ5F49KgrvLZVGM/zNcSCjkvCbwM18dTDwv4imP+eG0wXVtGm45j+wcr9EYbRlSMq5D5VrTpRI2isKbEWXP7IkgbHipD9UudIcmPjkA3+9nP1EROJCsBiCZaJmmHmjEFHSJXDPuJri0W8wS67dWRzRnJnLtRh5qpt1vDGdQ3eQxRRGp+ib1BzXgMj79JQSMD8CqgskpwV2fU0USLSHT6daDsg0XfLvN5RuluFAjvJv8cYUQYYiUfNPDkZ54Gs3ZcANaeaTyQgTITuACMjce/2ZVAQ3YfcDeKq3gVq3lR+M3YuNcpwxnKPw1FEzLVPReOBOSFsGh5r4B4Z97fa8ugrmlQnGrnqo5gcTqXj6NDFLBZkhdrwp6gSAz17rOxlkvDzU=
+  - secure: "qnQGwEnkhyeCEk1OyYVvunfKUK8viQhNCAA4emgmtO2IQavN+FeXwSSjyG51/anA3cIP9Mh3EukRmaH+9VGWk5FNUsTvb/79CQgF5lPTdEcL5+iZM7u2PM2kuVxS175pDmKn0N3B82qi3q4S2pDrL9ltJfD/zrl975gp4ymMf1Z+Df1SHao/RQveNdqGK+8OcZxOb+2Ey5gQvLL9CEZTxQfY//fzIj4O7bdtDK7IHVbuOP22hUeFCTYziIc8p9R7hApT63SQRhBDKRnXV2NwSaMCvMH+yVM9daa/81XKZSOzFMbMCVFJhDvCq1Yr24/2vT+3kE7ofGsy5RcgAHbghgGgpvFDreE3Mde4oJqhyWXGCxYr7b38AQChl4lbEfumBmTN8Wn/bvbf2nWN1B9k1PASUSP3qEmkvUkLjTKwl+NyZ5hB/oDDSWd6UqHY6Q4FsNTYjyAZl2Vj+HPKzQGYpKAnUXkThEq1fF+G7/755i5cdC13vJ2uy75thTLWFsm1tMULZw0k3YcLem/uRSD1FBOYNL7vAsgglg/jtuSe2J6zGaFmpvDO5oYZ1gkPh9S/SYxg4flPNqO2vSmzfVGd5K7FlhJpF3RukYOXCr7vCpGIfhzPPrA8a+7Kry4M9KLeSk7+P9ekpYN/f71WVurR4nImSBEejXC8qj2Sj+3aOsA="
   - TRAVIS_NODE_VERSION="6.1"
 before_install:
   - openssl aes-256-cbc -K $encrypted_c401ae216640_key -iv $encrypted_c401ae216640_iv -in github_deploy_key.enc -out github_deploy_key -d
@@ -20,5 +20,15 @@ before_install:
 script:
   - "bundle exec middleman build --verbose"
 after_success:
-- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec middleman deploy
-  >/dev/null 2>&1'
+# - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec middleman deploy
+#   >/dev/null 2>&1'
+  - |
+       $(npm bin)/set-up-ssh --key "$encrypted_c401ae216640_key" \
+                             --iv "$encrypted_c401ae216640_iv" \
+                             --path-encrypted-key ".travis/github_deploy_key.enc"
+    $(npm bin)/update-branch --commands "npm run build" \
+                             --commit-message "Hey GitHub, this content is for you! [skip ci]" \
+                             --directory "dist" \
+                             --distribution-branch "gh-pages" \
+                             --source-branch "master"
+  - bundle exec middleman deploy
