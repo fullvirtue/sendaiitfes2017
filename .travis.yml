@@ -14,6 +14,7 @@ env:
   - secure: VCeOInn7CTOcGrsuQKmKPI3tpaO+hlL13nNLrjqgqeehWB4E+Y5CIpala7FuxJQuy0CDuxVWpYzg2MQd+RC2I9YGhBML0ose8zIkPoCGiaV45ho3U64iyOeWFDzi1vZ3xZn1eXPNPzNFFVX3N+yR+3/ncRAHXwtsSTYO7dTizYsT1Juud3rWT2zxCc2emHy6S6PL2lLSAhJo3bS/yfmqLLeU/pwE8OB0/eheLz62xBLzQKUlgs7h7BEaaul0hNsQEPP/YhHwiVt46daEllDCi9CfS3Mj+Itk6ts6bXMBkeJ5F49KgrvLZVGM/zNcSCjkvCbwM18dTDwv4imP+eG0wXVtGm45j+wcr9EYbRlSMq5D5VrTpRI2isKbEWXP7IkgbHipD9UudIcmPjkA3+9nP1EROJCsBiCZaJmmHmjEFHSJXDPuJri0W8wS67dWRzRnJnLtRh5qpt1vDGdQ3eQxRRGp+ib1BzXgMj79JQSMD8CqgskpwV2fU0USLSHT6daDsg0XfLvN5RuluFAjvJv8cYUQYYiUfNPDkZ54Gs3ZcANaeaTyQgTITuACMjce/2ZVAQ3YfcDeKq3gVq3lR+M3YuNcpwxnKPw1FEzLVPReOBOSFsGh5r4B4Z97fa8ugrmlQnGrnqo5gcTqXj6NDFLBZkhdrwp6gSAz17rOxlkvDzU=
   - TRAVIS_NODE_VERSION="6.1"
 before_install:
+  - openssl aes-256-cbc -K $encrypted_c401ae216640_key -iv $encrypted_c401ae216640_iv -in github_deploy_key.enc -out github_deploy_key -d
   - "rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION"
   - "npm install"
 script:
