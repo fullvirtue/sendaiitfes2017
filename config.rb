@@ -117,7 +117,7 @@ end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
-  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/fullvirtue/pmconfjp2017.git" # rubocop:disable all
+  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/fullvirtue/sendaiitfes2017.git" # rubocop:disable all
   deploy.build_before = true
 end
 
