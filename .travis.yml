@@ -14,15 +14,10 @@ env:
   - secure: "qnQGwEnkhyeCEk1OyYVvunfKUK8viQhNCAA4emgmtO2IQavN+FeXwSSjyG51/anA3cIP9Mh3EukRmaH+9VGWk5FNUsTvb/79CQgF5lPTdEcL5+iZM7u2PM2kuVxS175pDmKn0N3B82qi3q4S2pDrL9ltJfD/zrl975gp4ymMf1Z+Df1SHao/RQveNdqGK+8OcZxOb+2Ey5gQvLL9CEZTxQfY//fzIj4O7bdtDK7IHVbuOP22hUeFCTYziIc8p9R7hApT63SQRhBDKRnXV2NwSaMCvMH+yVM9daa/81XKZSOzFMbMCVFJhDvCq1Yr24/2vT+3kE7ofGsy5RcgAHbghgGgpvFDreE3Mde4oJqhyWXGCxYr7b38AQChl4lbEfumBmTN8Wn/bvbf2nWN1B9k1PASUSP3qEmkvUkLjTKwl+NyZ5hB/oDDSWd6UqHY6Q4FsNTYjyAZl2Vj+HPKzQGYpKAnUXkThEq1fF+G7/755i5cdC13vJ2uy75thTLWFsm1tMULZw0k3YcLem/uRSD1FBOYNL7vAsgglg/jtuSe2J6zGaFmpvDO5oYZ1gkPh9S/SYxg4flPNqO2vSmzfVGd5K7FlhJpF3RukYOXCr7vCpGIfhzPPrA8a+7Kry4M9KLeSk7+P9ekpYN/f71WVurR4nImSBEejXC8qj2Sj+3aOsA="
   - TRAVIS_NODE_VERSION="6.1"
 before_install:
-#  - openssl aes-256-cbc -K $encrypted_c401ae216640_key -iv $encrypted_c401ae216640_iv -in github_deploy_key.enc -out github_deploy_key -d
   - "rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION"
   - "npm install"
 script:
   - "bundle exec middleman build --verbose"
 after_success:
-# - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec middleman deploy
-#   >/dev/null 2>&1'
-  -    $(npm bin)/set-up-ssh --key "$encrypted_c401ae216640_key" \
-                             --iv "$encrypted_c401ae216640_iv" \
-                             --path-encrypted-key ".travis/github_deploy_key.enc"
-  - bundle exec middleman deploy
+- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec middleman deploy
+  >/dev/null 2>&1'
