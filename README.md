@@ -7,7 +7,9 @@
 以下のフォルダ内の各ファイルを編集することで、実施できます。
 
 `\sendaiitfes2017\source\assets\images`
+
 `\sendaiitfes2017\source\assets\stylesheets`
+
 `\sendaiitfes2017\source\assets\javascripts`
 
 ### 1-2. コンテンツレイアウトおよび本文の変更
@@ -67,6 +69,7 @@ categoryに `eventreport` を指定すると、http://2017.sendaiitfes.org/artic
 ### 2-2. 更新方法 その2
 
 手元のテキストエディタ等で更新したい場合は、git の環境を用意する必要があります。
+
 Windows環境、Mac環境ともに、以下の手順となります。
 
 #### 2-2-A) 環境準備
@@ -88,5 +91,34 @@ Windows環境、Mac環境ともに、以下の手順となります。
 
 手元にデモ環境を用意し、正しく表示が出来ることを確認してから本番環境に反映したい場合、開発環境そのものを構築することになります。
 
-Mac環境で、
+Mac環境では、以下の手順となります。
 
+#### 2-3-A) 環境構築
+
+##### 2-3-A-a) Homebrew のインストール
+
+Homebrewへのパスをbash_profileに追記する。
+
+`$ vim ~/.bash_profile`
+
+export PATH=/usr/local:$PATH
+Homebrewでインストールされるソフトウェアの保存先が無ければ作成する。
+
+`$ sudo mkdir /usr/local/`
+
+Homebrewをインストールする。
+
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+先ほど編集したbash_profileを再読み込み。
+
+    $ source ~/.bash_profile
+
+インストールできているか確認
+
+    $ brew -v
+    Homebrew 0.9.5
+
+##### 2-3-A-b) rbenv のインストール
+
+（編集中）
