@@ -8,6 +8,13 @@
   .header-img {
     width: 100%;
     max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .member-img {
+    position: absolute;
+    top: 20px;
+    right: 10%;
   }
 
   /* パソコンで見たときは"pc"のclassがついた画像が表示される */
