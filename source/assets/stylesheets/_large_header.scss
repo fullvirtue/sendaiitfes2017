@@ -1,10 +1,14 @@
 .largeHeader {
-  background-image: url("/assets/images/pc_01.jpg");
   background-color: $brand-color;
   width: 100%;
   text-align: center;
   vertical-align: bottom;
   color: #fff;
+
+  .header-img {
+    width: 100%;
+    max-width: 1280px;
+  }
 
   &_siteCaption {
 
