@@ -10,6 +10,16 @@
     max-width: 1280px;
   }
 
+  /* パソコンで見たときは"pc"のclassがついた画像が表示される */
+  .pc { display: block !important; }
+  .sp { display: none !important; }
+
+  /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+  @media only screen and (max-width: 750px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+  }
+
   &_siteCaption {
 
     @media (max-width: $screen-xs-max) {
