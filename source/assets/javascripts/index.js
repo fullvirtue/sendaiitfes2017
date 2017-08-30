@@ -18,7 +18,7 @@ $(function(){
         });
     }).fail(function(){
         //通信失敗時の処理
-        html = "<li>画像を取得できまへん。</li>";
+        html = "<li>画像を取得できません。</li>";
     }).always(function(){
         //通信完了時の処理
         $container.html(html);
