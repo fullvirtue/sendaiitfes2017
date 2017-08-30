@@ -126,7 +126,7 @@ activate :external_pipeline,
          command: build? ? './node_modules/webpack/bin/webpack.js -p --bail' : './node_modules/webpack/bin/webpack.js --watch -d', # rubocop:disable all
          source: '.tmp/dist',
          latency: 1
-
+end
 
 #POSTリクエストの場合のみ受付
 if ($_SERVER['REQUEST_METHOD'] == 'POST') then
