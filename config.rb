@@ -61,7 +61,7 @@ helpers do
     elsif yield_content(:description)
       yield_content(:description)
     else
-      '仙台IT文化祭 2017 - xxx'
+      '仙台IT文化祭とは仙台にある多くのIT企業を巻き込み、東北大学のキャンパスを使って2日間行われる、仙台市主催のテクニカルなお祭りである。'
     end
   end
 
