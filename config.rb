@@ -126,3 +126,16 @@ activate :external_pipeline,
          command: build? ? './node_modules/webpack/bin/webpack.js -p --bail' : './node_modules/webpack/bin/webpack.js --watch -d', # rubocop:disable all
          source: '.tmp/dist',
          latency: 1
+
+
+#POSTリクエストの場合のみ受付
+if ($_SERVER['REQUEST_METHOD'] == 'POST') then
+  #アクセストークン
+  access_token = "5902518086.5f60399.af8a274d6ace4bf7a160de986ff83a44"
+  #取得したアクセストークンを設置
+  #JSONデータを取得して出力
+  print(file_get_contents("https://api.instagram.com/v1/users/self/media/recent/?access_token=#{access_token}") rescue nil)
+  #終了
+  exit
+
+end
