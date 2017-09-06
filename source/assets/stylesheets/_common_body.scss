@@ -1,6 +1,29 @@
 .commonBody {
   //padding-top: $header-height;
 
+  p , h2 , dt , dd , h4 , .container {
+    font-family: "Roboto","見出ゴMB1","Midashi Go MB1",'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', 'sans-serif'!important;
+    font-weight: 700;
+  }
+
+  .cs {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    color: #8fc320;
+    margin-top: 40px;
+  }
+
+  .csDescription {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .year {
+    font-size: 70%;
+  }
+
   &_schedule {
     text-align: center;
 
