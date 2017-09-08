@@ -121,4 +121,36 @@ Homebrewをインストールする。
 
 ##### 2-3-A-b) rbenv のインストール
 
-（編集中）
+（20170908-riku編集 ざっくり書いてます）
+
+こちら参考にお願いします
+http://qiita.com/issobero/items/e0443b79da117ed48294
+
+##### 2-3-A-c) ローカル環境にデプロイ（htmlファイルなどを生成する）
+
+2-2を参考にローカル環境に本リポジトリをクローン
+
+ルートディレクトリ（/sendaiitfes2017）で以下のコマンドを実行
+
+```■最初の1回目
+rm -rf ~/.nvm
+git clone https://github.com/creationix/nvm.git ~/.nvm
+cd ~/.nvm
+git checkout `git describe --abbrev=0 --tags`
+source ~/.nvm/nvm.sh
+nvm install "$TRAVIS_NODE_VERSION"
+npm install
+
+■最初の1回目＆2回目以降はここから
+bundle exec middleman build --verbose
+
+■デプロイするときだけ実行するので、ローカルではやらないのが普通
+[ "$TRAVIS_BRANCH" == "master" ]
+[ $GH_TOKEN ]
+bundle exec middleman deploy```
+
+/sendaiitfes2017/build の中にサイトができてるはず。
+
+上記コマンドの
+`bundle exec middleman build --verbose`
+を実行するたびに、変更が反映されたものがビルドされる。
