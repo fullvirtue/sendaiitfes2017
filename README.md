@@ -147,7 +147,8 @@ bundle exec middleman build --verbose
 ■デプロイするときだけ実行するので、ローカルではやらないのが普通
 [ "$TRAVIS_BRANCH" == "master" ]
 [ $GH_TOKEN ]
-bundle exec middleman deploy```
+bundle exec middleman deploy
+``` 
 
 /sendaiitfes2017/build の中にサイトができてるはず。
 
