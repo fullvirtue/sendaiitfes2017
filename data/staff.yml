@@ -1,39 +1,104 @@
 organizers:
-  - name: fullvirtue
+  - name: 砂金 善弘 (実行委員長)
+    organization: 一般社団法人マジカルコンパス
+    title: 理事
+    twitter: https://twitter.com/135yshr
+    github: https://github.com/135yshr
+    facebook: https://www.facebook.com/135yshr
+    link: http://blog.praisefirst.jp/
+    profile_image_url: /assets/images/profile_images/YoshihiroIsago.jpg
+  - name: 半谷 充生 (副実行委員長)
+    organization: 楽天株式会社
+    title: 仙台プロデュースグループ
+    twitter: https://twitter.com/bangucs
+    github: https://github.com/bangucs
+    facebook: https://www.facebook.com/mitsuo.hangai
+    link: http://bangucs.tumblr.com/
+    profile_image_url: /assets/images/profile_images/MitsuoHangai.jpg
+  - name: 関 満徳 (副実行委員長)
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
     twitter: https://twitter.com/fullvirtue
     github: https://github.com/fullvirtue
     facebook: https://facebook.com/fullvirtue
     link: http://fullvirtue.com/
     profile_image_url: /assets/images/profile_images/fullvirtue.png
-  - name: takoratta
-    twitter: https://twitter.com/takoratta
-    github: https://github.com/takoratta
-    facebook: https://facebook.com/takoratta
-    profile_image_url: /assets/images/profile_images/takoratta.jpeg
-  - name: aomegane
-    twitter: https://twitter.com/aomegane1985
-    github: https://github.com/aomegane
-    facebook: https://facebook.com/sakamoto10423
-    profile_image_url: /assets/images/profile_images/aomegane.jpeg
-  - name: mizukitanno
-    twitter: https://twitter.com/mizukitanno
-    github: https://github.com/mizukitanno
-    facebook: https://facebook.com/mizukitanno
-    link: http://tannomizuki.hatenablog.com/
-    profile_image_url: /assets/images/profile_images/mizukitanno.png
-  - name: miuranobuaki
-    twitter: https://twitter.com/miuranobuak
-    github: https://github.com/miuranobuaki
-    facebook: https://www.facebook.com/nobuaki.miura
-    profile_image_url: /assets/images/blank_user.png
-  - name: ykmc09
-    twitter: https://twitter.com/ykmc09_dev
-    github: https://github.com/ykmc09
-    facebook: https://facebook.com/ykmc09
-    profile_image_url: /assets/images/profile_images/ykmc09.jpeg
-  - name: htomine
-    twitter: https://twitter.com/htomine
-    github: https://github.com/htomine
-    facebook: https://facebook.com/htomine
-    link: http://htomine.hateblo.jp/
-    profile_image_url: /assets/images/profile_images/htomine.png
+  - name: 池田 道哉 (理事)
+    organization: 株式会社マクロミル
+    title: リサーチディレクション部 仙台RDユニット長
+    github: https://github.com/michiyaikeda
+    facebook: https://www.facebook.com/michiya.ikeda
+    profile_image_url: /assets/images/profile_images/MichiyaIkeda.jpg
+  - name: 太田 伸志
+    organization: 株式会社ラナエクストラクティブ
+    title: 代表取締役社長兼CEO
+    twitter: https://twitter.com/shinjioota
+    github: https://github.com/shinjioota
+    facebook: https://www.facebook.com/shinji.oota.3
+    link: https://www.instagram.com/shinjioota/
+    profile_image_url: /assets/images/profile_images/ShinjiOota.jpg
+  - name: 工藤 薫
+    organization: WOW株式会社
+    title: Executive Director/Designer
+    github: https://github.com/kaorukudo
+    facebook: https://www.facebook.com/kaoru.kudo.7
+    profile_image_url: /assets/images/profile_images/KaoruKudo.jpg
+  - name: 佐藤 浩太郎
+    organization: 株式会社メルカリ
+    title: CSグループ
+    github: https://github.com/satok310
+    facebook: https://www.facebook.com/kotaro.sato.39
+    profile_image_url: /assets/images/profile_images/KotaroSato.jpg
+  - name: 早川 智子
+    organization: 株式会社メンバーズ
+    title: リソースディベロップメント室 室長 兼 ニアショア推進室 室長
+    facebook: https://www.facebook.com/tmk.hayakawa
+    profile_image_url: /assets/images/profile_images/TomokoHayakawa.jpg
+  - name: 疋田 圭介
+    organization: CData Software Japan 合同会社
+    title: General Manager
+    twitter: https://twitter.com/hornets79
+    github: https://github.com/hikky79
+    facebook: https://www.facebook.com/keisuke.hikita.5
+    profile_image_url: /assets/images/profile_images/
+  - name: 古山 隆幸
+    organization: 一般社団法人イトナブ石巻
+    title: 代表理事
+    twitter: https://twitter.com/
+    github: https://github.com/takayukifuruyama
+    facebook: https://facebook.com/
+    link: http://fullvirtue.com/
+    profile_image_url: /assets/images/profile_images/
+  - name: 山本 誠樹
+    organization: 株式会社SRIA
+    title: 技術フェロー
+    twitter: https://twitter.com/
+    github: https://github.com/nnasaki
+    facebook: https://facebook.com/
+    link: http://fullvirtue.com/
+    profile_image_url: /assets/images/profile_images/
+  - name: 吉島 良平
+    organization: 株式会社パシフィックビジネスコンサルティング
+    title: 取締役 戦略事業推進室 室長
+    twitter: https://twitter.com/
+    github: https://github.com/RyoD365
+    facebook: https://facebook.com/
+    link: http://fullvirtue.com/
+    profile_image_url: /assets/images/profile_images/
+
+secretariat:
+  - name: 関 満徳 (事務局長)
+    organization: ビバーチェプラス合同会社
+    title: ITアーキテクト
+    twitter: https://twitter.com/fullvirtue
+    github: https://github.com/fullvirtue
+    facebook: https://facebook.com/fullvirtue
+    link: http://fullvirtue.com/
+    profile_image_url: /assets/images/profile_images/fullvirtue.png
+  - name: 田中 正巳
+    organization: 株式会社サイバーエージェント
+    title: AIRTRACK 開発責任者兼スクラムマスター
+    twitter: https://twitter.com/b_marsa
+    github: https://github.com/b-marsa
+    facebook: https://www.facebook.com/ysl882orbmarsa
+    profile_image_url: /assets/images/profile_images/MasamiTanaka.jpg
