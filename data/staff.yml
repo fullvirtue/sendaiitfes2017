@@ -60,31 +60,30 @@ organizers:
     twitter: https://twitter.com/hornets79
     github: https://github.com/hikky79
     facebook: https://www.facebook.com/keisuke.hikita.5
-    profile_image_url: /assets/images/profile_images/
+    profile_image_url: /assets/images/profile_images/KeisukeHikita.jpg
   - name: 古山 隆幸
     organization: 一般社団法人イトナブ石巻
     title: 代表理事
-    twitter: https://twitter.com/
     github: https://github.com/takayukifuruyama
-    facebook: https://facebook.com/
-    link: http://fullvirtue.com/
-    profile_image_url: /assets/images/profile_images/
+    facebook: https://www.facebook.com/takayuki.furuyama
+    link: http://itnav.jp/about/
+    profile_image_url: /assets/images/profile_images/TakayukiFuruyama.jpg
   - name: 山本 誠樹
     organization: 株式会社SRIA
     title: 技術フェロー
-    twitter: https://twitter.com/
+    twitter: https://twitter.com/nnasaki
     github: https://github.com/nnasaki
-    facebook: https://facebook.com/
-    link: http://fullvirtue.com/
-    profile_image_url: /assets/images/profile_images/
+    facebook: https://www.facebook.com/nnasaki
+    link: http://blog.nnasaki.com/
+    profile_image_url: /assets/images/profile_images/MasakiYamamoto.jpg
   - name: 吉島 良平
     organization: 株式会社パシフィックビジネスコンサルティング
     title: 取締役 戦略事業推進室 室長
-    twitter: https://twitter.com/
+    twitter: https://twitter.com/navisionaxapta
     github: https://github.com/RyoD365
-    facebook: https://facebook.com/
-    link: http://fullvirtue.com/
-    profile_image_url: /assets/images/profile_images/
+    facebook: https://www.facebook.com/dynamics.japan
+    link: http://www.pbc.co.jp/blog
+    profile_image_url: /assets/images/profile_images/RyoheiYoshijima.jpg
 
 secretariat:
   - name: 関 満徳 (事務局長)
@@ -102,3 +101,12 @@ secretariat:
     github: https://github.com/b-marsa
     facebook: https://www.facebook.com/ysl882orbmarsa
     profile_image_url: /assets/images/profile_images/MasamiTanaka.jpg
+  - name: 佐々木 加代子
+    organization: 株式会社アイネックス
+    title: 教育ソリューション部 リーダー
+    twitter: https://twitter.com/kayo0603
+    github: https://github.com/b-marsa
+    facebook: https://www.facebook.com/kayoko.sasaki.7
+    profile_image_url: /assets/images/profile_images/KayokoSasaki.jpg
+
+
