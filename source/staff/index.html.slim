@@ -8,13 +8,17 @@ descriptipon: 運営スタッフ一覧と運営へのお問い合わせについ
     h1.pageHeader_title
       = current_page.data.title
   .staffList
-    h2.staffList_title 実行委員一覧
-    ul.list-unstyled.list-inline
+    h2.staffList_title 実行委員
+    .staffList_list
       - data.staff.organizers.each do |organizer|
         = partial 'staff/human_card', locals: { human: organizer }
+    h2.staffList_title 事務局
+    .staffList_list
+      - data.staff.secretariat.each do |secretariat|
+        = partial 'staff/human_card', locals: { human: secretariat }
 
     h2.staffList_title お問い合わせ
-    p プロダクトマネージャーカンファレンス実行委員会 事務局
+    p 仙台IT文化祭 事務局
     p
       i.fa.fa-fw.fa-user
       | 関 満徳 (

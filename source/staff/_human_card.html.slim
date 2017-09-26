@@ -1,8 +1,9 @@
-li.humanCard
-  .humanCard_left
-    = image_tag human.profile_image_url, class: 'humanCard_image'
-  .humanCard_right
+.humanCard
+  = image_tag human.profile_image_url, class: 'humanCard_photo'
+  .humanCard_profile
     .humanCard_name = human.name
+    .humanCard_org = human.organization
+    .humanCard_title = human.title
     .humanCard_socialLinks
       - if human.twitter
         = link_to human.twitter, target: '_blank' do
