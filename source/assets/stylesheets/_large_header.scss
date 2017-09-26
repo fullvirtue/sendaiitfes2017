@@ -4,63 +4,72 @@
   text-align: center;
   vertical-align: bottom;
   color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.1);
 
-  .header-img {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+  .containers {
+    position: relative;
+    z-index: 1;
   }
 
-  .member-img {
+  canvas {
     position: absolute;
-    top: 20px;
-    right: 10%;
+    top: 60px;
+    left: 0;
+    z-index: 0;
+    opacity: 0;
+    animation: show .4s both;
   }
 
-  /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-  .pc { display: block !important; }
-  .sp { display: none !important; }
-
-  /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-  @media only screen and (max-width: 750px) {
-    .pc { display: none !important; }
-    .sp { display: block !important; }
+  @keyframes show {
+  	0%   { opacity: 0; }
+  	100% { opacity:.4; }
   }
 
   &_siteCaption {
+    font-weight: bold;
+    margin-top: 30px;
 
     @media (max-width: $screen-xs-max) {
-      font-size: .7em;
+      display: none;
     }
   }
 
   &_siteLogo {
     width: 90%;
     display: inline-block;
-    margin: 8px 0;
+    margin: -40px 0;
     padding: 0 10px;
-    line-height: 1.1;
-    font-size: 4em;
-    font-family: $font-family-cursive;
-    transform: rotate(-6deg);
+    font-size: 5em;
+
+    svg {
+      width: 680px;
+      filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
+    }
 
     @media (max-width: $screen-xs-max) {
       width: 93%;
-      margin-top: 30px;
-      font-size: 2.8em;
+      margin-top: 20px;
+
+      svg {
+        width: 80%;
+      }
     }
   }
 
   &_date {
     font-family: $font-family-cursive;
+    font-size: 1.5em;
     margin-top: 20px;
     margin-bottom: 30px;
+
+    @media (max-width: $screen-xs-max) {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   }
 
   &_place {
-    font-size: 14px;
-    font-weight: bold;
-    margin-left: 8px;
+    margin-left: 20px;
 
     @media (max-width: $screen-xs-max) {
       display: block;
@@ -71,13 +80,15 @@
     margin: 40px auto 20px;
 
     &_button {
-      border-radius: 4px;
       padding: 10px 50px;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: bold;
       color: $brand-sub-text-color;
       background-color: $brand-sub-color;
       transition: all .1s ease-in-out;
+      border: 3px solid #fff;
+      border-radius: 22px;
+      box-shadow: 0 2px 3px rgba(0,0,0,.1);
 
       &:hover,
       &:active,

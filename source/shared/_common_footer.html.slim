@@ -10,7 +10,21 @@ footer.commonFooter
       / li = link_to '取材・情報発信', '/publishing-guideline'
       / li = link_to 'タイムテーブル', '/schedule'
       / li = link_to '公開資料まとめ', '/documents'
-      /li = link_to '運営', '/staff'
+      li = link_to '個人情報取り扱い', '/privacy'
+      li = link_to '運営', '/staff'
 
 | <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='//platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
 | <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+| <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.1.0/trianglify.min.js"></script>
+| <script>
+|   var client_width = document.getElementById('largeHeader').clientWidth;
+|   var client_height = document.getElementById('largeHeader').clientHeight;
+|   var pattern = Trianglify({
+|     width: client_width,
+|     height: client_height,
+|     x_colors: 'YlOrRd',
+|     cell_size: 140,
+      variance: 0.8,
+|   });
+|   document.getElementsByClassName("largeHeader")[0].appendChild(pattern.canvas())
+| </script>

@@ -3,24 +3,22 @@
   background-color: #ffcf23;
   height: $header-height;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
+  font-weight: bold;
+  text-shadow: 0 2px 3px rgba(0,0,0,.1);
 
   &_siteLogo {
     display: inline-block;
-    padding: 9px 0;
+    padding: 3px 0;
     float: left;
     color: #fff;
     margin: 0;
     font: {
-      size: 1.2em;
-      family: $font-family-cursive;
+      size: 1.4em;
+      family: $font-family-damion;
+      weight: normal;
     }
   }
-
-//  &_siteLogoImg {
-//    max-height: $header-height - 12px * 2;
-//    display: inline-block;
-//  }
 
   @media (max-width: $screen-xs-max) {
     text-align: center;
