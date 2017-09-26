@@ -138,14 +138,16 @@ section.section
 /        | &nbsp;
 /        | 仙台IT文化祭 2017 ご協賛のお願い
 
-/     h3.sponsors_title PLATINUM SPONSORS
-/     .sponsors_list
-/       - data.sponsors.platina.each do |platina|
-/         = link_to image_tag(platina.logo_image_url), platina.url, class: 'sponsors_list_item-platina', target: '_blank', title: platina.name, 'data-toggle' => 'tooltip'
-/     h3.sponsors_title GOLD SPONSORS
-/     .sponsors_list
-/       - data.sponsors.golds.each do |golds|
-/         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
+    h3.sponsors_title PLATINUM SPONSORS
+    .sponsors_list
+      - data.sponsors.platina.each do |platina|
+        = link_to image_tag(platina.logo_image_url), platina.url, class: 'sponsors_list_item-platina', target: '_blank', title: platina.name, 'data-toggle' => 'tooltip'
+
+    h3.sponsors_title GOLD SPONSORS
+    .sponsors_list
+      - data.sponsors.golds.each do |golds|
+        = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
+
 /     - if data.sponsors.silvers.present?
 /       h3.sponsors_title SILVER SPONSORS
 /       .sponsors_list
