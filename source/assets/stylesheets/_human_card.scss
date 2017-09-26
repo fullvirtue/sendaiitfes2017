@@ -1,40 +1,45 @@
 .humanCard {
-  flex: 1 0 auto;
-  display: flex;
-  width: 50%;
+  @include clearfix;
+  width: 30%;
   margin: {
     top: 10px;
-    bottom: 32px;
+    right: 10px;
+    bottom: 10px;
   }
 
   @media (max-width: $screen-xs-max) {
     width: 100%;
   }
 
-  &_photo {
-    @include square(80px);
+  &_left {
+    float: left;
+  }
+
+  &_right {
+    float: left;
+  }
+
+  &_image {
+    @include square(48px);
     border-radius: 50%;
     display: inline-block;
     vertical-align: top;
-    margin-right: 16px;
+    margin-right: 10px;
+
+    @media (max-width: $screen-xs-max) {
+      @include square(44px);
+    }
   }
 
   &_name {
     font-size: 1.1em;
-    margin-bottom: 8px;
+    line-height: 1;
   }
-
-  &_org,
-  &_title {
-    font-size: .8em;
-    line-height: 1.5;
-  }
-
 
   &_socialLinks {
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1;
-    margin-top: 10px;
+    margin-top: 5px;
 
     i {
       margin-right: 5px;
