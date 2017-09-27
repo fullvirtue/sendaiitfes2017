@@ -128,6 +128,10 @@ section.section
     .sponsors_list
       - data.sponsors.golds.each do |golds|
         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
+    h3.sponsors_title LOGO SPONSORS
+    .sponsors_list
+      - data.sponsors.logos.each do |logos|
+        = link_to image_tag(logos.logo_image_url), logos.url, class: 'sponsors_list_item-logos', target: '_blank', title: logos.name, 'data-toggle' => 'tooltip'
 
 /     - if data.sponsors.silvers.present?
 /       h3.sponsors_title SILVER SPONSORS
@@ -150,10 +154,6 @@ section.section
 /       - data.sponsors.medias.each do |medias|
 /         = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
 
-    h3.sponsors_title LOGO SPONSORS
-    .sponsors_list
-      - data.sponsors.logos.each do |logos|
-        = link_to image_tag(logos.logo_image_url), logos.url, class: 'sponsors_list_item-logos', target: '_blank', title: logos.name, 'data-toggle' => 'tooltip'
 
    .sponsors_description
      h4 スポンサーについて

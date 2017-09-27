@@ -17,6 +17,11 @@ golds:
     url: https://www.jbs.co.jp/
     logo_image_url: /assets/images/sponsors/jbs.png
 
+logos:
+  - name: グレープシティ株式会社
+    url: http://www.grapecity.com/tools/jp/?sendaiitfes2017/
+    logo_image_url: /assets/images/sponsors/grapecity.gif
+
 # silvers:
 #   - name: 株式会社お金のデザイン
 #     url: https://theo.blue/
@@ -37,10 +42,4 @@ golds:
 #   - name: 株式会社spice life
 #     url: http://spicelife.jp
 #     logo_image_url: /assets/images/sponsors/spicelife.png
-
-logos:
-  - name: グレープシティ株式会社
-    url: http://www.grapecity.com/tools/jp/?sendaiitfes2017/
-    logo_image_url: /assets/images/sponsors/grapecity.gif
-
 
