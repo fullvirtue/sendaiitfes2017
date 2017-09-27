@@ -132,27 +132,6 @@ section.section
     .sponsors_list
       - data.sponsors.logos.each do |logos|
         = link_to image_tag(logos.logo_image_url), logos.url, class: 'sponsors_list_item-logos', target: '_blank', title: logos.name, 'data-toggle' => 'tooltip'
-/     - if data.sponsors.silvers.present?
-/       h3.sponsors_title SILVER SPONSORS
-/       .sponsors_list
-/         - data.sponsors.silvers.each do |silvers|
-/           = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
-
-/     h3.sponsors_title DRINK SPONSORS
-/     .sponsors_list
-/       - data.sponsors.drinks.each do |drinks|
-/         = link_to image_tag(drinks.logo_image_url), drinks.url, class: 'sponsors_list_item-drinks', target: '_blank', title: drinks.name, 'data-toggle' => 'tooltip'
-
-/     h3.sponsors_title 👕 T-SHIRTS SPONSOR
-/     .sponsors_list
-/       - data.sponsors.goods.each do |goods|
-/         = link_to image_tag(goods.logo_image_url), goods.url, class: 'sponsors_list_item-goods', target: '_blank', title: goods.name, 'data-toggle' => 'tooltip'
-
-/     h3.sponsors_title MEDIA SPONSORS
-/     .sponsors_list
-/       - data.sponsors.medias.each do |medias|
-/         = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
-
     .sponsors_description
       h4. スポンサーについて
       p 仙台IT文化祭 2017 では、本カンファレンスにご協賛いただけるスポンサー企業を募集しております。仙台IT文化祭を支える企業として、自社をアピールできるまたとない機会です。協賛プログラムの詳細については、以下の資料をご参照ください。皆様のご支援をお待ちしております。
