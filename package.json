@@ -16,10 +16,10 @@
   },
   "homepage": "https://github.com/SendaiITFes/sendaiitfes2017#readme",
   "devDependencies": {
-    "@alrra/travis-scripts": "^3.0.1",
     "bootstrap-sass": "^3.3.7",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
+    "gulp-sass": "^3.1.0",
     "imports-loader": "^0.6.5",
     "jquery": "^3.1.1",
     "node-sass": "^3.10.0",
@@ -27,5 +27,6 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2"
-  }
+  },
+  "dependencies": {}
 }
