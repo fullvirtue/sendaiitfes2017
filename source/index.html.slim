@@ -2,6 +2,13 @@
   .containers
     img.header-img.pc src="/assets/images/headerit_top_pc.svg"
     img.header-img.sp src="/assets/images/headerit_top_sp.svg"
+      h2.largeHeader_date
+      .largeHeader_signup
+        = link_to 'https://sendaiitfes.doorkeeper.jp/', class: 'largeHeader_signup_button', title: 'Doorkeeperで申込み', target: '_blank' do
+         i.fa.fa-external-link
+         | &nbsp;
+         | 参加申込み
+
     /nav.largeHeaderNavigation
     /  p.largeHeader_siteCaption
     /    |
@@ -9,7 +16,7 @@
     /    | 仙台IT文化祭
     /  h2.largeHeader_date
     /    | Comming on Fall...
-        / span.largeHeader_place @ ???
+    / span.largeHeader_place @ ???
 /      .largeHeader_signup
 /        = link_to 'https://sendaiitfes.doorkeeper.jp/', class: 'largeHeader_signup_button', title: 'Doorkeeperで申込み', target: '_blank' do
 /          i.fa.fa-external-link
@@ -58,7 +65,6 @@ section.section
            | 〒980-8576仙台市青葉区川内27-1
            br/
            | 東北大学川内南キャンパス(C19)文科系総合講義棟1F&2F
-
 
 / section.section
 /   .container
