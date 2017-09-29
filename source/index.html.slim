@@ -202,12 +202,12 @@ section.section
 /                 i.fa.fa-fw.fa-external-link
 /                 =< jobs.title
 
-/ section.section
-/   .container
-/     h2.section_title OFFICIAL COMMUNITIES
-/     .sponsors_list
-/       - data.sponsors.communities.each do |communities|
-/         = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
+section.section
+  .container
+    h2.section_title OFFICIAL COMMUNITIES
+    .sponsors_list
+      - data.sponsors.communities.each do |communities|
+        = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
 
 section.section.hidden-xs
   .container
