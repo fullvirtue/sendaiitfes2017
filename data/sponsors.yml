@@ -4,7 +4,7 @@ platina:
     logo_image_url: /assets/images/sponsors/cdata.jpg
 #  - name: 株式会社ラナエクストラクティブ
 #    url: http://www.ranaextractive.com/
- #   logo_image_url: /assets/images/sponsors/ranaextractive.png
+#    logo_image_url: /assets/images/sponsors/ranaextractive.png
 
 golds:
   - name: 総合サービス株式会社
@@ -16,7 +16,7 @@ golds:
   - name: 日本ビジネスシステムズ株式会社
     url: https://www.jbs.co.jp/
     logo_image_url: /assets/images/sponsors/jbs.png
-  - name: 株式会社PE-BANK
+  - name: 株式会社PEーBANK
     url: https://wpe-bank.jp/
     logo_image_url: /assets/images/sponsors/pebank.png
 
