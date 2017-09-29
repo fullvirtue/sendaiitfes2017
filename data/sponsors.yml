@@ -16,6 +16,9 @@ golds:
   - name: 日本ビジネスシステムズ株式会社
     url: https://www.jbs.co.jp/
     logo_image_url: /assets/images/sponsors/jbs.png
+  - name: 株式会社PE-BANK
+    url: https://wpe-bank.jp/
+    logo_image_url: /assets/images/sponsors/pebank.png
 
 logos:
   - name: グレープシティ株式会社
