@@ -2,27 +2,27 @@ organizers:
   - name: 砂金 善弘 (実行委員長)
     organization: 一般社団法人マジカルコンパス
     title: 理事
-    twitter: https://twitter.com/135yshr
     github: https://github.com/135yshr
+    twitter: https://twitter.com/135yshr
     facebook: https://www.facebook.com/135yshr
     link: http://blog.praisefirst.jp/
     profile_image_url: /assets/images/profile_images/YoshihiroIsago.jpg
   - name: 半谷 充生 (副実行委員長)
     organization: 楽天株式会社
     title: 仙台プロデュースグループ
-    twitter: https://twitter.com/bangucs
     github: https://github.com/bangucs
+    twitter: https://twitter.com/bangucs
     facebook: https://www.facebook.com/mitsuo.hangai
     link: http://bangucs.tumblr.com/
     profile_image_url: /assets/images/profile_images/MitsuoHangai.jpg
   - name: 関 満徳 (副実行委員長)
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
-    twitter: https://twitter.com/fullvirtue
     github: https://github.com/fullvirtue
+    twitter: https://twitter.com/fullvirtue
     facebook: https://facebook.com/fullvirtue
     link: http://fullvirtue.com/
-    profile_image_url: /assets/images/profile_images/fullvirtue.png
+    profile_image_url: /assets/images/profile_images/MitsunoriSeki.png
   - name: 池田 道哉 (理事)
     organization: 株式会社マクロミル
     title: リサーチディレクション部 仙台RDユニット長
@@ -32,8 +32,8 @@ organizers:
   - name: 太田 伸志
     organization: 株式会社ラナエクストラクティブ
     title: 代表取締役社長兼CEO
-    twitter: https://twitter.com/shinjioota
     github: https://github.com/shinjioota
+    twitter: https://twitter.com/shinjioota
     facebook: https://www.facebook.com/shinji.oota.3
     link: https://www.instagram.com/shinjioota/
     profile_image_url: /assets/images/profile_images/ShinjiOota.jpg
@@ -57,8 +57,8 @@ organizers:
   - name: 疋田 圭介
     organization: CData Software Japan 合同会社
     title: General Manager
-    twitter: https://twitter.com/hornets79
     github: https://github.com/hikky79
+    twitter: https://twitter.com/hornets79
     facebook: https://www.facebook.com/keisuke.hikita.5
     profile_image_url: /assets/images/profile_images/KeisukeHikita.jpg
   - name: 古山 隆幸
@@ -71,16 +71,16 @@ organizers:
   - name: 山本 誠樹
     organization: 株式会社SRIA
     title: 技術フェロー
-    twitter: https://twitter.com/nnasaki
     github: https://github.com/nnasaki
+    twitter: https://twitter.com/nnasaki
     facebook: https://www.facebook.com/nnasaki
     link: http://blog.nnasaki.com/
     profile_image_url: /assets/images/profile_images/MasakiYamamoto.jpg
   - name: 吉島 良平
     organization: 株式会社パシフィックビジネスコンサルティング
     title: 取締役 戦略事業推進室 室長
-    twitter: https://twitter.com/navisionaxapta
     github: https://github.com/RyoD365
+    twitter: https://twitter.com/navisionaxapta
     facebook: https://www.facebook.com/dynamics.japan
     link: http://www.pbc.co.jp/blog
     profile_image_url: /assets/images/profile_images/RyoheiYoshijima.jpg
@@ -88,56 +88,62 @@ organizers:
 secretariat:
   - name: 関 満徳 (事務局長)
     organization: ビバーチェプラス合同会社
-    title: ITアーキテクト
-    twitter: https://twitter.com/fullvirtue
+    title: イベント事業本部
     github: https://github.com/fullvirtue
+    twitter: https://twitter.com/fullvirtue
     facebook: https://facebook.com/fullvirtue
     link: http://fullvirtue.com/
     profile_image_url: /assets/images/profile_images/fullvirtue.png
   - name: 國吉 麻美
     organization: 株式会社エクシード・ワン
-    twitter: https://twitter.com/AsamiKuniyoshi
     github: https://github.com/AsaKuni
+    twitter: https://twitter.com/AsamiKuniyoshi
     facebook: https://www.facebook.com/asami.kuniyoshi.9292
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 佐々木 加代子
     organization: 株式会社アイネックス
     title: 教育ソリューション部 リーダー
-    twitter: https://twitter.com/kayo0603
     github: https://github.com/kayo0603
+    twitter: https://twitter.com/kayo0603
     facebook: https://www.facebook.com/kayoko.sasaki.7
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/profile_images/KayokoSasaki.jpg
   - name: 里見 恵里嘉
     organization: Microsoft Student Partner
     title: グローバル チームリーダー
+    github: https://github.com/esatomi
     twitter: https://twitter.com/erk_stm
     facebook: https://www.facebook.com/SatomiErika
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/profile_images/ErikaSatomi.jpg
   - name: 清水 優吾
     organization: 株式会社セカンドファクトリー
+    github: https://github.com/yugoes1021
     twitter: https://twitter.com/yugoes1021
     facebook: https://www.facebook.com/yugoes1021
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/speakers/YugoShimizu.jpg
   - name: 瀬尾 佳隆
     organization: 瀬尾ソフト
     title: 代表
+    github: https://github.com/seosoft
     twitter: https://twitter.com/seosoft
     facebook: https://www.facebook.com/seosoft
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 高橋 健一
     organization: GMOペパボ株式会社
     title: エンジニア
+    github: https://github.com/kenchan
     twitter: https://twitter.com/kenchan
     facebook: https://www.facebook.com/kenichi.taka
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/profile_images/KenichiTakahashi.png
   - name: 田中 正巳
     organization: 株式会社サイバーエージェント
     title: AIRTRACK 開発責任者兼スクラムマスター
+    github: https://github.com/b-marsa
     facebook: https://www.facebook.com/ysl882orbmarsa
+    profile_image_url: /assets/images/profile_images/MasamiTanaka.jpg
   - name: 森 博之
     organization: 極東IT-Engineers
     title: 代表
-    twitter: https://twitter.com/hiroyukimori
     github: https://github.com/hiroyukimori
+    twitter: https://twitter.com/hiroyukimori
     facebook: https://www.facebook.com/h.m.hiroyuki.mori
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/speakers/HoroyukiMori.jpg
