@@ -89,6 +89,7 @@ helpers do
     data.speakers.rds.each { |spr| arr << spr }
     data.speakers.microsofts.each { |spm| arr << spm }
     data.speakers.normals.each { |spn| arr << spn }
+    data.speakers.others.each { |spo| arr << spo }
     arr
   end
 
