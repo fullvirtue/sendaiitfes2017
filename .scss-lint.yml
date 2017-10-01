@@ -23,3 +23,4 @@ linters:
 
   ImportantRule:
     enabled: false
+

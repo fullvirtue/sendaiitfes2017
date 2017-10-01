@@ -1,8 +1,8 @@
 ---
-title: Office 365 を使ってラクするための勘所
-description: "Office 365 を使ってラクするための勘所"
+title: Coming soon
+description: "Coming soon"
 date: 2017-10-28 01:02
-author: "目代 昌幸"
+author: ""
 category: sessions
 ---
-「Office 365 で業務改善」と聞いて何を想像するでしょうか。クラウドでファイル共有だけじゃない、別の視点からの活用方法もあります。本セッションではOffice365の機能を使ってスマホでデータ入力、PCでデータ確認をするまでの業務改善の実例をご紹介します。
+Coming soon
