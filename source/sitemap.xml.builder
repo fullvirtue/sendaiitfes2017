@@ -6,4 +6,3 @@ xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
     end if resource.destination_path =~ /\.html$/
   end
 end
-

@@ -3,36 +3,36 @@ mvps:
     organization: 株式会社ソノリテ
     title: シニア・エバンジェリスト
     profile_image_url: /assets/images/speakers/MasayukiMokudai.jpg
-    profile: "Office365を活用して中小企業のITインフラを安価で適切に活用するためのコンサルティングを提供しています。<br/>「私が楽なとき、それは「みんなが楽してるとき」だから私は楽がしたい」をモットーに、IT担当者がラクになるために、中小企業ITラクにすることを日々考え情報発信しています。"
+    profile: "Office365を活用して中小企業のITインフラを安価で適切に活用するためのコンサルティングを提供しています。<br />「私が楽なとき、それは「みんなが楽してるとき」だから私は楽がしたい」をモットーに、IT担当者がラクになるために、中小企業ITラクにすることを日々考え情報発信しています。"
     link: http://mokudai.jp
     microsoftmvpcategoly: Office Servers and Services
-  - name: 宮川　麻里
+  - name: 宮川 麻里
     title: フリーランス
     profile_image_url: /assets/images/speakers/MariMiyakawa.jpg
-    profile: "Microsoft 認定トレーナーとして Windows Server / Office 365 / Microsoft Azure / Enterprise Mobility + Securityなど認定コースやカスタマイズ研修、および技術支援など実施<br/>Microsoft Certified Trainer/Microsoft MVP for Office Servers and Services 受賞"
+    profile: "Microsoft 認定トレーナーとして Windows Server / Office 365 / Microsoft Azure / Enterprise Mobility + Securityなど認定コースやカスタマイズ研修、および技術支援など実施<br />Microsoft Certified Trainer/Microsoft MVP for Office Servers and Services 受賞"
     microsoftmvpcategoly: Office Servers and Services
   - name: 山崎 淳朗
     organization: PiecePoint株式会社
     title: ITアーキテクト
     profile_image_url: /assets/images/speakers/AtsuoYamasaki.jpg
-    profile: "2010年10月：SharePoint を中心とした提案活動をめざし独立 <br/>2011年1月：Microsoft MVP for SharePointを受賞 <br/>2011年2月：PiecePoint株式会社設立 <br/>2012年2月：コミュニティ「Japan SharePoint Group」設立<br/>現在は、関西を中心にSharePoint関連ソリューションの提案活動を実施。 <br/>業務範囲は、SharePoint全般、Webパーツ開発、ワークフロー、構築、 Business Intelligence など提案から実装までを行う。<br/> SharePointのコミュニティを、 http://jpsps.com で定期的に開催中です。"
+    profile: "2010年10月：SharePoint を中心とした提案活動をめざし独立 <br />2011年1月：Microsoft MVP for SharePointを受賞 <br />2011年2月：PiecePoint株式会社設立 <br />2012年2月：コミュニティ「Japan SharePoint Group」設立<br />現在は、関西を中心にSharePoint関連ソリューションの提案活動を実施。 <br />業務範囲は、SharePoint全般、Webパーツ開発、ワークフロー、構築、 Business Intelligence など提案から実装までを行う。<br /> SharePointのコミュニティを、 http://jpsps.com で定期的に開催中です。"
     microsoftmvpcategoly: Office Servers and Services
   - name: 吉島 良平
     organization: Pacific Business Consulting, Inc.
     title: 取締役/戦略事業推進室長
     profile_image_url: /assets/images/speakers/RyoheiYoshijima.jpg
-    profile: "グローバル市場におけるMicrosoft Dynamics ERPの導入＆コンサルティング、セミナープレゼンテーションを生業としています。<br/>2002年度にマイクロソフト社がNavision社のAxapta（現Dynamics AX）とNavision（現Dynamics NAV)という2つのERP製品を買収する前から、これらの製品にに携わっています。<br/>2001年より、30か国のDynamics ERP導入に関わり、地球70周ほどのDynamicsな活動を継続中。この15年間は毎月半分を海外にて楽しく？/寂しく？過ごしています。"
+    profile: "グローバル市場におけるMicrosoft Dynamics ERPの導入＆コンサルティング、セミナープレゼンテーションを生業としています。<br />2002年度にマイクロソフト社がNavision社のAxapta（現Dynamics AX）とNavision（現Dynamics NAV)という2つのERP製品を買収する前から、これらの製品にに携わっています。<br />2001年より、30か国のDynamics ERP導入に関わり、地球70周ほどのDynamicsな活動を継続中。この15年間は毎月半分を海外にて楽しく？/寂しく？過ごしています。"
     microsoftmvpcategoly: Business Solutions
   - name: 杉本 和也
     organization: CData Software Japan 合同会社
     title: Lead Engineer
     profile_image_url: /assets/images/speakers/KazuyaSugimoto.jpg
-    profile: "Microsoft Dynamics 365（CRM）を中心としたビジネスアプリケーションの拡張開発・データ連携をテーマに活動中の青森出身、津軽弁エンジニア。<br/>青森・東京のSIerを経て、現在はデータ接続ドライバーを提供するCData Software Japanにて、Lead Engineerとして活動中。<br/>メインテクノロジーは.NET C# Dynamics 365（CRM）Office365、Azure。AWSやPython、Rubyにもちらちらと浮気中。"
+    profile: "Microsoft Dynamics 365（CRM）を中心としたビジネスアプリケーションの拡張開発・データ連携をテーマに活動中の青森出身、津軽弁エンジニア。<br />青森・東京のSIerを経て、現在はデータ接続ドライバーを提供するCData Software Japanにて、Lead Engineerとして活動中。<br />メインテクノロジーは.NET C# Dynamics 365（CRM）Office365、Azure。AWSやPython、Rubyにもちらちらと浮気中。"
     microsoftmvpcategoly: Business Solutions
   - name: 鈴木 雅宏
     organization: ソフトバンクテクノロジー株式会社
     profile_image_url: /assets/images/speakers/MasahiroSuzuki.jpg
-    profile: "2014年より、Microsoft Most Valuable Professional（MVP/Business Solutions）を受賞。<br/>現在は、ソフトバンク・テクノロジー株式会社にてDynamics 365ソリューションに携わる。<br/>プリセールス、導入、保守、トレーニングといった全方位を担当。<br/>「真のニーズをシンプルに実現」をモットーにシステム化を心掛けている。"
+    profile: "2014年より、Microsoft Most Valuable Professional（MVP/Business Solutions）を受賞。<br />現在は、ソフトバンク・テクノロジー株式会社にてDynamics 365ソリューションに携わる。<br />プリセールス、導入、保守、トレーニングといった全方位を担当。<br />「真のニーズをシンプルに実現」をモットーにシステム化を心掛けている。"
     microsoftmvpcategoly: Business Solutions
   - name: 清水 優吾
     organization: 株式会社セカンドファクトリー
@@ -50,7 +50,7 @@ mvps:
     organization: 総合サービス株式会社
     title: システム事業部統括部長
     profile_image_url: /assets/images/speakers/MasayaSawada.jpg
-    profile: "中小企業の情報システム部門に勤務。<br/>Windows Server Essentials のホワイトペーパーを多数執筆するかたわら、情報システム部門に必要な運用管理にかんするコンサルティングを行っている。<br/>また、Azureの導入支援や運用に関するセミナーや勉強会を定期的に実施している。<br/>２００９年よりMicrosoft の中小企業向けソリューションである「Small Business Servre」のMVPを受賞。<br/>現在まで、９年連続受賞。"
+    profile: "中小企業の情報システム部門に勤務。<br />Windows Server Essentials のホワイトペーパーを多数執筆するかたわら、情報システム部門に必要な運用管理にかんするコンサルティングを行っている。<br />また、Azureの導入支援や運用に関するセミナーや勉強会を定期的に実施している。<br />２００９年よりMicrosoft の中小企業向けソリューションである「Small Business Servre」のMVPを受賞。<br />現在まで、９年連続受賞。"
     microsoftmvpcategoly: Cloud and Datacenter Management
   - name: 山本 誠樹
     organization: 株式会社 SRIA
@@ -61,7 +61,7 @@ mvps:
   - name: 木澤 朋和
     organization: .NETラボ
     profile_image_url: /assets/images/speakers/TomokazuKizawa.jpg
-    profile: "某国内メーカーグループ会社のエンジニア<br/>マイクロソフト製品や技術をお伝えするポッドキャスト番組を毎週配信しています。<br/>Windows-podcast.com"
+    profile: "某国内メーカーグループ会社のエンジニア<br />マイクロソフト製品や技術をお伝えするポッドキャスト番組を毎週配信しています。<br />Windows-podcast.com"
     microsoftmvpcategoly: Windows and Devices for IT
   - name: 髙尾 哲朗
     organization: .NETラボ
@@ -72,25 +72,25 @@ mvps:
     organization: 福井コンピュータアーキテクト株式会社
     title: ITアーキテクト
     profile_image_url: /assets/images/speakers/FujioKojima.jpg
-    profile: "福井県で、C#/C++プログラミングをやったり教えたりしてます。<br/>所属コミュニティ: Hokuriku.NET、FITEA、こみゅぷらす"
+    profile: "福井県で、C#/C++プログラミングをやったり教えたりしてます。<br />所属コミュニティ: Hokuriku.NET、FITEA、こみゅぷらす"
     link: http://blog.shos.info
     microsoftmvpcategoly: Visual Studio and Development Technologies
   - name: 室星 亮太
     profile_image_url: /assets/images/speakers/RyotaMurohosi.png
-    profile: "新潟出身 千葉在住<br/>業務 : モバイルアプリ開発他<br/>趣味 : ゲーム開発<br/>所属コミュニティ : 日本Androidの会 Unity部<br/>プログラミングが大好きで、 C#が大好きで、 .NETが大好きで、 LINQが大好きで、 JVM言語が大好きで、 ゲームで遊ぶことが大好きで、 ゲーム開発が大好きで、 頑張るのが大好きで、 Unityが大好きだったから...！"
+    profile: "新潟出身 千葉在住<br />業務 : モバイルアプリ開発他<br />趣味 : ゲーム開発<br />所属コミュニティ : 日本Androidの会 Unity部<br />プログラミングが大好きで、 C#が大好きで、 .NETが大好きで、 LINQが大好きで、 JVM言語が大好きで、 ゲームで遊ぶことが大好きで、 ゲーム開発が大好きで、 頑張るのが大好きで、 Unityが大好きだったから...！"
     link: 
     twitter: https://twitter.com/RyotaMurohoshi
     microsoftmvpcategoly: Visual Studio and Development Technologies
   - name: 鈴木 孝明
     organization: 株式会社グラニ
     profile_image_url: /assets/images/speakers/TakaakiSuzuki.jpg
-    profile: "ソーシャルゲーム会社にいながら VR/AR 関連のお仕事やってます。<br/>クライアントアプリから Web アプリ、HoloLens アプリ開発まで何でもござれ。<br/>プログラミングを教えてくれた師匠は @Fujiwo さん。<br/>所属コミュニティ : Hokuriku.NET"
+    profile: "ソーシャルゲーム会社にいながら VR/AR 関連のお仕事やってます。<br />クライアントアプリから Web アプリ、HoloLens アプリ開発まで何でもござれ。<br />プログラミングを教えてくれた師匠は @Fujiwo さん。<br />所属コミュニティ : Hokuriku.NET"
     link: http://blog.xin9le.net
     twitter: https://twitter.com/xin9le
     microsoftmvpcategoly: Visual Studio and Development Technologies
   - name: 石野 光仁
     profile_image_url: /assets/images/speakers/MitsuhitoIshino.jpg
-    profile: "新潟県で、ソフトを書く仕事をしています。<br/>2002年にC#に出会ってから、ずっとC# 押しでここまで来ました。<br/>C#を学び、C#を書き、C#を話していたら、たくさんの人に出会えることが出来ました。<br/>そんなC#を魅力を、みなさんと共有できたらと思います。<br/>主催コミュニティ：Niigata.NET"
+    profile: "新潟県で、ソフトを書く仕事をしています。<br />2002年にC#に出会ってから、ずっとC# 押しでここまで来ました。<br />C#を学び、C#を書き、C#を話していたら、たくさんの人に出会えることが出来ました。<br />そんなC#を魅力を、みなさんと共有できたらと思います。<br />主催コミュニティ：Niigata.NET"
     link: http://www.ailight.jp/blog/ishino
     twitter: https://twitter.com/AILight
     microsoftmvpcategoly: Visual Studio and Development Technologies
@@ -129,11 +129,9 @@ mvps:
     profile_image_url: /assets/images/speakers/TomoshiMaemoto.jpg
     profile: "数年前よりモーションセンサーの面白さに取りつかれKINECTを趣味で触り始め、会社にXRや医療機器開発のチームができる。センサー系コミュニティTMCNや、HoloLensに特化した株式会社ホロラボの立ち上げメンバー。"
     microsoftmvpcategoly: Windows Development
-
 rds:
   - name: 東 賢
     profile_image_url: /assets/images/speakers/KenAzuma.jpg
-
 microsofts:
   - name: 千代田 まどか
     organization: Microsoft Corporation
@@ -144,7 +142,7 @@ microsofts:
   - name: 寺田 佳央
     organization: 日本マイクロソフト株式会社
     profile_image_url: /assets/images/speakers/YoshioTerada.png
-    profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br/>2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br/>2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br/>2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。"
+    profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br />2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br />2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br />2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。"
   - name: 牛尾 剛
     organization: Microsoft Corporation
     profile_image_url: /assets/images/speakers/TsuyoshiUshio.jpg
@@ -152,7 +150,6 @@ microsofts:
     organization: Microsoft Corporation
     title: Enterprise Client & Mobility Senior Program Manager
     profile_image_url: /assets/images/speakers/TakuoRobertNishi.png
-
 normals:
   - name: 八子 知礼
     organization: 株式会社ウフル
@@ -171,12 +168,12 @@ normals:
     title: 代表取締役 CEO & CVO
     title2: 代表取締役 CEO & CVO
     profile_image_url: /assets/images/speakers/KojiOzeki.jpg
-    profile: "私立大学の情報システム部でSEのキャリアをスタート<br/>メインフレームからダウンサイジングまでを経験。<br/>その後インターネット黎明期に起業。<br/>主にコンシュマーサービスや製品をお持ちの企業様の付加価値向上コンサルティングやプロダクト開発支援などに従事。「書を捨て街に出よう」コンセプトを重要視した経営スタイルを大切にしています。<br/>在は「食」をテーマとして“Future Agri & Food Entertainment”実現のための共創プラットフォームのHUB拠点として鳴門市に”THE NARUTO BASE”を立上げ、年間の約半分を鳴門で過ごしています。 また、夏は湘南江ノ島にてクラウド＆IoT海の家”SkyDream Shonan Beach Lounge”を展開しています。"
+    profile: "私立大学の情報システム部でSEのキャリアをスタート<br />メインフレームからダウンサイジングまでを経験。<br />その後インターネット黎明期に起業。<br />主にコンシュマーサービスや製品をお持ちの企業様の付加価値向上コンサルティングやプロダクト開発支援などに従事。「書を捨て街に出よう」コンセプトを重要視した経営スタイルを大切にしています。<br />在は「食」をテーマとして“Future Agri & Food Entertainment”実現のための共創プラットフォームのHUB拠点として鳴門市に”THE NARUTO BASE”を立上げ、年間の約半分を鳴門で過ごしています。 また、夏は湘南江ノ島にてクラウド＆IoT海の家”SkyDream Shonan Beach Lounge”を展開しています。"
   - name: 北川 剛
     organization: アマゾン ウェブ サービス ジャパン株式会社
     title: プラットホームビジネス開発部 ビジネス開発マネージャー(データベース)
     profile_image_url: /assets/images/speakers/TsuyoshiKitagawa.jpg
-    profile: "新卒で日本オラクルに入社し、日本マイクロソフト、AWS と会社は変わりましたが一貫してリレーショナルデータベースを担当。最初は当然オンプレミスでしたが、今ではサービスとしてのデータベースまで広がりました。<br/>佐賀県出身、東京都の陸の孤島在住。NIKU が大好きで週末はハンバーガーを食べるためにロードバイクで走り回っています。"
+    profile: "新卒で日本オラクルに入社し、日本マイクロソフト、AWS と会社は変わりましたが一貫してリレーショナルデータベースを担当。最初は当然オンプレミスでしたが、今ではサービスとしてのデータベースまで広がりました。<br />佐賀県出身、東京都の陸の孤島在住。NIKU が大好きで週末はハンバーガーを食べるためにロードバイクで走り回っています。"
   - name: 櫻庭 祐一
     profile_image_url: /assets/images/speakers/YuichiSakuraba.jpg
     profile: "Java SEと共に22年。日本人ではじめてのJava Champion。"
