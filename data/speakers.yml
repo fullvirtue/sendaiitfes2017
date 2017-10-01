@@ -226,14 +226,43 @@ mvps:
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "10年以上、モバイル端末やWebシステムのアプリケーション開発に携わり2015年に独立。2017年4月より株式会社SRIAの技術フェロー就任。de:code 2017 に登壇。 .NET や Java のアプリケーション開発を得意とする。　好きな Azure のサービスは Azure App Service と Azure Container Instances。　Microsoft MVP for Microsoft Azure 2014.7 〜 2018.6"
     microsoftmvpcategoly: Visual Studio and Development Technologies
-  - name: 関 満徳
+  - name: 木澤 朋和
+    organization: .NETラボ
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "某国内メーカーグループ会社のエンジニア<br/>マイクロソフト製品や技術をお伝えするポッドキャスト番組を毎週配信しています。<br/>Windows-podcast.com"
+    microsoftmvpcategoly: Windows and Devices for IT
+  - name: 髙尾 哲朗
+    organization: .NETラボ
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "システム構築のプロセス評価、改善、策定、開発フレームワークの設計、実装管理、プリセールスやプロジェクトの立ち上げなどを行っています。"
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 小島 富治雄
+    organization: 福井コンピュータアーキテクト株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "福井県で、C#/C++プログラミングをやったり教えたりしてます。<br/>所属コミュニティ: Hokuriku.NET、FITEA、こみゅぷらす"
+    link: http://blog.shos.info
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 室星 亮太
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "新潟出身 千葉在住<br/>業務 : モバイルアプリ開発他<br/>趣味 : ゲーム開発<br/>所属コミュニティ : 日本Androidの会 Unity部<br/>プログラミングが大好きで、 C#が大好きで、 .NETが大好きで、 LINQが大好きで、 JVM言語が大好きで、 ゲームで遊ぶことが大好きで、 ゲーム開発が大好きで、 頑張るのが大好きで、 Unityが大好きだったから...！"
+    link: 
+    twitter: https://twitter.com/RyotaMurohoshi
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 鈴木 孝明
+    organization: 株式会社グラニ
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "ソーシャルゲーム会社にいながら VR/AR 関連のお仕事やってます。<br/>クライアントアプリから Web アプリ、HoloLens アプリ開発まで何でもござれ。<br/>プログラミングを教えてくれた師匠は @Fujiwo さん。<br/>所属コミュニティ : Hokuriku.NET"
+    link: http://blog.xin9le.net
+    twitter: https://twitter.com/xin9le
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 石野 光仁
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-    link: 
-    twitter: https://twitter.com/
-    facebook: https://www.facebook.com/
+    profile: "新潟県で、ソフトを書く仕事をしています。<br/>2002年にC#に出会ってから、ずっとC# 押しでここまで来ました。<br/>C#を学び、C#を書き、C#を話していたら、たくさんの人に出会えることが出来ました。<br/>そんなC#を魅力を、みなさんと共有できたらと思います。<br/>主催コミュニティ：Niigata.NET"
+    link: http://www.ailight.jp/blog/ishino
+    twitter: https://twitter.com/AILight
     microsoftmvpcategoly: Visual Studio and Development Technologies
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
@@ -304,6 +333,12 @@ speakers:
     title: プラットホームビジネス開発部 ビジネス開発マネージャー(データベース)
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "新卒で日本オラクルに入社し、日本マイクロソフト、AWS と会社は変わりましたが一貫してリレーショナルデータベースを担当。最初は当然オンプレミスでしたが、今ではサービスとしてのデータベースまで広がりました。<br/>佐賀県出身、東京都の陸の孤島在住。NIKU が大好きで週末はハンバーガーを食べるためにロードバイクで走り回っています。"
+  - name: 千代田 まどか
+    organization: 日本マイクロソフト株式会社
+    title: コマーシャル・ソフトウェア・エンジニアリング本部 テクニカルエバンジェリスト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "C# とお絵描きと松屋が好きです。"
+    twitter: https://twitter.com/chomado
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
@@ -313,7 +348,15 @@ speakers:
     twitter: https://twitter.com/
     facebook: https://www.facebook.com/
     microsoftmvpcategoly: Visual Studio and Development Technologies
-<<<<<<< HEAD
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
@@ -351,5 +394,3 @@ speakers:
     facebook: https://www.facebook.com/
     microsoftmvpcategoly: Visual Studio and Development Technologies
   
-=======
->>>>>>> 363d2080f7b3d76432a86239b0b1db16b8b914a2
