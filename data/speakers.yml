@@ -1,17 +1,31 @@
-# keynotes:
-#   - name: 徳生 裕人
-#     organization: グーグル株式会社
-#     title: 製品開発本部 製品開発本部長
-#     profile_image_url: /assets/images/speakers/HirotoTokusei.jpeg
-#     profile: "日本における検索をはじめとする基幹製品の製品開発を統括。
-#     2005 年にGoogle に入社。プロダクトマネージャーとしてGoogle ブックスや経路検索等の開発に携わり、2008 年からは、アジア太平洋地域における YouTube の製品開発責任者として米国 YouTube 本社に勤務。YouTubeモバイル等の日本向け製品や、音声認識技術による字幕機能等の開発を担当。その後、国内の複数のベンチャーに経営に携わり、製品開発を統括。2014 年より現職。"
-#     facebook: https://www.facebook.com/hiroto.tokusei
-# specials:
-#   - name: 馬田 隆明
-#     organization: 東京大学
-#     title: 産学協創推進本部 東京大学本郷テックガレージ ディレクター
-#     profile_image_url: /assets/images/speakers/TakaakiUmada.jpeg
-#     profile: "日本マイクロソフト株式会社にて Visual Studio のプロダクトマネージャーを経験後、テクニカルエバンジェリストとしてスタートアップ支援等を行う。2016 年より現職。"
-#     link: https://medium.com/@tumada/
-#     twitter: https://twitter.com/tumada
-#     facebook: https://www.facebook.com/taka.umada
+#   - name: 関 満徳
+#     organization: グロースエクスパートナーズ株式会社
+#     title: ITアーキテクト
+#     profile_image_url: /assets/images/speakers/MitsunoriSeki.png
+#     profile: "ITサービス開発のコンサルティング、開発、運用を一貫して手掛けながら、「顧客価値の創造」と「持続可能な仕組み創り」をテーマとしたアジャイル・プロダクトマネジメントのワークショップデザインを数多く実施。全国各地でファシリテーターとしても活躍。"
+#     link: http://fullvirtue.com/
+#     twitter: https://twitter.com/fullvirtue
+#     facebook: https://www.facebook.com/fullvirtue
+#     microsoftmvpcategoly: Visual Studio and Development Technologies
+
+mvps:
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/MitsunoriSeki.png
+    profile: "ITサービス開発のコンサルティング、開発、運用を一貫して手掛けながら、「顧客価値の創造」と「持続可能な仕組み創り」をテーマとしたアジャイル・プロダクトマネジメントのワークショップデザインを数多く実施。全国各地でファシリテーターとしても活躍。"
+    link: http://fullvirtue.com/
+    twitter: https://twitter.com/fullvirtue
+    facebook: https://www.facebook.com/fullvirtue
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+speakers:
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/MitsunoriSeki.png
+    profile: "ITサービス開発のコンサルティング、開発、運用を一貫して手掛けながら、「顧客価値の創造」と「持続可能な仕組み創り」をテーマとしたアジャイル・プロダクトマネジメントのワークショップデザインを数多く実施。全国各地でファシリテーターとしても活躍。"
+    link: http://fullvirtue.com/
+    twitter: https://twitter.com/fullvirtue
+    facebook: https://www.facebook.com/fullvirtue
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+
