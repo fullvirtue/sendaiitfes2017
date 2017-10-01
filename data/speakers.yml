@@ -129,11 +129,9 @@ mvps:
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "数年前よりモーションセンサーの面白さに取りつかれKINECTを趣味で触り始め、会社にXRや医療機器開発のチームができる。センサー系コミュニティTMCNや、HoloLensに特化した株式会社ホロラボの立ち上げメンバー。"
     microsoftmvpcategoly: Windows Development
-
 rds:
   - name: 東 賢
     profile_image_url: /assets/images/speakers/blank_user.png
-
 microsofts:
   - name: 千代田 まどか
     organization: Microsoft Corporation
@@ -152,8 +150,7 @@ microsofts:
     organization: Microsoft Corporation
     title: Enterprise Client & Mobility Senior Program Manager
     profile_image_url: /assets/images/speakers/blank_user.png
-
-others:
+normals:
   - name: 八子 知礼
     organization: 株式会社ウフル
     title: IoTイノベーションセンター所長 兼 エグゼクティブコンサルタント 

@@ -103,13 +103,14 @@ section.section
             .speakers_list_name = microsofts.name
             .speakers_list_organization = microsofts.organization
             .speakers_list_title = microsofts.title
-        - if data.speakers.others.present?
-          - data.speakers.others.each do |others|
-            .speakers_list_item
-              = image_tag others.profile_image_url, class: 'speakers_list_image'
-              .speakers_list_name = others.name
-              .speakers_list_organization = others.organization
-              .speakers_list_title = others.title
+/         - if data.speakers.others.present?
+/           - data.speakers.others.each do |others|
+/             .speakers_list_item
+/               = image_tag others.profile_image_url, class: 'speakers_list_image'
+/               .speakers_list_name = others.name
+/               .speakers_list_organization = others.organization
+/               .speakers_list_title = others.title
+
       .speakers_schedulelink
         = link_to '/schedule', class: 'btn' do
           i.fa.fa-arrow-circle-right
