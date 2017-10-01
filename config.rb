@@ -85,10 +85,9 @@ helpers do
 # rubocop:disable all
   def speakers
     arr = []
-    data.speakers.keynotes.each { |spk| arr << spk }
-    data.speakers.specials.each { |sps| arr << sps }
-    data.speakers.staffs.each { |spst| arr << spst }
-    data.speakers.sponsors.each { |spsp| arr << spsp }
+    data.speakers.mvps.each { |spk| arr << spk }
+    data.speakers.rds.each { |sps| arr << sps }
+    data.speakers.others.each { |spst| arr << spst }
     arr
   end
 
