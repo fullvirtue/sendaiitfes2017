@@ -1,3 +1,162 @@
+keynotes:
+  - name: 徳生 裕人
+    organization: グーグル株式会社
+    title: 製品開発本部 製品開発本部長
+    profile_image_url: /assets/images/speakers/HirotoTokusei.jpeg
+    profile: "日本における検索をはじめとする基幹製品の製品開発を統括。
+    2005 年にGoogle に入社。プロダクトマネージャーとしてGoogle ブックスや経路検索等の開発に携わり、2008 年からは、アジア太平洋地域における YouTube の製品開発責任者として米国 YouTube 本社に勤務。YouTubeモバイル等の日本向け製品や、音声認識技術による字幕機能等の開発を担当。その後、国内の複数のベンチャーに経営に携わり、製品開発を統括。2014 年より現職。"
+    facebook: https://www.facebook.com/hiroto.tokusei
+  - name: 伊豫 健夫
+    organization: 株式会社メルカリ
+    title: 執行役員
+    profile_image_url: /assets/images/speakers/TakeoIyo.jpeg
+    profile: "大学卒業後、松下電器産業株式会社(現パナソニック株式会社)、株式会社野村総合研究所を経て、2006年に株式会社リクルート入社。中長期戦略策定および次世代メディア開発等、大小問わず多数のプロジェクトを牽引し、2015年3月株式会社メルカリに参画。国内プロダクトの領域強化等を担当したのち、以降は一貫してUS版メルカリのプロダクトマネジメントを担当。US発新機能の多数投入、マーケティング部門を統合した施策展開など、USにおけるプロダクトプレゼンスの成長を支える。2016年8月執行役員就任。"
+    facebook: https://www.facebook.com/takeo.iyo
+specials:
+  - name: 馬田 隆明
+    organization: 東京大学
+    title: 産学協創推進本部 東京大学本郷テックガレージ ディレクター
+    profile_image_url: /assets/images/speakers/TakaakiUmada.jpeg
+    profile: "日本マイクロソフト株式会社にて Visual Studio のプロダクトマネージャーを経験後、テクニカルエバンジェリストとしてスタートアップ支援等を行う。2016 年より現職。"
+    link: https://medium.com/@tumada/
+    twitter: https://twitter.com/tumada
+    facebook: https://www.facebook.com/taka.umada
+  - name: David Hussman
+    organization: DevJam
+    title:
+    profile_image_url: /assets/images/speakers/DavidHussman.jpeg
+  - name: 河合 敬一
+    organization: Niantic, Inc.
+    title: Product Management Director
+    profile_image_url: /assets/images/speakers/KeiichiKawai.jpeg
+  - name: 及川 卓也
+    organization: Increments株式会社
+    title: Qiita Product Manager
+    profile_image_url: /assets/images/profile_images/takoratta.jpeg
+staffs:
+  - name: 池田 拓司
+    organization: クックパッド株式会社
+    title: VP of Product Design 投稿開発部 部長 デザイナー
+    profile_image_url: /assets/images/speakers/TakujiIkeda.jpeg
+    profile: "福岡県北九州市出身。多摩美術大学美術学部2部デザイン学科を卒業。ニフティ株式会社、株式会社はてなを経て、2012年4月よりクックパッド株式会社。サービスのデザインやユーザー体験担当するデザイナー。デザイン部長、ユーザーファースト推進部長などを経て、VP of Product Design 兼 投稿開発部長。著書に『スマートフォンのためのUIデザイン ユーザー体験に大切なルールとパターン』（ソフトバンククリエイティブ）他。"
+    facebook: https://www.facebook.com/takujiikeda
+    link: http://tikeda.hatenablog.com/
+  - name: 岩佐 琢磨
+    organization: 株式会社Cerevo
+    title: CEO
+    profile_image_url: /assets/images/speakers/TakumaIwasa.jpeg
+    profile: "1978年生まれ、立命館大学大学院理工学研究科修了。2003年からパナソニックにてネット接続型家電の商品企画に従事。2008年より、ネットワーク接続型家電の開発・販売を行なう株式会社Cerevo（セレボ）を立ち上げ、代表取締役に就任。世界初となるインターネットライブ配信機能付きデジタルカメラ『CEREVO CAM live!』や、PCレスのライブ配信機器『LiveShell』シリーズなどを開発し世界50カ国以上で販売。2016年にはフル可動式ドミネーターを発売するなどその業務範囲を広げている。"
+    twitter: https://twitter.com/warenosyo
+    facebook: https://www.facebook.com/warenosyo
+    link: http://d.hatena.ne.jp/wa-ren/
+  - name: 倉岡 寛
+    organization: クービック株式会社
+    title: Co-founder & CEO
+    profile_image_url: /assets/images/speakers/HiroshiKuraoka.jpeg
+    profile: "東京大学大学院工学系研究科精密機械工学専攻を 2007 年 3 月に卒業後、同年 4 月にグーグル株式会社に入社。検索担当プロダクトマネージャーとして、日本の検索シェアに責任を負う。2011 年 4 月にグリー株式会社に入社。米国の GREE International Inc の立ち上げや、Platform 事業の企画責任者、新規案件プロジェクトの事業部長を歴任。2013 年 10 月にクービック株式会社を設立し、代表取締役社長に就任。"
+    twitter: https://twitter.com/hirossan
+    facebook: https://www.facebook.com/hiroshi.kuraoka
+    github: https://github.com/hirossan
+    link: https://medium.com/@hiroshi
+  - name: 齊藤 満
+    organization: 楽天株式会社
+    title: トラベルサービス開発・運用部 トラベルプロダクトマネジメント課 Senior Manager
+    profile_image_url: /assets/images/speakers/MitsuruSaito.jpeg
+    profile: "Microsoft JAPAN Program Manager（Evangelist）<br />Microsoft US Program Manager（Windows）<br />Rakuten Senior Manager"
+  - name: 佐々木 大輔
+    organization: freee株式会社
+    title: 代表取締役
+    profile_image_url: /assets/images/speakers/DaisukeSasaki.jpeg
+  - name: 高橋 りさ
+    organization: ソニーモバイルコミュニケーションズ株式会社
+    title: ソフトウェア開発4部 Camera App課 / UX商品企画2部 エクスペリエンス企画課（兼）Section Manager & Experience Planner
+    profile_image_url: /assets/images/speakers/RisaTakahashi.jpeg
+    profile: "Sony Mobileのスマートフォン Xperia に搭載されているアルバムアプリとMovie Creatorアプリのプロダクトマネージャーを担当。Sonyのガラケーから海外モデルの携帯電話の組み込み開発を経て、Sony Ericsson Android初号機 Xperia X10 よりアプリ開発に携わる。プライベートは2児の母で、ワーキングマザー歴（もうすぐ）10年。"
+    twitter: https://twitter.com/hatarakuboysmom
+    facebook: https://www.facebook.com/lisanosuke
+    link: https://plus.google.com/103715503012511180770
+  - name: 渡辺 泰
+    organization: メディアプローブ株式会社
+    title: 代表取締役
+    profile_image_url: /assets/images/speakers/TaiWatanabe.jpeg
+    profile: "日本IBMでグラフィック・ワークステーションやAIX日本語版の開発に携わる。マルチメディア事業の立ち上げに参画後、 1995年、Apple JapanにTechnology Evangelistとして入社。マルチメディア技術のQuickTimeやサーバー製品のPMを担当する。<br />その後、伊藤穰一（現MIT Media Lab所長）と出会い、インキュベーターの株式会社ネオテニーへ入社。<br />2002年にメディアプローブ株式会社を設立し、代表取締役に就任。"
+    twitter: https://twitter.com/tai308
+sponsors:
+  - name: 海野 弘成
+    organization: Increments株式会社
+    title: CEO / Qiita:Team PM
+    profile_image_url: /assets/images/speakers/HiroshigeUmino.jpeg
+    profile: "1988年兵庫県生まれ。京都大学工学部情報学科在学中にはてなやGoogleにてソフトウエアエンジニアとしてインターンを経験。iOSアプリ開発などを担当する。2011年、友人2人と作ったプログラマのための技術情報共有サービス「Qiita」をローンチ。大学卒業後の12年2月、Increments株式会社を設立し、代表取締役に就任。主なサービスに、Qiitaのほか、チーム間情報共有ツール「Qiita:Team」がある。"
+    link: http://yaotti.hatenablog.com/
+    twitter: https://twitter.com/yaotti
+    facebook: https://www.facebook.com/yaotti
+    github: https://github.com/yaotti
+  - name: 渡邉 雄作
+    organization: 株式会社サイバーエージェント
+    title: アドテク本部 アドテクスタジオ プロダクトマネージャー
+    profile_image_url: /assets/images/speakers/YusakuWatanabe.jpeg
+    profile: "株式会社サイバーエージェント 2006年入社。2006年〜2013年アメブロ、アメーバピグ、各種コミュニティサービスの開発を担当。WEBエンジニア(プログラマー、SRE) チームマネジメント: PM、Scrumマスター その他、組織運営や採用など。2013年〜現在はアドテクスタジオにて主にプロダクトマネージャーとして従事。プロダクトデザイン/アーキテクト/事業戦略/チームビルド"
+    twitter: https://twitter.com/waysaku
+    facebook: https://www.facebook.com/yusaku.watanabe.31
+  - name: 三木 雅之
+    organization: 株式会社ジャストシステム
+    title: 取締役CDO 最高開発責任者
+    profile_image_url: /assets/images/speakers/MasayukiMiki.jpeg
+    profile: "2009年、現職に。実現力・品質・効率を司る「技術（Technology）」だけでなく、顧客価値・商品力を含めた「サービス開発（Development）」全般を統括している。Developmentに対するこだわりを反映し、CTOではなくCDOとして活動中。"
+    twitter: https://twitter.com/miki_cdo
+  - name: 北川 剛
+    organization: 日本マイクロソフト株式会社
+    title: クラウド＆エンタープライズビジネス本部 エグゼクティブ・プロダクト・マネージャ
+    profile_image_url: /assets/images/speakers/TsuyoshiKitagawa.jpeg
+    profile: "日本マイクロソフトで、SQL Server および Azure Data Services のプロダクトマネージャーとして、製品管理やマーケティング、販売戦略の立案などに従事。プロダクトマネージャーとして、製品の売り上げ含めて国内での責任を一身に背負って活動中。"
+    twitter: https://twitter.com/tskitag
+    facebook: https://www.facebook.com/tsuyoshi.kitagawa/
+  - name: 松崎 剛
+    organization: 日本マイクロソフト株式会社
+    title: デベロッパーエバンジェリズム統括本部 テクニカル・エバンジェリスト
+    profile_image_url: /assets/images/speakers/TsuyoshiMatsuzaki.jpeg
+    profile: "日本マイクロソフトのエバンジェリストとして、企業向けのクラウド、サーバーサイド、Office関連の開発技術に関する技術支援や紹介活動に従事。現在は主にISV企業向けに、Azure、Power BI、Botなどを使ったの開発技術を中心に活動中。"
+    twitter: https://twitter.com/tsmatsuz
+    facebook: https://www.facebook.com/tsuyoshi.matsuzaki.16
+    link: https://blogs.msdn.microsoft.com/tsmatsuz/
+  - name: 西岡 悠平
+    organization: スマートニュース株式会社
+    title: Director of Product Management
+    profile_image_url: /assets/images/speakers/YuheiNishioka.jpeg
+    profile: "2003年 京都大学大学院情報学研究科複雑系科学コース修了。ネットワーク機器メーカーに入社、2005年上半期の未踏ソフトウェア創造事業「スーパークリエータ」に認定される。その後、株式会社四次元データ Web技術研究部を経て、2008年に楽天株式会社に入社。楽天技術研究所において、レコメンデーションエンジンをはじめとした先端技術の研究開発をリードする。2014年9月にスマートニュース入社。2016年10月より現職。"
+  - name: 小林 謙太
+    organization: 株式会社モバイルファクトリー
+    title: ソーシャルアプリ事業部 マネージャー
+    profile_image_url: /assets/images/speakers/KentaKobayashi.jpeg
+    profile: "東北大学大学院理学部数学専攻修了後、モバイルファクトリーにエンジニアとして2011年に入社。<br />モバイルファクトリーでは、ソーシャルアプリゲームの開発・運用を担当。<br />新卒エンジニアとして初のマネージャーとなり、「駅奪取」のPMとしてチームを牽引。<br />YAPC::Asia などコミュニティ活動の企画運営も行う。<br />現在は、生後8ヶ月の娘にメロメロ。"
+    twitter: https://twitter.com/kfly8
+    github: https://github.com/kfly8
+  - name: 市谷 聡啓
+    organization: ギルドワークス株式会社
+    title: 代表
+    profile_image_url: /assets/images/speakers/ToshihiroIchitani.jpeg
+    profile: "システム企画案やサービスのアイデアからのコンセプトメイキング（プロダクトオーナー支援）や、アジャイル開発の運営・マネジメントを得意としています。プログラマーからキャリアをスタート。SIerでのプロジェクトマネジメント、大規模インターネットサービスのプロデューサー、アジャイル開発のマネジメントを経て、ギルドワークス代表に。それぞれのフィールドから得られた実践知で、ソフトウェアをお客様・開発チームと共創します。"
+    twitter: https://twitter.com/papanda
+    facebook: https://www.facebook.com/papanda0806
+    github: https://github.com/papanda
+    link: http://ichitani.com/
+  - name: 小林 篤
+    organization: 株式会社ディー・エヌ・エー
+    title: オープンプラットフォーム事業本部 システム開発部 部長
+    profile_image_url: /assets/images/speakers/AtsushiKobayashi.jpeg
+    profile: "1978年、京都生まれ。法学部法律学科からエンジニアへ転身。
+DeNAではMobageおよび協業プラットフォームの大規模システム開発・運用を担当し現在は同システムの開発責任者。
+一般社団法人Japan Perl Association 代表理事を兼務しPerlの普及・振興の為、YAPCや各種イベントを企画実施。
+YAPC::Asia 2010ではBest Talk Award 2位を受賞。"
+    twitter: https://twitter.com/nekokak
+    facebook: https://www.facebook.com/nekokak
+    github: https://github.com/nekokak/
+  - name: 寺田 輝之
+    organization: エン・ジャパン株式会社
+    title: 執行役員 デジタルプロダクト開発本部長
+    profile_image_url: /assets/images/speakers/TeruyukiTerada.jpeg
+    profile: "2002年、エン・ジャパン入社。中途採用支援の法人営業を経て、WEBサイトの企画・開発、マーケティングを手掛ける現部署に配属。『エン転職』 『エンバイト』 『カイシャの評判』 『 CAREER HACK 』 など同社を代表する多数のWEBサービスの新規立ち上げ・リニューアルを牽引。2014年4月にデジタルプロダクト開発本部長、2015年4月に執行役員に就任。"
+    facebook: https://www.facebook.com/teruyuki.terada
 #   - name: 関 満徳
 #     organization: グロースエクスパートナーズ株式会社
 #     title: ITアーキテクト
@@ -7,7 +166,6 @@
 #     twitter: https://twitter.com/fullvirtue
 #     facebook: https://www.facebook.com/fullvirtue
 #     microsoftmvpcategoly: Visual Studio and Development Technologies
-
 mvps:
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
@@ -28,4 +186,3 @@ speakers:
     twitter: https://twitter.com/fullvirtue
     facebook: https://www.facebook.com/fullvirtue
     microsoftmvpcategoly: Visual Studio and Development Technologies
-

@@ -94,6 +94,48 @@ secretariat:
     facebook: https://facebook.com/fullvirtue
     link: http://fullvirtue.com/
     profile_image_url: /assets/images/profile_images/fullvirtue.png
+  - name: 國吉 麻美
+    organization: 株式会社エクシード・ワン
+    title: 
+    twitter: https://twitter.com/AsamiKuniyoshi
+    github: https://github.com/AsaKuni
+    facebook: https://www.facebook.com/asami.kuniyoshi.9292
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 佐々木 加代子
+    organization: 株式会社アイネックス
+    title: 教育ソリューション部 リーダー
+    twitter: https://twitter.com/kayo0603
+    github: https://github.com/kayo0603
+    facebook: https://www.facebook.com/kayoko.sasaki.7
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 里見 恵里嘉
+    organization: 株式会社サイバーエージェント
+    title: AIRTRACK 開発責任者兼スクラムマスター
+    twitter: https://twitter.com/b_marsa
+    github: https://github.com/b-marsa
+    facebook: https://www.facebook.com/ysl882orbmarsa
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 清水 優吾
+    organization: 株式会社サイバーエージェント
+    title: AIRTRACK 開発責任者兼スクラムマスター
+    twitter: https://twitter.com/b_marsa
+    github: https://github.com/b-marsa
+    facebook: https://www.facebook.com/ysl882orbmarsa
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 瀬尾 佳隆
+    organization: 株式会社サイバーエージェント
+    title: AIRTRACK 開発責任者兼スクラムマスター
+    twitter: https://twitter.com/b_marsa
+    github: https://github.com/b-marsa
+    facebook: https://www.facebook.com/ysl882orbmarsa
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 高橋 健一
+    organization: 株式会社サイバーエージェント
+    title: AIRTRACK 開発責任者兼スクラムマスター
+    twitter: https://twitter.com/b_marsa
+    github: https://github.com/b-marsa
+    facebook: https://www.facebook.com/ysl882orbmarsa
+    profile_image_url: /assets/images/speakers/blank_user.png
   - name: 田中 正巳
     organization: 株式会社サイバーエージェント
     title: AIRTRACK 開発責任者兼スクラムマスター
@@ -101,12 +143,13 @@ secretariat:
     github: https://github.com/b-marsa
     facebook: https://www.facebook.com/ysl882orbmarsa
     profile_image_url: /assets/images/profile_images/MasamiTanaka.jpg
-  - name: 佐々木 加代子
-    organization: 株式会社アイネックス
-    title: 教育ソリューション部 リーダー
-    twitter: https://twitter.com/kayo0603
-    github: https://github.com/b-marsa
-    facebook: https://www.facebook.com/kayoko.sasaki.7
-    profile_image_url: /assets/images/profile_images/KayokoSasaki.jpg
+  - name: 森 博之
+    organization: フリーランス
+    title: 
+    twitter: https://twitter.com/hiroyukimori
+    github: https://github.com/hiroyukimori
+    facebook: https://www.facebook.com/h.m.hiroyuki.mori
+    profile_image_url: /assets/images/speakers/blank_user.png
+ 
 
 
