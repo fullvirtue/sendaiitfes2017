@@ -282,42 +282,21 @@ mvps:
   - name: 河合 浩之 
     profile_image_url: /assets/images/speakers/blank_user.png
     microsoftmvpcategoly: PowerPoint
-  - name: 関 満徳
-    organization: グロースエクスパートナーズ株式会社
-    title: ITアーキテクト
+  - name: 中村 薫
+    organization: HoloLab
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-    link: 
-    twitter: https://twitter.com/
-    facebook: https://www.facebook.com/
-    microsoftmvpcategoly: Visual Studio and Development Technologies
-  - name: 関 満徳
-    organization: グロースエクスパートナーズ株式会社
-    title: ITアーキテクト
+    profile: "HoloLens好きが高じてコミュニティと会社を作りました。"
+    microsoftmvpcategoly: Windows Development
+  - name: 初音 玲
+    organization: HoloLab
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-    link: 
-    twitter: https://twitter.com/
-    facebook: https://www.facebook.com/
-    microsoftmvpcategoly: Visual Studio and Development Technologies
-  - name: 関 満徳
-    organization: グロースエクスパートナーズ株式会社
-    title: ITアーキテクト
+    profile: "HoloLensアプリやWindows MRアプリの開発は、Unity x UWPという2つの要素を知ることでできることの幅が格段に広がります。MRらしいアプリをつくるための開発方法をわかりやすく紹介する50分です。実機がなくてもダイジョブです。"
+    microsoftmvpcategoly: Windows Development
+  - name: 前本 知志
+    organization: HoloLab
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-    link: 
-    twitter: https://twitter.com/
-    facebook: https://www.facebook.com/
-    microsoftmvpcategoly: Visual Studio and Development Technologies
-  - name: 関 満徳
-    organization: グロースエクスパートナーズ株式会社
-    title: ITアーキテクト
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-    link: 
-    twitter: https://twitter.com/
-    facebook: https://www.facebook.com/
-    microsoftmvpcategoly: Visual Studio and Development Technologies
+    profile: "数年前よりモーションセンサーの面白さに取りつかれKINECTを趣味で触り始め、会社にXRや医療機器開発のチームができる。センサー系コミュニティTMCNや、HoloLensに特化した株式会社ホロラボの立ち上げメンバー。"
+    microsoftmvpcategoly: Windows Development
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
@@ -514,6 +493,10 @@ speakers:
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 牛尾 剛
     profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 上山 晃弘
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "HoloLens好きなのでHoloLabに入りました．HoloLens，VR，音声合成など作りたいものを作ってます．"
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
