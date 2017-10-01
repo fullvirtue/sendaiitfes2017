@@ -85,24 +85,30 @@ section.section
     h2.section_title SPEAKERS
     .speakers
       .speakers_list
-        - data.speakers.keynotes.each do |mvps|
+        - data.speakers.mvps.each do |mvps|
           .speakers_list_item
             = image_tag mvps.profile_image_url, class: 'speakers_list_image'
             .speakers_list_name = mvps.name
             .speakers_list_organization = mvps.organization
             .speakers_list_title = mvps.title
-        - data.speakers.specials.each do |rds|
+        - data.speakers.rds.each do |rds|
           .speakers_list_item
             = image_tag rds.profile_image_url, class: 'speakers_list_image'
             .speakers_list_name = rds.name
             .speakers_list_organization = rds.organization
             .speakers_list_title = rds.title
-        - data.speakers.specials.each do |microsofts|
+        - data.speakers.microsofts.each do |microsofts|
           .speakers_list_item
             = image_tag microsofts.profile_image_url, class: 'speakers_list_image'
             .speakers_list_name = microsofts.name
             .speakers_list_organization = microsofts.organization
             .speakers_list_title = microsofts.title
+        - data.speakers.normals.each do |normals|
+          .speakers_list_item
+            = image_tag normals.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = normals.name
+            .speakers_list_organization = normals.organization
+            .speakers_list_title = normals.title
 /         - if data.speakers.others.present?
 /           - data.speakers.others.each do |others|
 /             .speakers_list_item
