@@ -60,36 +60,55 @@ section.section
            | 〒980-8576仙台市青葉区川内27-1
            br/
            | 東北大学川内南キャンパス(C19)文科系総合講義棟1F&2F
+         dt
+           i.fa.fa-fw.fa-users
+           | &nbsp;
+           | 参加対象
+         dd
+           | 意思決定者、IT管理職、IT担当職、開発者、エンドユーザー、パートナー
+           br/
+           | 文理問わず４年制大学の１～３年生、高等専門学校生、短大生、小学1～3年生
+         dt
+           i.fa.fa-fw.fa-building
+           | &nbsp;
+           | 参加人数
+         dd
+           | 1,000名
+         dt
+           i.fa.fa-fw.fa-calculator
+           | 参加費
+         dd
+           | 無料
 
-/ section.section
-/   .container
-/     h2.section_title SPEAKERS
-/     .speakers
-/       .speakers_list
-/         - data.speakers.keynotes.each do |keynotes|
-/           .speakers_list_item
-/             = image_tag keynotes.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = keynotes.name
-/             .speakers_list_organization = keynotes.organization
-/             .speakers_list_title = keynotes.title
-/         - data.speakers.specials.each do |specials|
-/           .speakers_list_item
-/             = image_tag specials.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = specials.name
-/             .speakers_list_organization = specials.organization
-/             .speakers_list_title = specials.title
-/         - data.speakers.staffs.each do |staffs|
-/           .speakers_list_item
-/             = image_tag staffs.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = staffs.name
-/             .speakers_list_organization = staffs.organization
-/             .speakers_list_title = staffs.title
-/         - data.speakers.sponsors.each do |sponsors|
-/           .speakers_list_item
-/             = image_tag sponsors.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = sponsors.name
-/             .speakers_list_organization = sponsors.organization
-/             .speakers_list_title = sponsors.title
+section.section
+  .container
+    h2.section_title SPEAKERS
+    .speakers
+      .speakers_list
+        - data.speakers.mvps.each do |mvps|
+          .speakers_list_item
+            = image_tag mvps.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = mvps.name
+            .speakers_list_organization = mvps.organization
+            .speakers_list_title = mvps.title
+        - data.speakers.rds.each do |rds|
+          .speakers_list_item
+            = image_tag rds.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = rds.name
+            .speakers_list_organization = rds.organization
+            .speakers_list_title = rds.title
+        - data.speakers.microsofts.each do |microsofts|
+          .speakers_list_item
+            = image_tag microsofts.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = microsofts.name
+            .speakers_list_organization = microsofts.organization
+            .speakers_list_title = microsofts.title
+        - data.speakers.normals.each do |normals|
+          .speakers_list_item
+            = image_tag normals.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = normals.name
+            .speakers_list_organization = normals.organization
+            .speakers_list_title = normals.title
 /         - if data.speakers.others.present?
 /           - data.speakers.others.each do |others|
 /             .speakers_list_item
@@ -97,11 +116,12 @@ section.section
 /               .speakers_list_name = others.name
 /               .speakers_list_organization = others.organization
 /               .speakers_list_title = others.title
-/       .speakers_schedulelink
-/         = link_to '/schedule', class: 'btn' do
-/           i.fa.fa-arrow-circle-right
-/           | &nbsp;
-/           | タイムテーブル を確認する
+
+      .speakers_schedulelink
+        = link_to '/schedule', class: 'btn' do
+          i.fa.fa-arrow-circle-right
+          | &nbsp;
+          | タイムテーブル を確認する
 /       .speakers_schedulelink
 /         = link_to '/documents', class: 'btn' do
 /           i.fa.fa-arrow-circle-right
@@ -142,22 +162,6 @@ section.section
         | &nbsp;
         | 仙台IT文化祭2017 ご協賛のお願い
 
-/    .sponsors_description
-/      h4 スポンサーについて
-/      p 仙台IT文化祭 2017 では、本カンファレンスにご協賛いただけるスポンサー企業を募集しております。仙台IT文化祭を支える企業として、自社をアピールできるまたとない機会です。協賛プログラムの詳細については、以下の資料をご参照ください。皆様のご支援をお待ちしております。
-/      = link_to 'http://2017.sendaiitfes.org//assets/files/sendaiitfes_sponsorship_letter_2017.pdf', target: '_blank', rel: 'nofollow'
-/        i.fa.fa-file-pdf-o
-/        | &nbsp;
-/        | 仙台IT文化祭 2017 ご協賛のお願い
-
-/     h3.sponsors_title PLATINUM SPONSORS
-/     .sponsors_list
-/       - data.sponsors.platina.each do |platina|
-/         = link_to image_tag(platina.logo_image_url), platina.url, class: 'sponsors_list_item-platina', target: '_blank', title: platina.name, 'data-toggle' => 'tooltip'
-/     h3.sponsors_title GOLD SPONSORS
-/     .sponsors_list
-/       - data.sponsors.golds.each do |golds|
-/         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
 /     - if data.sponsors.silvers.present?
 /       h3.sponsors_title SILVER SPONSORS
 /       .sponsors_list
@@ -175,27 +179,6 @@ section.section
 /     .sponsors_list
 /       - data.sponsors.medias.each do |medias|
 /         = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
-/    .sponsors_description
-/      h4. スポンサーについて
-/      p 仙台IT文化祭 2017 では、本カンファレンスにご協賛いただけるスポンサー企業を募集しております。仙台IT文化祭を支える企業として、自社をアピールできるまたとない機会です。協賛プログラムの詳細については、以下の資料をご参照ください。皆様のご支援をお待ちしております。
-/      = link_to 'http://2017.sendaiitfes.org//assets/files/sendaiitfes_sponsorship_letter_2017.pdf', target: '_blank', rel: 'nofollow'
-/        i.fa.fa-file-pdf-o
-/        | &nbsp;
-/        | 仙台IT文化祭 2017 ご協賛のお願い
-
-/ section.section
-/   .container
-/     .sponsorJobs
-/       h2.section_title 📣 PRODUCT MANAGER JOBS
-/       p.section_subTitle スポンサー企業のプロダクトマネージャー求人です
-/       .sponsorJobs_table
-/         - data.jobs.each do |jobs|
-/           .sponsorJobs_item
-/             .sponsorJobs_item_organization = jobs.organization
-/             .sponsorJobs_item_title
-/               = link_to jobs.url, class: 'sponsorJobs_item_title_link', target: '_blank' do
-/                 i.fa.fa-fw.fa-external-link
-/                 =< jobs.title
 
 section.section
   .container
@@ -224,9 +207,13 @@ section.section.hidden-xs
 section.section
   .container
     h2.section_title 主催
-    h4.text-center 仙台IT文化祭実行委員会
+    p.text-center
+      | 仙台IT文化祭実行委員会
+
     h2.section_title 共催
-    h4.text-center 仙台市
+    p.text-center
+      | 仙台市
+
     /p.text-center
     /  = link_to '実行委員一覧', '/staff'
     .sponsorsText
