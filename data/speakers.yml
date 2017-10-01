@@ -267,15 +267,9 @@ mvps:
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "ハロウィン期間はコスプレでディズニーに出没し、週末はフラダンサーとなるクラウドアーキテクト。Microsoft MVP(Azure)。Java女子部・PyLadies Tokyo・JJUG・Geek Women Japanを運営する極度のコミュニティ厨。"
     microsoftmvpcategoly: Microsoft Azure
-  - name: 関 満徳
-    organization: グロースエクスパートナーズ株式会社
-    title: ITアーキテクト
+  - name: 松本 吉生
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-    link: 
-    twitter: https://twitter.com/
-    facebook: https://www.facebook.com/
-    microsoftmvpcategoly: Visual Studio and Development Technologies
+    microsoftmvpcategoly: Data Platform
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
