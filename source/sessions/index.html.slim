@@ -7,9 +7,9 @@ blog: sessions
 .container
   .pageHeader
     h1.pageHeader_title = current_page.data.title
-  / ul.list-unstyled.articleList
-  /   - blog(blog_controller.name).articles.each do |article|
-  /     li
-  /       article.articleList_article
-  /         h1.articleList_title = link_to article.title, article
-  /         time.articleList_time = article.date.strftime('%Y/%m/%d')
+  ul.list-unstyled.articleList
+    - blog(blog_controller.name).articles.each do |article|
+      li
+        article.articleList_article
+          h1.articleList_title = link_to article.title, article
+          time.articleList_time = article.date.strftime('%Y/%m/%d')
