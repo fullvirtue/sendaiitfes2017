@@ -60,48 +60,61 @@ section.section
            | 〒980-8576仙台市青葉区川内27-1
            br/
            | 東北大学川内南キャンパス(C19)文科系総合講義棟1F&2F
+         dt
+           i.fa.fa-fw.fa-users
+           | &nbsp;
+           | 参加対象
+         dd
+           | 意思決定者、IT管理職、IT担当職、開発者、エンドユーザー、パートナー
+           br/
+           | 文理問わず４年制大学の１～３年生、高等専門学校生、短大生、小学1～3年生
+         dt
+           i.fa.fa-fw.fa-building
+           | &nbsp;
+           | 参加人数
+         dd
+           | 1,000名
+         dt
+           i.fa.fa-fw.fa-calculator
+           | 参加費
+         dd
+           | 無料
 
-/ section.section
-/   .container
-/     h2.section_title SPEAKERS
-/     .speakers
-/       .speakers_list
-/         - data.speakers.keynotes.each do |keynotes|
-/           .speakers_list_item
-/             = image_tag keynotes.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = keynotes.name
-/             .speakers_list_organization = keynotes.organization
-/             .speakers_list_title = keynotes.title
-/         - data.speakers.specials.each do |specials|
-/           .speakers_list_item
-/             = image_tag specials.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = specials.name
-/             .speakers_list_organization = specials.organization
-/             .speakers_list_title = specials.title
-/         - data.speakers.staffs.each do |staffs|
-/           .speakers_list_item
-/             = image_tag staffs.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = staffs.name
-/             .speakers_list_organization = staffs.organization
-/             .speakers_list_title = staffs.title
-/         - data.speakers.sponsors.each do |sponsors|
-/           .speakers_list_item
-/             = image_tag sponsors.profile_image_url, class: 'speakers_list_image'
-/             .speakers_list_name = sponsors.name
-/             .speakers_list_organization = sponsors.organization
-/             .speakers_list_title = sponsors.title
-/         - if data.speakers.others.present?
-/           - data.speakers.others.each do |others|
-/             .speakers_list_item
-/               = image_tag others.profile_image_url, class: 'speakers_list_image'
-/               .speakers_list_name = others.name
-/               .speakers_list_organization = others.organization
-/               .speakers_list_title = others.title
-/       .speakers_schedulelink
-/         = link_to '/schedule', class: 'btn' do
-/           i.fa.fa-arrow-circle-right
-/           | &nbsp;
-/           | タイムテーブル を確認する
+section.section
+  .container
+    h2.section_title SPEAKERS
+    .speakers
+      .speakers_list
+        - data.speakers.keynotes.each do |mvps|
+          .speakers_list_item
+            = image_tag mvps.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = mvps.name
+            .speakers_list_organization = mvps.organization
+            .speakers_list_title = mvps.title
+        - data.speakers.specials.each do |rds|
+          .speakers_list_item
+            = image_tag rds.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = rds.name
+            .speakers_list_organization = rds.organization
+            .speakers_list_title = rds.title
+        - data.speakers.specials.each do |microsofts|
+          .speakers_list_item
+            = image_tag microsofts.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = microsofts.name
+            .speakers_list_organization = microsofts.organization
+            .speakers_list_title = microsofts.title
+        - if data.speakers.others.present?
+          - data.speakers.others.each do |others|
+            .speakers_list_item
+              = image_tag others.profile_image_url, class: 'speakers_list_image'
+              .speakers_list_name = others.name
+              .speakers_list_organization = others.organization
+              .speakers_list_title = others.title
+      .speakers_schedulelink
+        = link_to '/schedule', class: 'btn' do
+          i.fa.fa-arrow-circle-right
+          | &nbsp;
+          | タイムテーブル を確認する
 /       .speakers_schedulelink
 /         = link_to '/documents', class: 'btn' do
 /           i.fa.fa-arrow-circle-right

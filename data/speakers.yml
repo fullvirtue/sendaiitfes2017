@@ -129,9 +129,30 @@ mvps:
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "数年前よりモーションセンサーの面白さに取りつかれKINECTを趣味で触り始め、会社にXRや医療機器開発のチームができる。センサー系コミュニティTMCNや、HoloLensに特化した株式会社ホロラボの立ち上げメンバー。"
     microsoftmvpcategoly: Windows Development
+
 rds:
   - name: 東 賢
     profile_image_url: /assets/images/speakers/blank_user.png
+
+microsofts:
+  - name: 千代田 まどか
+    organization: Microsoft Corporation
+    title: コマーシャル・ソフトウェア・エンジニアリング本部 テクニカルエバンジェリスト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "C# とお絵描きと松屋が好きです。"
+    twitter: https://twitter.com/chomado
+  - name: 寺田 佳央
+    organization: 日本マイクロソフト株式会社
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br/>2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br/>2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br/>2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。"
+  - name: 牛尾 剛
+    organization: Microsoft Corporation
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: Takuo Robert Nishi
+    organization: Microsoft Corporation
+    title: Enterprise Client & Mobility Senior Program Manager
+    profile_image_url: /assets/images/speakers/blank_user.png
+
 others:
   - name: 八子 知礼
     organization: 株式会社ウフル
@@ -156,30 +177,16 @@ others:
     title: プラットホームビジネス開発部 ビジネス開発マネージャー(データベース)
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "新卒で日本オラクルに入社し、日本マイクロソフト、AWS と会社は変わりましたが一貫してリレーショナルデータベースを担当。最初は当然オンプレミスでしたが、今ではサービスとしてのデータベースまで広がりました。<br/>佐賀県出身、東京都の陸の孤島在住。NIKU が大好きで週末はハンバーガーを食べるためにロードバイクで走り回っています。"
-  - name: 千代田 まどか
-    organization: マイクロソフト
-    title: コマーシャル・ソフトウェア・エンジニアリング本部 テクニカルエバンジェリスト
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "C# とお絵描きと松屋が好きです。"
-    twitter: https://twitter.com/chomado
   - name: 櫻庭 祐一
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "Java SEと共に22年。日本人ではじめてのJava Champion。"
-  - name: 寺田 佳央
-    organization: 日本マイクロソフト株式会社
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br/>2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br/>2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br/>2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。"
   - name: ロッシェル カップ
     organization: ジャパン・インターカルチュラル・コンサルティング
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "人事管理と異文化理解を専門とする経営コンサルタント、ジャパン・インターカルチュラル・コンサルティング社長。日本企業の組織活性化とグローバル人材育成を支援している。朝日新聞、ニューズウィークジャパン、ハフポストなどに連載。『英語の品格』や『日本企業の社員は、なぜこんなにもモチベーションが低いのか? 』をはじめ著書多数。"
-  - name: Takuo Robert Nishi
-    profile_image_url: /assets/images/speakers/blank_user.png
   - name: 久保 彩
     organization: 株式会社クニエ
     title: シニアコンサルタント
-    profile_image_url: /assets/images/speakers/blank_user.png
-  - name: 牛尾 剛
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 上山 晃弘
     organization: HoloLab
