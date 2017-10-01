@@ -24,3 +24,4 @@ group :development, :test do
   gem 'scss_lint'
   gem 'slim_lint'
 end
+
