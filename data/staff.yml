@@ -96,7 +96,6 @@ secretariat:
     profile_image_url: /assets/images/profile_images/fullvirtue.png
   - name: 國吉 麻美
     organization: 株式会社エクシード・ワン
-    title: 
     twitter: https://twitter.com/AsamiKuniyoshi
     github: https://github.com/AsaKuni
     facebook: https://www.facebook.com/asami.kuniyoshi.9292
@@ -109,47 +108,36 @@ secretariat:
     facebook: https://www.facebook.com/kayoko.sasaki.7
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 里見 恵里嘉
-    organization: 株式会社サイバーエージェント
-    title: AIRTRACK 開発責任者兼スクラムマスター
-    twitter: https://twitter.com/b_marsa
-    github: https://github.com/b-marsa
-    facebook: https://www.facebook.com/ysl882orbmarsa
+    organization: Microsoft Student Partner
+    title: グローバル チームリーダー
+    twitter: https://twitter.com/erk_stm
+    facebook: https://www.facebook.com/SatomiErika
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 清水 優吾
-    organization: 株式会社サイバーエージェント
-    title: AIRTRACK 開発責任者兼スクラムマスター
-    twitter: https://twitter.com/b_marsa
-    github: https://github.com/b-marsa
-    facebook: https://www.facebook.com/ysl882orbmarsa
+    organization: 株式会社セカンドファクトリー
+    twitter: https://twitter.com/yugoes1021
+    facebook: https://www.facebook.com/yugoes1021
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 瀬尾 佳隆
-    organization: 株式会社サイバーエージェント
-    title: AIRTRACK 開発責任者兼スクラムマスター
-    twitter: https://twitter.com/b_marsa
-    github: https://github.com/b-marsa
-    facebook: https://www.facebook.com/ysl882orbmarsa
+    organization: 瀬尾ソフト
+    title: 代表
+    twitter: https://twitter.com/seosoft
+    facebook: https://www.facebook.com/seosoft
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 高橋 健一
-    organization: 株式会社サイバーエージェント
-    title: AIRTRACK 開発責任者兼スクラムマスター
-    twitter: https://twitter.com/b_marsa
-    github: https://github.com/b-marsa
-    facebook: https://www.facebook.com/ysl882orbmarsa
+    organization: GMOペパボ株式会社
+    title: エンジニア
+    twitter: https://twitter.com/kenchan
+    facebook: https://www.facebook.com/kenichi.taka
     profile_image_url: /assets/images/speakers/blank_user.png
   - name: 田中 正巳
     organization: 株式会社サイバーエージェント
     title: AIRTRACK 開発責任者兼スクラムマスター
-    twitter: https://twitter.com/b_marsa
-    github: https://github.com/b-marsa
     facebook: https://www.facebook.com/ysl882orbmarsa
-    profile_image_url: /assets/images/profile_images/MasamiTanaka.jpg
   - name: 森 博之
-    organization: フリーランス
-    title: 
+    organization: 極東IT-Engineers
+    title: 代表
     twitter: https://twitter.com/hiroyukimori
     github: https://github.com/hiroyukimori
     facebook: https://www.facebook.com/h.m.hiroyuki.mori
     profile_image_url: /assets/images/speakers/blank_user.png
- 
-
-

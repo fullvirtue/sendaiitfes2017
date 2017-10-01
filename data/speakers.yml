@@ -226,6 +226,77 @@ mvps:
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "10年以上、モバイル端末やWebシステムのアプリケーション開発に携わり2015年に独立。2017年4月より株式会社SRIAの技術フェロー就任。de:code 2017 に登壇。 .NET や Java のアプリケーション開発を得意とする。　好きな Azure のサービスは Azure App Service と Azure Container Instances。　Microsoft MVP for Microsoft Azure 2014.7 〜 2018.6"
     microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 木澤 朋和
+    organization: .NETラボ
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "某国内メーカーグループ会社のエンジニア<br/>マイクロソフト製品や技術をお伝えするポッドキャスト番組を毎週配信しています。<br/>Windows-podcast.com"
+    microsoftmvpcategoly: Windows and Devices for IT
+  - name: 髙尾 哲朗
+    organization: .NETラボ
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "システム構築のプロセス評価、改善、策定、開発フレームワークの設計、実装管理、プリセールスやプロジェクトの立ち上げなどを行っています。"
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 小島 富治雄
+    organization: 福井コンピュータアーキテクト株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "福井県で、C#/C++プログラミングをやったり教えたりしてます。<br/>所属コミュニティ: Hokuriku.NET、FITEA、こみゅぷらす"
+    link: http://blog.shos.info
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 室星 亮太
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "新潟出身 千葉在住<br/>業務 : モバイルアプリ開発他<br/>趣味 : ゲーム開発<br/>所属コミュニティ : 日本Androidの会 Unity部<br/>プログラミングが大好きで、 C#が大好きで、 .NETが大好きで、 LINQが大好きで、 JVM言語が大好きで、 ゲームで遊ぶことが大好きで、 ゲーム開発が大好きで、 頑張るのが大好きで、 Unityが大好きだったから...！"
+    link: 
+    twitter: https://twitter.com/RyotaMurohoshi
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 鈴木 孝明
+    organization: 株式会社グラニ
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "ソーシャルゲーム会社にいながら VR/AR 関連のお仕事やってます。<br/>クライアントアプリから Web アプリ、HoloLens アプリ開発まで何でもござれ。<br/>プログラミングを教えてくれた師匠は @Fujiwo さん。<br/>所属コミュニティ : Hokuriku.NET"
+    link: http://blog.xin9le.net
+    twitter: https://twitter.com/xin9le
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 石野 光仁
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "新潟県で、ソフトを書く仕事をしています。<br/>2002年にC#に出会ってから、ずっとC# 押しでここまで来ました。<br/>C#を学び、C#を書き、C#を話していたら、たくさんの人に出会えることが出来ました。<br/>そんなC#を魅力を、みなさんと共有できたらと思います。<br/>主催コミュニティ：Niigata.NET"
+    link: http://www.ailight.jp/blog/ishino
+    twitter: https://twitter.com/AILight
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 石田 真彩 
+    organization: 株式会社オープンストリーム
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "ハロウィン期間はコスプレでディズニーに出没し、週末はフラダンサーとなるクラウドアーキテクト。Microsoft MVP(Azure)。Java女子部・PyLadies Tokyo・JJUG・Geek Women Japanを運営する極度のコミュニティ厨。"
+    microsoftmvpcategoly: Microsoft Azure
+  - name: 松本 吉生
+    profile_image_url: /assets/images/speakers/blank_user.png
+    microsoftmvpcategoly: Data Platform
+  - name: 新田 順也
+    profile_image_url: /assets/images/speakers/blank_user.png
+    microsoftmvpcategoly: Word
+  - name: 田中 亨
+    profile_image_url: /assets/images/speakers/blank_user.png
+    microsoftmvpcategoly: Excel
+  - name: 加賀田 猛
+    profile_image_url: /assets/images/speakers/blank_user.png
+    microsoftmvpcategoly: Data Platform
+  - name: 河合 浩之 
+    profile_image_url: /assets/images/speakers/blank_user.png
+    microsoftmvpcategoly: PowerPoint
+  - name: 中村 薫
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "HoloLens好きが高じてコミュニティと会社を作りました。"
+    microsoftmvpcategoly: Windows Development
+  - name: 初音 玲
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "HoloLensアプリやWindows MRアプリの開発は、Unity x UWPという2つの要素を知ることでできることの幅が格段に広がります。MRらしいアプリをつくるための開発方法をわかりやすく紹介する50分です。実機がなくてもダイジョブです。"
+    microsoftmvpcategoly: Windows Development
+  - name: 前本 知志
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "数年前よりモーションセンサーの面白さに取りつかれKINECTを趣味で触り始め、会社にXRや医療機器開発のチームができる。センサー系コミュニティTMCNや、HoloLensに特化した株式会社ホロラボの立ち上げメンバー。"
+    microsoftmvpcategoly: Windows Development
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
@@ -280,6 +351,99 @@ mvps:
     twitter: https://twitter.com/
     facebook: https://www.facebook.com/
     microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+rds:
+  - name: 東 賢
+    profile_image_url: /assets/images/speakers/blank_user.png
 speakers:
   - name: 八子 知礼
     organization: 株式会社ウフル
@@ -304,6 +468,35 @@ speakers:
     title: プラットホームビジネス開発部 ビジネス開発マネージャー(データベース)
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "新卒で日本オラクルに入社し、日本マイクロソフト、AWS と会社は変わりましたが一貫してリレーショナルデータベースを担当。最初は当然オンプレミスでしたが、今ではサービスとしてのデータベースまで広がりました。<br/>佐賀県出身、東京都の陸の孤島在住。NIKU が大好きで週末はハンバーガーを食べるためにロードバイクで走り回っています。"
+  - name: 千代田 まどか
+    organization: 日本マイクロソフト株式会社
+    title: コマーシャル・ソフトウェア・エンジニアリング本部 テクニカルエバンジェリスト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "C# とお絵描きと松屋が好きです。"
+    twitter: https://twitter.com/chomado
+  - name: 櫻庭 祐一
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "Java SEと共に22年。日本人ではじめてのJava Champion。"
+  - name: 寺田 佳央
+    organization: 日本マイクロソフト株式会社
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br/>2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br/>2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br/>2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。"
+  - name: ロッシェル カップ
+    organization: ジャパン・インターカルチュラル・コンサルティング
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "人事管理と異文化理解を専門とする経営コンサルタント、ジャパン・インターカルチュラル・コンサルティング社長。日本企業の組織活性化とグローバル人材育成を支援している。朝日新聞、ニューズウィークジャパン、ハフポストなどに連載。『英語の品格』や『日本企業の社員は、なぜこんなにもモチベーションが低いのか? 』をはじめ著書多数。"
+  - name: Takuo Robert Nishi
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 久保 彩
+    organization: 株式会社クニエ
+    title: シニアコンサルタント
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 牛尾 剛
+    profile_image_url: /assets/images/speakers/blank_user.png
+  - name: 上山 晃弘
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "HoloLens好きなのでHoloLabに入りました．HoloLens，VR，音声合成など作りたいものを作ってます．"
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
@@ -313,7 +506,96 @@ speakers:
     twitter: https://twitter.com/
     facebook: https://www.facebook.com/
     microsoftmvpcategoly: Visual Studio and Development Technologies
-<<<<<<< HEAD
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+    link: 
+    twitter: https://twitter.com/
+    facebook: https://www.facebook.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
@@ -351,5 +633,3 @@ speakers:
     facebook: https://www.facebook.com/
     microsoftmvpcategoly: Visual Studio and Development Technologies
   
-=======
->>>>>>> 363d2080f7b3d76432a86239b0b1db16b8b914a2
