@@ -160,3 +160,13 @@ bundle exec middleman deploy
 `bundle exec middleman build --verbose`
 を実行するたびに、変更が反映されたものがビルドされる。
 
+##### よくあるビルドエラー
+
+`Error: Node Sass does not yet support your current environment: OS X 64-bit with Unsupported runtime`
+
+このエラーがでた場合は、以下を実行すると解消される。Mac OSをアップデート
+
+`npm rebuild node-sass`
+
+
+
