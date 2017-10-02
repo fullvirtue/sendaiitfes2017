@@ -21,11 +21,13 @@ section.section
 
 section.section
   .container
-    h2.section_title 仙台IT文化祭 実行委員会からのメッセージ
+    h2.section_title 実行委員会からのメッセージ
     p.text-center
       | 仙台IT文化祭とは、東北最大級のITのお祭りです。
     p.text-center
-      | 東日本大震災から6年が経ちました。復興のペースは地域によりさまざまではありますが、私たちは復興から次なるステージへと、歩みつつあります。
+      | 東日本大震災から6年が経ちました。復興のペースは地域によりさまざまではありますが、
+      br/
+      | 私たちは復興から次なるステージへと、歩みつつあります。
     p.text-center
       | 昨年2016/06/18(土) 『マイクロソフト製品の匠による東北復興支援イベント Rebirth! 東北』を開催。300名以上の学生／社会人の皆さまに参加いただき、大変盛り上がりました。参加者からは「是非、継続してこのようなイベントを開催してほしい」という声を多くいただくと同時に、復興から次なるステージへと歩む必要があるとの指摘もいただきました。次なるステージに歩むきっかけが、私たちにはまだまだ必要です。
     p.text-center
@@ -65,9 +67,9 @@ section.section
            | &nbsp;
            | 参加対象
          dd
-           | 意思決定者、IT管理職、IT担当職、開発者、エンドユーザー、パートナー
+           | 意思決定者、IT管理職、IT担当職、開発者、エンドユーザー、パートナー、営業職、事務職
            br/
-           | 文理問わず４年制大学の１～３年生、高等専門学校生、短大生、小学1～3年生
+           | 文理問わず大学生、高等専門学校生、短期大学生、専門学校生、小学生
          dt
            i.fa.fa-fw.fa-building
            | &nbsp;
@@ -91,26 +93,26 @@ section.section
             .speakers_list_name = mvps.name
             .speakers_list_organization = mvps.organization
             .speakers_list_title = mvps.title
-/        - data.speakers.rds.each do |rds|
-/          .speakers_list_item
-/            = image_tag rds.profile_image_url, class: 'speakers_list_image'
-/            .speakers_list_name = rds.name
-/            .speakers_list_organization = rds.organization
-/            .speakers_list_title = rds.title
-/        - if data.speakers.microsofts.present?
-/          - data.speakers.microsofts.each do |microsofts|
-/            .speakers_list_item
-/              = image_tag microsofts.profile_image_url, class: 'speakers_list_image'
-/              .speakers_list_name = microsofts.name
-/              .speakers_list_organization = microsofts.organization
-/              .speakers_list_title = microsofts.title
-/        - if data.speakers.normals.present?
-/          - data.speakers.normals.each do |normals|
-/            .speakers_list_item
-/              = image_tag normals.profile_image_url, class: 'speakers_list_image'
-/              .speakers_list_name = normals.name
-/              .speakers_list_organization = normals.organization
-/              .speakers_list_title = normals.title
+        - data.speakers.rds.each do |rds|
+          .speakers_list_item
+            = image_tag rds.profile_image_url, class: 'speakers_list_image'
+            .speakers_list_name = rds.name
+            .speakers_list_organization = rds.organization
+            .speakers_list_title = rds.title
+        - if data.speakers.microsofts.present?
+          - data.speakers.microsofts.each do |microsofts|
+            .speakers_list_item
+              = image_tag microsofts.profile_image_url, class: 'speakers_list_image'
+              .speakers_list_name = microsofts.name
+              .speakers_list_organization = microsofts.organization
+              .speakers_list_title = microsofts.title
+        - if data.speakers.normals.present?
+          - data.speakers.normals.each do |normals|
+            .speakers_list_item
+              = image_tag normals.profile_image_url, class: 'speakers_list_image'
+              .speakers_list_name = normals.name
+              .speakers_list_organization = normals.organization
+              .speakers_list_title = normals.title
 /        - if data.speakers.others.present?
 /          - data.speakers.others.each do |others|
 /            .speakers_list_item
