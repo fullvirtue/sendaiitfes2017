@@ -1,4 +1,4 @@
-dayones:
+normals:
   - name: 大関 興治
     organization: 株式会社セカンドファクトリー 
     organization2: ブエナピンタ株式会社
@@ -166,7 +166,6 @@ dayones:
     twitter: https://twitter.com/seosoft
     facebook: https://www.facebook.com/seosoft
     profile_image_url: /assets/images/speakers/YoshitakaSeo.jpg
-daytwos:
   - name: 新田 順也
     profile_image_url: /assets/images/speakers/JyunyaNitta.png
     microsoftmvpcategoly: Word
