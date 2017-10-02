@@ -101,40 +101,6 @@ section.section
             .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + daytwos.microsoftmvpcategoly
             .speakers_list_organization = daytwos.organization
             .speakers_list_title = daytwos.title
-        - data.speakers.mvps.each do |mvps|
-          .speakers_list_item
-            = image_tag mvps.profile_image_url, class: 'speakers_list_image'
-            .speakers_list_name = mvps.name
-            .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + mvps.microsoftmvpcategoly
-            .speakers_list_organization = mvps.organization
-            .speakers_list_title = mvps.title
-        - data.speakers.rds.each do |rds|
-          .speakers_list_item
-            = image_tag rds.profile_image_url, class: 'speakers_list_image'
-            .speakers_list_name = rds.name
-            .speakers_list_organization = rds.organization
-            .speakers_list_title = rds.title
-        - if data.speakers.microsofts.present?
-          - data.speakers.microsofts.each do |microsofts|
-            .speakers_list_item
-              = image_tag microsofts.profile_image_url, class: 'speakers_list_image'
-              .speakers_list_name = microsofts.name
-              .speakers_list_organization = microsofts.organization
-              .speakers_list_title = microsofts.title
-        - if data.speakers.normals.present?
-          - data.speakers.normals.each do |normals|
-            .speakers_list_item
-              = image_tag normals.profile_image_url, class: 'speakers_list_image'
-              .speakers_list_name = normals.name
-              .speakers_list_organization = normals.organization
-              .speakers_list_title = normals.title
-/        - if data.speakers.others.present?
-/          - data.speakers.others.each do |others|
-/            .speakers_list_item
-/              = image_tag others.profile_image_url, class: 'speakers_list_image'
-/              .speakers_list_name = others.name
-/              .speakers_list_organization = others.organization
-/              .speakers_list_title = others.title
 
       .speakers_schedulelink
         = link_to '/schedule', class: 'btn' do

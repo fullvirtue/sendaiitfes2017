@@ -87,10 +87,6 @@ helpers do
     arr = []
     data.speakers.dayones.each { |spdo| arr << spdo }
     data.speakers.daytwos.each { |spdo| arr << spdo }
-    data.speakers.mvps.each { |spm| arr << spm }
-    data.speakers.rds.each { |spr| arr << spr }
-    data.speakers.microsofts.each { |spm| arr << spm }
-    data.speakers.normals.each { |spn| arr << spn }
     arr
   end
 
