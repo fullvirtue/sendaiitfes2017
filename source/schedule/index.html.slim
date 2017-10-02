@@ -9,9 +9,9 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
       = current_page.data.title
   .schedule
     .alert.alert-info
-      |  タイムテーブルは一部調整中です 🙏🏻
+      | タイムテーブルは一部調整中です 🙏🏻
       br
-      |  時刻や内容に変更が入る可能性があります。ご了承ください。
+      | 時刻や内容に変更が入る可能性があります。ご了承ください。
 
   .schedule
     h2 全体タイムテーブル
@@ -23,11 +23,11 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
     h2 IT特別講義
     ul
       li 
+        a href="#contents-iot" IoT学科
+      li 
         a href="#contents-net" .NET学科
       li 
         a href="#contents-holo" HoloLens学科
-      li 
-        a href="#contents-iot" IoT学科
       li 
         a href="#contents-itm" IT妄想学科
       li 
@@ -66,16 +66,64 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
     h3.schedule_title#day1
       | Day1: 2017/10/28 (土)
       br
-      | クリックすると大きな画像表示に切り替わります。
+      | クリックすると全画面表示に切り替わります。
       br
       | <a href="http://2017.sendaiitfes.org/assets/images/schedules/schedule20171028.png"><img src="http://2017.sendaiitfes.org/assets/images/schedules/schedule20171028.png"></a>
 
     h3.schedule_title#day2
       | Day2: 2017/10/29 (日)
       br
-      | クリックすると大きな画像表示に切り替わります。
+      | クリックすると全画面表示に切り替わります。
       br
       | <a href="http://2017.sendaiitfes.org/assets/images/schedules/schedule20171029.png"><img src="http://2017.sendaiitfes.org/assets/images/schedules/schedule20171029.png"></a>
+
+  .schedule
+    h2.schedule_title#contents-iot IoT学科
+    .tab-content
+      .tab-pane.active
+        .scheduleTable
+          .scheduleTable_line
+            .scheduleTable_line_time 
+              | 2017-10-29
+              br/
+              | 10:00 - 10:15
+              .scheduleTable_line_time_min 15min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon 
+                img src="../assets/images/speakers/TomonoriYako.jpg" width="100" height="100" alt="株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼"
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title 学科長ご挨拶
+                .scheduleTable_line_speaker 株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼 氏
+            
+          .scheduleTable_line
+            .scheduleTable_line_time 
+              | 2017-10-29
+              br/
+              | 10:15 - 11:45
+              .scheduleTable_line_time_min 90min
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon 
+                img src="../assets/images/speakers/TomonoriYako.jpg" width="100" height="100" alt="株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼 氏"
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  | [28-202-1] IoT事例で創る東北のビジネスと絆
+                .scheduleTable_line_speaker 株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼 氏
+            
+          .scheduleTable_line
+            .scheduleTable_line_time 
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon 
+                img src="../assets/images/speakers/KoizumiKoji.jpg" width="100" height="100" alt="株式会社アールジーン / IoTNEWS 代表 小泉 耕二 氏"
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker 株式会社アールジーン / IoTNEWS 代表 小泉 耕二 氏
+            
+          .scheduleTable_line
+            .scheduleTable_line_time 
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon 
+                img src="../assets/images/speakers/KojiOzeki.jpg" width="100" height="100" alt="株式会社セカンドファクトリー 代表取締役 CEO &amp; CVO / ブエナピンタ株式会社 代表取締役 CEO &amp; CVO 大関 興治 氏"
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_speaker 株式会社セカンドファクトリー 代表取締役 CEO &amp; CVO / ブエナピンタ株式会社 代表取締役 CEO &amp; CVO 大関 興治 氏
 
   .schedule
     h2.schedule_title#contents-net .NET学科
@@ -105,7 +153,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/MadokaChiyoda.png" width="100" height="100" alt="マイクロソフト コマーシャル・ソフトウェア・エンジニアリング本部 テクニカルエバンジェリスト 千代田 まどか 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-203-2] Mobile Center を使って、モバイルアプリ開発/運用をいい感じにやろう！
+                .scheduleTable_line_title
+                  | [28-203-2] Mobile Center を使って、モバイルアプリ開発/運用をいい感じにやろう！
                 .scheduleTable_line_speaker マイクロソフト コマーシャル・ソフトウェア・エンジニアリング本部 テクニカルエバンジェリスト 千代田 まどか 氏
             
           .scheduleTable_line
@@ -118,7 +167,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/TomokazuKizawa.jpg" width="100" height="100" alt=".NETラボ  木澤 朋和 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-203-3]ユニバーサル Windows プラットフォーム (UWP) アプリ開発 概要
+                .scheduleTable_line_title
+                  | [28-203-3]ユニバーサル Windows プラットフォーム (UWP) アプリ開発 概要
                 .scheduleTable_line_speaker .NETラボ  木澤 朋和 氏
             
           .scheduleTable_line
@@ -131,7 +181,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/TetsuroTakao.jpg" width="100" height="100" alt=".NETラボ  髙尾 哲朗 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-203-4] インテリジェントクラウドを担う Microsoft Graph
+                .scheduleTable_line_title
+                  | [28-203-4] インテリジェントクラウドを担う Microsoft Graph
                 .scheduleTable_line_speaker .NETラボ  髙尾 哲朗 氏
             
           .scheduleTable_line
@@ -144,7 +195,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/FujioKojima.jpg" width="100" height="100" alt="福井コンピュータアーキテクト株式会社/Microsoft MVP Jul. 2005 - Jun. 2018 小島 富治雄 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-203-05] 初心者から上級者まで楽しめる！ドキドキ・ライブゴーデイング対決！
+                .scheduleTable_line_title
+                  | [28-203-05] 初心者から上級者まで楽しめる！ドキドキ・ライブゴーデイング対決！
                 .scheduleTable_line_speaker 福井コンピュータアーキテクト株式会社/Microsoft MVP Jul. 2005 - Jun. 2018 小島 富治雄 氏
 
           .scheduleTable_line
@@ -199,7 +251,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/KaoruNakamura.jpg" width="100" height="100" alt="Microsoft MVP / HoloLab / HoloMagicians / TMCN 中村 薫 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-203-2] HoloLens/Windows MR概要
+                .scheduleTable_line_title
+                  | [29-203-2] HoloLens/Windows MR概要
                 .scheduleTable_line_speaker Microsoft MVP / HoloLab / HoloMagicians / TMCN 中村 薫 氏
             
           .scheduleTable_line
@@ -212,7 +265,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/AkiraHatsune.jpg" width="100" height="100" alt=""
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-203-3] HoloLens/Windows MR開発入門
+                .scheduleTable_line_title
+                  | [29-203-3] HoloLens/Windows MR開発入門
                 .scheduleTable_line_speaker Microsoft MVP / HoloLab / HoloMagicians / TMCN 初音 玲 氏
             
           .scheduleTable_line
@@ -225,7 +279,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/AkihiroUeyama.jpg" width="100" height="100" alt="HoloLab / HoloMagicians 上山 晃弘 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-203-4] Academy 250から見るHoloLensとWindows MRデバイスの連携
+                .scheduleTable_line_title
+                  | [29-203-4] Academy 250から見るHoloLensとWindows MRデバイスの連携
                 .scheduleTable_line_speaker HoloLab / HoloMagicians 上山 晃弘 氏
             
           .scheduleTable_line
@@ -238,56 +293,10 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/TomoshiMaemoto.jpg" width="100" height="100" alt="Microsoft MVP / HoloLab / HoloMagicians / TMCN 前本 知志 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-203-05] HoloLensとさまざまなデバイス連携ドドンドーン 
+                .scheduleTable_line_title
+                  | [29-203-05] HoloLensとさまざまなデバイス連携ドドンドーン 
                 .scheduleTable_line_speaker Microsoft MVP / HoloLab / HoloMagicians / TMCN 前本 知志 氏
 
-  .schedule
-    h2.schedule_title#contents-iot IoT学科
-    .tab-content
-      .tab-pane.active
-        .scheduleTable
-          .scheduleTable_line
-            .scheduleTable_line_time 
-              | 2017-10-29
-              br/
-              | 10:00 - 10:15
-              .scheduleTable_line_time_min 15min
-            .scheduleTable_line_session
-              .scheduleTable_line_speakerIcon 
-                img src="../assets/images/speakers/TomonoriYako.jpg" width="100" height="100" alt="株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼"
-              .scheduleTable_line_descriptions
-                .scheduleTable_line_title 学科長ご挨拶
-                .scheduleTable_line_speaker 株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼 氏
-            
-          .scheduleTable_line
-            .scheduleTable_line_time 
-              | 2017-10-29
-              br/
-              | 10:15 - 11:45
-              .scheduleTable_line_time_min 90min
-            .scheduleTable_line_session
-              .scheduleTable_line_speakerIcon 
-                img src="../assets/images/speakers/TomonoriYako.jpg" width="100" height="100" alt="株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼 氏"
-              .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-202-1] IoT事例で創る東北のビジネスと絆
-                .scheduleTable_line_speaker 株式会社ウフル 兼 エグゼクティブコンサルタント 八子 知礼 氏
-            
-          .scheduleTable_line
-            .scheduleTable_line_time 
-            .scheduleTable_line_session
-              .scheduleTable_line_speakerIcon 
-                img src="../assets/images/speakers/KoizumiKoji.jpg" width="100" height="100" alt="株式会社アールジーン / IoTNEWS 代表 小泉 耕二 氏"
-              .scheduleTable_line_descriptions
-                .scheduleTable_line_speaker 株式会社アールジーン / IoTNEWS 代表 小泉 耕二 氏
-            
-          .scheduleTable_line
-            .scheduleTable_line_time 
-            .scheduleTable_line_session
-              .scheduleTable_line_speakerIcon 
-                img src="../assets/images/speakers/KojiOzeki.jpg" width="100" height="100" alt="株式会社セカンドファクトリー 代表取締役 CEO &amp; CVO / ブエナピンタ株式会社 代表取締役 CEO &amp; CVO 大関 興治 氏"
-              .scheduleTable_line_descriptions
-                .scheduleTable_line_speaker 株式会社セカンドファクトリー 代表取締役 CEO &amp; CVO / ブエナピンタ株式会社 代表取締役 CEO &amp; CVO 大関 興治 氏
-    
   .schedule
     h2.schedule_title#contents-it-exhibition IT体験展示
     .tab-content
@@ -390,7 +399,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/MayaIshida.jpg" width="100" height="100" alt="株式会社オープンストリーム 石田 真彩 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-204-2] Jedisを使ってRedisを操作してみよう
+                .scheduleTable_line_title
+                  | [28-204-2] Jedisを使ってRedisを操作してみよう
                 .scheduleTable_line_speaker 株式会社オープンストリーム 石田 真彩 氏
             
           .scheduleTable_line
@@ -403,7 +413,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/YuichiSakuraba.jpg" width="100" height="100" alt="Java in the Box 櫻庭 祐一 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-204-3] Java SEの現在、過去、そして未来
+                .scheduleTable_line_title
+                  | [28-204-3] Java SEの現在、過去、そして未来
                 .scheduleTable_line_speaker Java in the Box 櫻庭 祐一 氏
             
           .scheduleTable_line
@@ -416,7 +427,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/YoshioTerada.png" width="100" height="100" alt="日本マイクロソフト株式会社 寺田 佳央 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-204-4] JavaOne 2017で得た最新クラウド ＆ エンプラ Java 情報
+                .scheduleTable_line_title
+                  | [28-204-4] JavaOne 2017で得た最新クラウド ＆ エンプラ Java 情報
                 .scheduleTable_line_speaker 日本マイクロソフト株式会社 寺田 佳央 氏
             
           .scheduleTable_line
@@ -429,7 +441,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/MayaIshida.jpg" width="100" height="100" alt="株式会社オープンストリーム 石田 真彩 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-204-05] Javaコミュニティ&カンファレンス座談会 
+                .scheduleTable_line_title
+                  | [28-204-05] Javaコミュニティ&カンファレンス座談会 
                 .scheduleTable_line_speaker 株式会社オープンストリーム 石田 真彩 氏
 
           .scheduleTable_line
@@ -476,7 +489,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/MasayukiMokudai.jpg" width="100" height="100" alt="株式会社ソノリテ　シニア・エバンジェリスト 目代 昌幸 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-201-2] Office 365 を使ってラクするための勘所
+                .scheduleTable_line_title
+                  | [28-201-2] Office 365 を使ってラクするための勘所
                 .scheduleTable_line_speaker 株式会社ソノリテ　シニア・エバンジェリスト 目代 昌幸 氏
             
           .scheduleTable_line
@@ -489,7 +503,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/MariMiyakawa.jpg" width="100" height="100" alt="フリーランス 宮川 麻里 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-201-3] Office 365 / GSuite による機械学習を活用した生産性向上
+                .scheduleTable_line_title
+                  | [28-201-3] Office 365 / GSuite による機械学習を活用した生産性向上
                 .scheduleTable_line_speaker フリーランス 宮川 麻里 氏
             
           .scheduleTable_line
@@ -502,7 +517,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/AtsuoYamasaki.jpg" width="100" height="100" alt="PiecePoint株式会社 山崎 淳朗 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-201-4] 学生＆社会人におくる「僕の私のSharePoint」
+                .scheduleTable_line_title
+                  | [28-201-4] 学生＆社会人におくる「僕の私のSharePoint」
                 .scheduleTable_line_speaker PiecePoint株式会社 山崎 淳朗 氏
             
           .scheduleTable_line
@@ -515,7 +531,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/RyoheiYoshijima.jpg" width="100" height="100" alt="Pacific Business Consulting, Inc. / 取締役 / 戦略事業推進室長 吉島 良平 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-201-5] まだまだ間に合う！ 文系＆理系の就職活動に役立つITキーワード解説
+                .scheduleTable_line_title
+                  | [28-201-5] まだまだ間に合う！ 文系＆理系の就職活動に役立つITキーワード解説
                 .scheduleTable_line_speaker Pacific Business Consulting, Inc. / 取締役 / 戦略事業推進室長 吉島 良平 氏
 
           .scheduleTable_line
@@ -570,7 +587,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/MasahikoEbisuda.jpg" width="100" height="100" alt="日本ビジネスシステムズ株式会社 / パートナーアライアンス本部クラウドアライアンス開発部部長 胡田 正彦 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-202-2] 今を生きるクラウドエンジニアが抑えておくべき技術と心構え
+                .scheduleTable_line_title
+                  | [28-202-2] 今を生きるクラウドエンジニアが抑えておくべき技術と心構え
                 .scheduleTable_line_speaker 日本ビジネスシステムズ株式会社 / パートナーアライアンス本部クラウドアライアンス開発部部長 胡田 正彦 氏
             
           .scheduleTable_line
@@ -583,7 +601,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/blank_user.png" width="100" height="100" alt="アマゾン ウェブ サービス ジャパン株式会社 / プラットホームビジネス開発部 ビジネス開発マネージャー(データベース) 北川 剛 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-202-3] AWSクラウド活用法
+                .scheduleTable_line_title
+                  | [28-202-3] AWSクラウド活用法
                 .scheduleTable_line_speaker アマゾン ウェブ サービス ジャパン株式会社 / プラットホームビジネス開発部 ビジネス開発マネージャー(データベース) 北川 剛 氏
             
           .scheduleTable_line
@@ -596,7 +615,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/MasayaSawada.jpg" width="100" height="100" alt="総合サービス株式会社 システム事業部統括部長 澤田 雅也 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-202-4] Azureクラウド活用法
+                .scheduleTable_line_title
+                  | [28-202-4] Azureクラウド活用法
                 .scheduleTable_line_speaker 総合サービス株式会社 システム事業部統括部長 澤田 雅也 氏
             
           .scheduleTable_line
@@ -609,7 +629,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/blank_user.png" width="100" height="100" alt="株式会社 SRIA / 技術フェロー 山本 誠樹 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[28-202-5] Azureクラウドでアプリ開発を行うポイントと勘所
+                .scheduleTable_line_title
+                  | [28-202-5] Azureクラウドでアプリ開発を行うポイントと勘所
                 .scheduleTable_line_speaker 株式会社 SRIA / 技術フェロー 山本 誠樹 氏
     
   .schedule
@@ -640,7 +661,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/JAVAjyoshibu.jpg" width="100" height="100" alt="Java女子部(横田　紋奈 氏/植木 光代 氏/江畑 彩 氏/渡辺 央好 氏/石田 真彩 氏)"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-105-23] こどもプログラミング体験講座 ゲームで学ぼう、プログラミング！
+                .scheduleTable_line_title
+                  | [29-105-23] こどもプログラミング体験講座 ゲームで学ぼう、プログラミング！
                 .scheduleTable_line_speaker Java女子部(横田　紋奈 氏/植木 光代 氏/江畑 彩 氏/渡辺 央好 氏/石田 真彩 氏)
     
   .schedule
@@ -671,7 +693,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/blank_user.png" width="100" height="100" alt="新田 順也 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-201-2] Wordの便利機能を簡単に使いこなす俺の活用術！-Word用OfficeアドインとWordマクロ-
+                .scheduleTable_line_title
+                  | [29-201-2] Wordの便利機能を簡単に使いこなす俺の活用術！-Word用OfficeアドインとWordマクロ-
                 .scheduleTable_line_speaker 新田 順也 氏
             
           .scheduleTable_line
@@ -684,7 +707,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/ToruTanaka.jpg" width="100" height="100" alt="田中 亨 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-201-3] 迷惑をかけない俺のExcelの活用法
+                .scheduleTable_line_title
+                  | [29-201-3] 迷惑をかけない俺のExcelの活用法
                 .scheduleTable_line_speaker 田中 亨 氏
             
           .scheduleTable_line
@@ -697,7 +721,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/TakeshiKagata.jpg" width="100" height="100" alt="加賀田 猛 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-201-4] 俺の Power BI - 母さん、俺、オレ。毎日レポート作るの大変でさぁ。ちょっと助けてくんない？-
+                .scheduleTable_line_title
+                  | [29-201-4] 俺の Power BI - 母さん、俺、オレ。毎日レポート作るの大変でさぁ。ちょっと助けてくんない？-
                 .scheduleTable_line_speaker 加賀田 猛 氏
             
           .scheduleTable_line
@@ -710,7 +735,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/HiroyukiKawai.jpg" width="100" height="100" alt="novel's 河合 浩之 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-201-5] コピペで俺が使える！俺が動かした俺のPowerPoint 素材集2000　俺の使い倒し講座
+                .scheduleTable_line_title
+                  | [29-201-5] コピペで俺が使える！俺が動かした俺のPowerPoint 素材集2000　俺の使い倒し講座
                 .scheduleTable_line_speaker novel's 河合 浩之 氏    
 
   .schedule
@@ -780,7 +806,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/RocchelleKopp.jpg" width="100" height="100" alt="ジャパン・インターカルチュラル・コンサルティング ロッシェル・カップ 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-202-2] 英語の品格
+                .scheduleTable_line_title
+                  | [29-202-2] 英語の品格
                 .scheduleTable_line_speaker ジャパン・インターカルチュラル・コンサルティング ロッシェル・カップ 氏
             
           .scheduleTable_line
@@ -793,7 +820,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/KenAzuma.jpg" width="100" height="100" alt="インフラジスティックス・ジャパン株式会社 代表取締役・シニアUXアーキテクト 東 賢 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-202-3] 世界で通用する人材になるために私たちがやってきたこと
+                .scheduleTable_line_title
+                  | [29-202-3] 世界で通用する人材になるために私たちがやってきたこと
                 .scheduleTable_line_speaker インフラジスティックス・ジャパン株式会社 代表取締役・シニアUXアーキテクト 東 賢 氏
             
           .scheduleTable_line
@@ -814,7 +842,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/AyaKubo.jpg" width="100" height="100" alt="株式会社クニエ / シニアコンサルタント 久保 彩 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-202-4] オンラインMBA取得が私の人生を変えてくれた ～育児と両立しながら成長するには～
+                .scheduleTable_line_title
+                  | [29-202-4] オンラインMBA取得が私の人生を変えてくれた ～育児と両立しながら成長するには～
                 .scheduleTable_line_speaker 株式会社クニエ / シニアコンサルタント 久保 彩 氏
             
           .scheduleTable_line
@@ -827,7 +856,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
               	img src="../assets/images/speakers/TsuyoshiUshio.jpg" width="100" height="100" alt="Microsoft Corporation 牛尾 剛 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-202-5] 働き方を変えて生産性を高めるための8つの習慣
+                .scheduleTable_line_title
+                  | [29-202-5] 働き方を変えて生産性を高めるための8つの習慣
                 .scheduleTable_line_speaker Microsoft Corporation 牛尾 剛 氏
             
           .scheduleTable_line
@@ -867,7 +897,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/HiroyukiMori.jpg" width="100" height="100" alt="フリーランス / Microsoft MVP 森 博之 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-211-1] プロの開発者になるための3つのポイント～プログラミングを仕事にするために～
+                .scheduleTable_line_title
+                  | [29-211-1] プロの開発者になるための3つのポイント～プログラミングを仕事にするために～
                 .scheduleTable_line_speaker フリーランス / Microsoft MVP 森 博之 氏
             
           .scheduleTable_line
@@ -893,7 +924,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/ShikimachiKumiko.JPG" width="100" height="100" alt="一般社団法人日本プロポーザルマネジメント協会　代表理事 式町 久美子 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-211-2] 国際標準提案メソッドを活用したIT提案活動の勘所その１
+                .scheduleTable_line_title
+                  | [29-211-2] 国際標準提案メソッドを活用したIT提案活動の勘所その１
                 .scheduleTable_line_speaker 一般社団法人日本プロポーザルマネジメント協会　代表理事 式町 久美子 氏
             
           .scheduleTable_line
@@ -906,7 +938,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/ShikimachiKumiko.JPG" width="100" height="100" alt="一般社団法人日本プロポーザルマネジメント協会　代表理事 式町 久美子 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-211-3] 国際標準提案メソッドを活用したIT提案活動の勘所その２
+                .scheduleTable_line_title
+                  | [29-211-3] 国際標準提案メソッドを活用したIT提案活動の勘所その２
                 .scheduleTable_line_speaker 一般社団法人日本プロポーザルマネジメント協会　代表理事 式町 久美子 氏
             
           .scheduleTable_line
@@ -919,7 +952,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/blank_user.png" width="100" height="100" alt="株式会社エフシーケー 林 智久 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-211-4] 教育学部生必須 大学運営に必要なインフラITの仕組み大解剖！その１
+                .scheduleTable_line_title
+                  | [29-211-4] 教育学部生必須 大学運営に必要なインフラITの仕組み大解剖！その１
                 .scheduleTable_line_speaker 株式会社エフシーケー 林 智久 氏
             
           .scheduleTable_line
@@ -932,7 +966,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               .scheduleTable_line_speakerIcon 
                 img src="../assets/images/speakers/SatoruNasu.png" width="100" height="100" alt="株式会社エフシーケー 那須 悟 氏"
               .scheduleTable_line_descriptions
-                .scheduleTable_line_title \[29-211-5] 教育学部生必須 大学運営に必要なインフラITの仕組み大解剖！その2
+                .scheduleTable_line_title
+                  | [29-211-5] 教育学部生必須 大学運営に必要なインフラITの仕組み大解剖！その2
                 .scheduleTable_line_speaker 株式会社エフシーケー 那須 悟 氏
 
 
