@@ -91,14 +91,16 @@ section.section
           .speakers_list_item
             = image_tag dayones.profile_image_url, class: 'speakers_list_image'
             .speakers_list_name = dayones.name
-            .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + dayones.microsoftmvpcategoly
+            - if dayones.microsoftmvpcategoly?
+              .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + dayones.microsoftmvpcategoly
             .speakers_list_organization = dayones.organization
             .speakers_list_title = dayones.title
         - data.speakers.daytwos.each do |daytwos|
           .speakers_list_item
             = image_tag daytwos.profile_image_url, class: 'speakers_list_image'
             .speakers_list_name = daytwos.name
-            .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + daytwos.microsoftmvpcategoly
+            - if dayones.microsoftmvpcategoly?
+              .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + daytwos.microsoftmvpcategoly
             .speakers_list_organization = daytwos.organization
             .speakers_list_title = daytwos.title
 
