@@ -167,8 +167,8 @@ normals:
     profile: "松下電工（現パナソニック）、アーサーアンダーセン／ベリングポイント、デロイト トーマツ コンサルティング執行役員パートナー、シスココンサルティングサービスのシニアパートナーを経た後2016年４月より現職。通信／メディア／ハイテク業界中心のビジネスコンサルタントとして新規事業戦略立案、バリューチェーン再編等を多数経験。MCPC、ITスキル研究フォーラム、新世代M2Mコンソーシアムでの委員、理事などを歴任、現在はCUPA（クラウド利用促進機構）運営委員・アドバイザー、日本英語教育検定協会理事、mRuby普及促進協議会アドバイザーを務める。著書に「図解クラウド早わかり」「モバイルクラウド」（いずれも中経出版）がある。"
     link: http://iot.uhuru.co.jp/about/tomonori-yako/
   - name: 小泉 耕二
-    organization: 株式会社ウフル
-    title: IoTNEWS 代表 
+    organization: IoTNEWS
+    title: 代表 
     profile_image_url: /assets/images/speakers/KoizumiKoji.jpg
     profile: "1973年生まれ。大阪大学でニューロコンピューティングを学び、アンダーセンコンサルティング（現アクセンチュア）、Cap gemini Ernst & Youngテックファーム株式会社より現職。著書に、「２時間でわかる図解IoTビジネス入門（あさ出版）」がある。"
   - name: 大関 興治
