@@ -234,11 +234,13 @@ section.section.hidden-xs
 section.section
   .container
     h2.section_title 主催
-    p.text-center
+    h4.text-center
       | 仙台IT文化祭実行委員会
-
-    h2.section_title 共催
     p.text-center
+      = link_to '実行委員一覧', '/staff'
+
+    h3.section_title 共催
+    h4.text-center
       | 仙台市
 
     /p.text-center
@@ -257,6 +259,6 @@ section.section
         | Hosted by #{link_to 'GitHub', 'https://github.com/fullvirtue/sendaiitfes2017', target: '_blank'}
     .socialBtns
       .socialBtns_facebook
-        <div class="fb-like" data-href="http://sendaiitfes/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+        <div class="fb-like" data-href="http://2017.sendaiitfes.org/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
       .socialBtns_twitter
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="sendaiitfes">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
