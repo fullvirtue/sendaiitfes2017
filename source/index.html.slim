@@ -91,7 +91,7 @@ section.section
           .speakers_list_item
             = image_tag mvps.profile_image_url, class: 'speakers_list_image'
             .speakers_list_name = mvps.name
-            .speakers_list_microsoftmvpcategoly = Microsoft MVP for mvps.microsoftmvpcategoly
+            .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + mvps.microsoftmvpcategoly
             .speakers_list_organization = mvps.organization
             .speakers_list_title = mvps.title
         - data.speakers.rds.each do |rds|
