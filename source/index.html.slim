@@ -92,8 +92,8 @@ section.section
             .speakers_list_item
               = image_tag normals.profile_image_url, class: 'speakers_list_image'
               .speakers_list_name = normals.name
-              - if daytwos.microsoftmvpcategoly.present?
-                .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + daytwos.microsoftmvpcategoly
+              - if normals.microsoftmvpcategoly.present?
+                .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + normals.microsoftmvpcategoly
               .speakers_list_organization = normals.organization
               .speakers_list_title = normals.title
 
