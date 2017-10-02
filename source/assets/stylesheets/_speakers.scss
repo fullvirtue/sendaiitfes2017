@@ -121,6 +121,7 @@
       &:nth-child(16) { background-color: $brand-color; color: $brand-sub-text-color;}
 
       &:nth-child(1),
+      &:nth-child(10),
       &:nth-child(16) { width: 100%; }
 
       .fa { margin-right: 3px; }
