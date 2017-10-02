@@ -30,6 +30,11 @@
       font-weight: bold;
     }
 
+    &_microsoftmvpcategoly {
+      margin-top: 3px;
+      font-weight: bold;
+    }
+
     &_organization {
       margin-top: 3px;
       font-weight: bold;
@@ -40,6 +45,7 @@
       padding: 0 10px;
     }
 
+    &_microsoftmvpcategoly,
     &_organization,
     &_title {
       color: #888;

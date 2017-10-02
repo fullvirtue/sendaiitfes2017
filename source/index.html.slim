@@ -69,7 +69,7 @@ section.section
          dd
            | 意思決定者、IT管理職、IT担当職、開発者、エンドユーザー、パートナー、営業職、事務職
            br/
-           | 文理問わず大学生、高等専門学校生、短期大学生、専門学校生、小学生
+           | 文理問わず大学生、高等専門学校生、短期大学生、専門学校生、中学生、小学生高学年
          dt
            i.fa.fa-fw.fa-building
            | &nbsp;
@@ -91,6 +91,7 @@ section.section
           .speakers_list_item
             = image_tag mvps.profile_image_url, class: 'speakers_list_image'
             .speakers_list_name = mvps.name
+            .speakers_list_microsoftmvpcategoly = mvps.microsoftmvpcategoly
             .speakers_list_organization = mvps.organization
             .speakers_list_title = mvps.title
         - data.speakers.rds.each do |rds|
