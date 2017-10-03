@@ -168,10 +168,10 @@ normals:
     organization: 兵庫県立神戸工業高等学校
     title: 主幹教諭
     profile_image_url: /assets/images/speakers/YoshioMatsumto.jpg
-    profile: "兵庫県立神戸工業高等学校　主幹教諭　Microsoft MVP,マイクロソフト認定教育イノベーター（MIEE）松本吉生（まつもとよしお）高等学校の学籍管理システムをSQL Serverで構築運用し、2004年からマイクロソフトMVPを14年連続受賞。現在は工業高校でC#プログラミングやMicro:bitを使ったマイコンボードの実習を実践している。"
+    profile: "兵庫県立神戸工業高等学校　主幹教諭　Microsoft MVP,マイクロソフト認定教育イノベーター（MIEE）高等学校の学籍管理システムをSQL Serverで構築運用し、2004年からマイクロソフトMVPを14年連続受賞。現在は工業高校でC#プログラミングやMicro:bitを使ったマイコンボードの実習を実践している。"
     microsoftmvpcategoly: Data Platform
   - name: 松本 あきひろ
-    title: 小学生マインクラフト名人
+    organization: 小学生マインクラフト名人
     profile_image_url: /assets/images/speakers/AkihiroMatsumoto.jpg
     profile: "XBOX 360とPS VITA、Windows 10、そしてオリジナルのPC版のマインクラフトをやり、レッドストーン回路を極めた小学生。"
   - name: 瀬尾 佳隆
