@@ -69,7 +69,7 @@ normals:
     title: 技術フェロー
     profile_image_url: /assets/images/speakers/MasakiYamamoto.jpg
     profile: "10年以上、モバイル端末やWebシステムのアプリケーション開発に携わり2015年に独立。2017年4月より株式会社SRIAの技術フェロー就任。de:code 2017 に登壇。 .NET や Java のアプリケーション開発を得意とする。　好きな Azure のサービスは Azure App Service と Azure Container Instances。Microsoft MVP for Microsoft Azure 2014.7 〜 2018.6"
-    microsoftmvpcategoly: Visual Studio and Development Technologies
+    microsoftmvpcategoly: Microsoft Azure
   - name: 胡田 正彦
     organization: 日本ビジネスシステムズ株式会社
     title: パートナーアライアンス本部クラウドアライアンス開発部部長
