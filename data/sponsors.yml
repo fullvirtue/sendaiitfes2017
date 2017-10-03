@@ -24,6 +24,9 @@ logos:
   - name: グレープシティ株式会社
     url: http://www.grapecity.com/tools/jp/?sendaiitfes2017/
     logo_image_url: /assets/images/sponsors/grapecity.gif
+  - name: 株式会社フロッグポッド
+    url: https://www.frog-pod.com/
+    logo_image_url: /assets/images/sponsors/frogpod.png
 
 # silvers:
 #   - name: 株式会社お金のデザイン
