@@ -88,7 +88,7 @@ normals:
     profile: "中小企業の情報システム部門に勤務。<br />Windows Server Essentials のホワイトペーパーを多数執筆するかたわら、情報システム部門に必要な運用管理にかんするコンサルティングを行っている。<br />また、Azureの導入支援や運用に関するセミナーや勉強会を定期的に実施している。<br />２００９年よりMicrosoft の中小企業向けソリューションである「Small Business Servre」のMVPを受賞。<br />現在まで、９年連続受賞。"
     microsoftmvpcategoly: Cloud and Datacenter Management
   - name: 髙尾 哲朗
-    organization: .NETラボ
+    organization: .NETラボ、株式会社エフシーケー
     profile_image_url: /assets/images/speakers/TetsuroTakao.jpg
     profile: "システム構築のプロセス評価、改善、策定、開発フレームワークの設計、実装管理、プリセールスやプロジェクトの立ち上げなどを行っています。"
     microsoftmvpcategoly: Visual Studio and Development Technologies

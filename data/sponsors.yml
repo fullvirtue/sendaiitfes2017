@@ -27,6 +27,9 @@ logos:
   - name: 株式会社フロッグポッド
     url: https://www.frog-pod.com/
     logo_image_url: /assets/images/sponsors/frogpod.png
+  - name: 株式会社マクロミル
+    url: https://www.macromill.com/
+    logo_image_url: /assets/images/sponsors/macromill.png
 
 # silvers:
 #   - name: 株式会社お金のデザイン
