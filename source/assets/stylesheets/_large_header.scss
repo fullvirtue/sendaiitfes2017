@@ -66,14 +66,27 @@
     }
   }
 
+  .containers {
+    position: relative;
+
+    .largeHeader_signup {
+      position: absolute;
+      z-index: 5;
+      width: 100%;
+      top: -200px;
+    }
+
+    @media screen and (max-width: 720px) {
+      .largeHeader_signup {
+        position: initial;
+      }
+    }
+  }
+
   &_signup {
     margin: 40px auto 20px;
 
     &_button {
-      position: absolute;
-      z-index: 5;
-      top: 370px;
-      right: 40%;
       border-radius: 4px;
       padding: 10px 50px;
       font-size: 18px;

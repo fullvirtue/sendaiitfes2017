@@ -148,6 +148,12 @@ video {
   display: none
 }
 
+.commonHeader.white {
+  position: absolute;
+  z-index: 5;
+  background-color: inherit;
+}
+
 @media screen and (max-width: 720px) {
   .headerAnime {
     position: absolute;
@@ -197,7 +203,7 @@ video {
     top: 5px;
     text-align: center;
     display: table-cell;
-    width: 336px
+    width: 340px
   }
   .countdown_wrapper .colon {
     font-size: 15px;
@@ -211,6 +217,10 @@ video {
   }
   .countdown_wrapper .countdowntext img {
     width: 210px
+  }
+
+  .commonHeader.white {
+    display: none;
   }
 }
 
@@ -257,12 +267,6 @@ video {
       float: none;
     }
   }
-}
-
-.commonHeader.white {
-  position: absolute;
-  z-index: 5;
-  background-color: inherit;
 }
 
 .head-contents {
