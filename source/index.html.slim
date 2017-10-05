@@ -1,86 +1,190 @@
-script#vertex-shader[type="x-shader/x-vertex"]
-  |  precision mediump float; //varying vec2 vUv; //varying vec3 vNormal; attribute float rotation; attribute float times; uniform float u_time; varying float v_mod_time; mat4 scaleMatrix(float scale_x, float scale_y, float scale_z) { return mat4( scale_x, 0., 0., 0., 0., scale_y, 0., 0., 0., 0., scale_z, 0., 0., 0., 0., 1. ); } mat4 rotationMatrix(vec3 axis, float angle) { axis = normalize(axis); float s = sin(angle); float c = cos(angle); float oc = 1.0 - c; return mat4( oc * axis.x * axis.x + c, oc * axis.x * axis.y - axis.z * s, oc * axis.z * axis.x + axis.y * s, 0.0, oc * axis.x * axis.y + axis.z * s, oc * axis.y * axis.y + c, oc * axis.y * axis.z - axis.x * s, 0.0, oc * axis.z * axis.x - axis.y * s, oc * axis.y * axis.z + axis.x * s, oc * axis.z * axis.z + c, 0.0, 0.0, 0.0, 0.0, 1.0 ); } void main() { //vNormal = normal; //vUv = uv; vec3 _position = position; _position.y += 10.; // random value float r1 = fract(sin(dot(_position.yz ,vec2(12.9898,78.233))) * 43758.5453) - .5; float r2 = fract(sin(dot(_position.yz ,vec2(112.9898,178.233))) * 43758.5453) - .5; float elapsed_time = u_time - times; float mod_time = mod(elapsed_time / 5., 1.); v_mod_time = mod_time; _position.x += r1 * mod_time * 1. + sin(mod_time * 6. + r1 * 3.) * .5; _position.y += -40. * mod_time; _position.z += r2 * mod_time * 1. + sin(mod_time * 24. + r2 * 3.) * .5; vec4 mvPosition = modelViewMatrix * vec4(_position, 1.); float _rotation = rotation; _rotation += mod_time * 2.; vec2 mvPositionOffset = vec2(1., 1.); mvPositionOffset *= mat2( cos(_rotation), -sin(_rotation), sin(_rotation), cos(_rotation) ); mvPosition.xy += mvPositionOffset; gl_Position = projectionMatrix * mvPosition; }
-script#fragment-shader[type="x-shader/x-fragment"]
-  |  precision mediump float; varying float v_mod_time; void main() { float opacity = smoothstep(.1, .5, v_mod_time) - smoothstep(.5, .7, v_mod_time); float blue = sin(v_mod_time); gl_FragColor = vec4(opacity, 0.9, 0.8, opacity * 0.6); }
-.videoWrapper
-  video#videos.onlyPC[autoplay muted playsinline]
-    source[src="assets/images/header2.mp4"]
-      p
-        | 動画を再生するには、videoタグをサポートしたブラウザが必要です。
-.wrapper
-.headerAnime.onlySP
-  img.loopImg[src="assets/images/header.gif"]
-.logo
-  img.onlyPC[src="assets/images/logo.png" alt=""]
-  img.onlySP[src="assets/images/logo_sp.png" alt=""]
-.countdown.cf
-  .countdown_wrapper.cf
-    .countdowntext
-      img[src="assets/images/countdown_txt_1.png" alt="仙台IT文化祭 開催まで"]
-    #day
-      .box
-        .top
-          | 01
-        .top2
-          | 00
-      .box2
-        .bottom
-          | 00
-        .bottom2
-          | 01
-    .colon
-      | days
-    #hour
-      .box
-        .top
-          | 01
-        .top2
-          | 00
-      .box2
-        .bottom
-          | 00
-        .bottom2
-          | 01
-    .colon
-      | hour
-    #min
-      .box
-        .top
-          | 01
-        .top2
-          | 00
-      .box2
-        .bottom
-          | 00
-        .bottom2
-          | 01
-    .colon
-      | min
-    #sec
-      .box
-        .top
-          | 01
-        .top2
-          | 00
-      .box2
-        .bottom
-          | 00
-        .bottom2
-          | 01
-    .colon.last
-      | sec
-    .clear.cf
+| <script type="x-shader/x-vertex" id="vertex-shader">
+|   precision mediump float;
+|
+|   attribute float rotation;
+|   attribute float times;
+|
+|   uniform float u_time;
+|
+|   varying float v_mod_time;
+|
+|   mat4 scaleMatrix(float scale_x, float scale_y, float scale_z) {
+|         return mat4(
+|             scale_x, 0., 0., 0.,
+|             0., scale_y, 0., 0.,
+|             0., 0., scale_z, 0.,
+|             0., 0., 0., 1.
+|         );
+|   }
+|
+|   mat4 rotationMatrix(vec3 axis, float angle) {
+|         axis = normalize(axis);
+|         float s = sin(angle);
+|         float c = cos(angle);
+|         float oc = 1.0 - c;
+|
+|         return mat4(
+|             oc * axis.x * axis.x + c,
+|             oc * axis.x * axis.y - axis.z * s,
+|             oc * axis.z * axis.x + axis.y * s,
+|             0.0,
+|             oc * axis.x * axis.y + axis.z * s,
+|             oc * axis.y * axis.y + c,
+|             oc * axis.y * axis.z - axis.x * s,
+|             0.0,
+|             oc * axis.z * axis.x - axis.y * s,
+|             oc * axis.y * axis.z + axis.x * s,
+|             oc * axis.z * axis.z + c,
+|             0.0,
+|             0.0,
+|             0.0,
+|             0.0,
+|             1.0
+|         );
+|   }
+|
+|   void main() {
+|
+|         vec3 _position = position;
+|         _position.y += 10.;
+|
+|         float r1 = fract(sin(dot(_position.yz ,vec2(12.9898,78.233))) * 43758.5453) - .5;
+|         float r2 = fract(sin(dot(_position.yz ,vec2(112.9898,178.233))) * 43758.5453) - .5;
+|
+|         float elapsed_time = u_time - times;
+|         float mod_time = mod(elapsed_time / 5., 1.);
+|         v_mod_time = mod_time;
+|
+|         _position.x += r1 * mod_time * 1. + sin(mod_time * 6. + r1 * 3.) * .5;
+|         _position.y += -40. * mod_time;
+|         _position.z += r2 * mod_time * 1. + sin(mod_time * 24. + r2 * 3.) * .5;
+|
+|         vec4 mvPosition = modelViewMatrix * vec4(_position, 1.);
+|
+|         float _rotation = rotation;
+|         _rotation += mod_time * 2.;
+|
+|         vec2 mvPositionOffset = vec2(1., 1.);
+|         mvPositionOffset *= mat2(
+|             cos(_rotation), -sin(_rotation),
+|             sin(_rotation), cos(_rotation)
+|         );
+|         mvPosition.xy += mvPositionOffset;
+|
+|         gl_Position = projectionMatrix * mvPosition;
+|   }
+| </script>
+|
+| <script type="x-shader/x-fragment" id="fragment-shader">
+| precision mediump float;
+|
+| varying float v_mod_time;
+|
+| void main() {
+|         float opacity = smoothstep(.1, .5, v_mod_time) - smoothstep(.5, .7, v_mod_time);
+|         float blue = sin(v_mod_time);
+|
+|         gl_FragColor = vec4(opacity, 0.9, 0.8, opacity * 0.6);
+|
+| }
+| </script>
+.commonHeader.white
+  .container
+    = link_to '/', class: 'commonHeader_siteLogo' do
+      h1.commonHeader_siteLogo
+
+    nav.commonHeaderNavigation
+      ul.list-unstyled
+        / li.commonHeaderNavigation_list = link_to '記事一覧', '/articles'
+        / li.commonHeaderNavigation_list = link_to 'Tips', '/tips'
+        / li.commonHeaderNavigation_list = link_to 'ロゴデータ', '/resources'
+        / li.commonHeaderNavigation_list = link_to '取材・情報発信', '/publishing-guideline'
+        li.commonHeaderNavigation_list
+          = link_to 'https://sendaiitfes.doorkeeper.jp/events/upcoming', class: 'commonHeaderNavigation_signup', title: 'Doorkeeperで申込み', target: '_blank' do
+            i.fa.fa-external-link
+            | &nbsp;
+            | 参加申込み
+        li.commonHeaderNavigation_list = link_to 'タイムテーブル', '/schedule'
+        / li.commonHeaderNavigation_list = link_to '公開資料まとめ', '/documents'
+        li.commonHeaderNavigation_list = link_to '運営', '/staff'
+
+.head-contents
+  .videoWrapper
+    video#videos.onlyPC[autoplay muted playsinline]
+      source[src="assets/images/header2.mp4"]
+        p
+          | 動画を再生するには、videoタグをサポートしたブラウザが必要です。
+  .wrapper
+  .headerAnime.onlySP
+    img.loopImg[src="assets/images/header.gif"]
+  .logo
+    img.onlyPC[src="assets/images/logo.png" alt=""]
+    img.onlySP[src="assets/images/logo_sp.png" alt=""]
+  .countdown.cf
+    .countdown_wrapper.cf
+      .countdowntext
+        img[src="assets/images/countdown_txt_1.png" alt="仙台IT文化祭 開催まで"]
+      #day
+        .box
+          .top
+            | 01
+          .top2
+            | 00
+        .box2
+          .bottom
+            | 00
+          .bottom2
+            | 01
+      .colon
+        | days
+      #hour
+        .box
+          .top
+            | 01
+          .top2
+            | 00
+        .box2
+          .bottom
+            | 00
+          .bottom2
+            | 01
+      .colon
+        | hour
+      #min
+        .box
+          .top
+            | 01
+          .top2
+            | 00
+        .box2
+          .bottom
+            | 00
+          .bottom2
+            | 01
+      .colon
+        | min
+      #sec
+        .box
+          .top
+            | 01
+          .top2
+            | 00
+        .box2
+          .bottom
+            | 00
+          .bottom2
+            | 01
+      .colon.last
+        | sec
+      .clear.cf
 
 .largeHeader
   .containers
-    img.header-img.pc src="/assets/images/headerit_top_pc.svg"
-    img.header-img.sp src="/assets/images/headerit_top_sp.svg"
-      h2.largeHeader_date
-      .largeHeader_signup
-        = link_to 'https://sendaiitfes.doorkeeper.jp/events/upcoming', class: 'largeHeader_signup_button', title: 'Doorkeeperで申込み', target: '_blank' do
-         i.fa.fa-external-link
-         | &nbsp;
-         | 参加申込み
+    .largeHeader_signup
+      = link_to 'https://sendaiitfes.doorkeeper.jp/events/upcoming', class: 'largeHeader_signup_button', title: 'Doorkeeperで申込み', target: '_blank' do
+       i.fa.fa-external-link
+       | &nbsp;
+       | 参加申込み
 
 section.section
   .container
