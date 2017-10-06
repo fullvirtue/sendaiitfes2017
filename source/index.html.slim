@@ -364,6 +364,10 @@ section.section
     .sponsors_list
       - data.sponsors.golds.each do |golds|
         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
+    h3.sponsors_title MEDIA SPONSORS
+    .sponsors_list
+      - data.sponsors.medias.each do |medias|
+        = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
     h3.sponsors_title LOGO SPONSORS
     .sponsors_list
       - data.sponsors.logos.each do |logos|
@@ -400,10 +404,7 @@ section.section
 /     .sponsors_list
 /       - data.sponsors.goods.each do |goods|
 /         = link_to image_tag(goods.logo_image_url), goods.url, class: 'sponsors_list_item-goods', target: '_blank', title: goods.name, 'data-toggle' => 'tooltip'
-/     h3.sponsors_title MEDIA SPONSORS
-/     .sponsors_list
-/       - data.sponsors.medias.each do |medias|
-/         = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
+
 
 section.section
   .container

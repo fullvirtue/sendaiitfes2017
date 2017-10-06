@@ -31,6 +31,11 @@ logos:
     url: http://www.ranaextractive.com/
     logo_image_url: /assets/images/sponsors/ranaextractive.png
 
+medias:
+  - name: 月刊I/O
+    url: http://www.kohgakusha.co.jp/io/
+    logo_image_url: /assets/images/sponsors/io.png
+
 # silvers:
 #   - name: 株式会社お金のデザイン
 #     url: https://theo.blue/
@@ -39,10 +44,6 @@ logos:
 #   - name: スマートニュース株式会社
 #     url: http://about.smartnews.com/ja/about/
 #     logo_image_url: /assets/images/sponsors/smartnews.png
-# medias:
-#   - name: CAREER HACK
-#     url: http://careerhack.en-japan.com/
-#     logo_image_url: /assets/images/sponsors/careerhack.jpg
 # communities:
 #   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
 #     url: http://www.postudy.com/
@@ -56,4 +57,7 @@ communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
     logo_image_url: /assets/images/sponsors/postudy.png
+  - name: APMP日本支部
+    url: https://www.apmp.jp/
+    logo_image_url: /assets/images/sponsors/apmp.jpg
 
