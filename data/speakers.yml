@@ -140,17 +140,6 @@ normals:
     organization: Java Champion 日本マイクロソフト株式会社
     profile_image_url: /assets/images/speakers/YoshioTerada.png
     profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br />2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br />2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br />2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。"
-  - name: 小泉 勝志郎
-    organization: 株式会社テセラクト
-    organization2: シニアプログラミングネットワーク
-    title: 代表取締役
-    title2: 代表
-    profile_image_url: /assets/images/speakers/KatsushiroKoizumi.jpg
-    profile: "東北IT界の先導役的存在。コミュニティ活動で東北でも有数のイベント主催数を誇る。震災における地域復興活動も多く、最近では「渚の妖精ぎばさちゃん」を生み出し、人気上昇中。WWDC2017で大きく話題となった史上最高齢アプリ開発者の仕掛け人でもある。大学や企業での講師等のITの教育を始め、アプリ制作、そしてITを介して多業種連携、そしてグルメ、音楽・映画など得意分野は幅広い"
-    github: https://github.com/koi_zoom1
-    twitter: https://twitter.com/koi_zoom1
-    facebook: https://www.facebook.com/katsushiro.koizumi
-    link: https://www.tesseract.site/
   - name: 太田 伸志
     organization: 株式会社ラナエクストラクティブ
     title: 代表取締役社長兼CEO
@@ -165,6 +154,17 @@ normals:
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
     link: http://www.ranaextractive.com
+  - name: 小泉 勝志郎
+    organization: 株式会社テセラクト
+    organization2: シニアプログラミングネットワーク
+    title: 代表取締役
+    title2: 代表
+    profile_image_url: /assets/images/speakers/KatsushiroKoizumi.jpg
+    profile: "東北IT界の先導役的存在。コミュニティ活動で東北でも有数のイベント主催数を誇る。震災における地域復興活動も多く、最近では「渚の妖精ぎばさちゃん」を生み出し、人気上昇中。WWDC2017で大きく話題となった史上最高齢アプリ開発者の仕掛け人でもある。大学や企業での講師等のITの教育を始め、アプリ制作、そしてITを介して多業種連携、そしてグルメ、音楽・映画など得意分野は幅広い"
+    github: https://github.com/koi_zoom1
+    twitter: https://twitter.com/koi_zoom1
+    facebook: https://www.facebook.com/katsushiro.koizumi
+    link: https://www.tesseract.site/
   - name: 山岡 まどか
     organization: 楽天株式会社
     title: 顧客戦略統括部　お買いものパンダプロデューサー
