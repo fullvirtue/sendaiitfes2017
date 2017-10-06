@@ -206,6 +206,13 @@ normals:
     organization: 小学生マインクラフト名人
     profile_image_url: /assets/images/speakers/AkihiroMatsumoto.jpg
     profile: "XBOX 360とPS VITA、Windows 10、そしてオリジナルのPC版のマインクラフトをやり、レッドストーン回路を極めた小学生。"
+  - name: uwabami
+    organization: アートユニット／イラストレーター
+    profile_image_url: /assets/images/profile_images/blank_user.png
+    profile: "ムトウアキヒト・はらだかおるによるアートユニット。仙台出身。仙台第一高校卒、宮城一女卒。２０１０年８月結成。"
+    twitter: https://twitter.com/uwabami_jp
+    facebook: https://www.facebook.com/uwabami-170558203001989/
+    link: http://uwabami.jp/
   - name: 新田 順也
     profile_image_url: /assets/images/speakers/JyunyaNitta.png
     microsoftmvpcategoly: Word
