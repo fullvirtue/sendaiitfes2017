@@ -374,14 +374,18 @@ section.section
       .sponsors_list
         - data.sponsors.silvers.each do |silvers|
           = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
-    h3.sponsors_title MEDIA SPONSORS
+    h3.sponsors_title STAMP RALLY SPONSORS
     .sponsors_list
-      - data.sponsors.medias.each do |medias|
-        = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
+      - data.sponsors.stamps.each do |stamps|
+        = link_to image_tag(stamps.logo_image_url), stamps.url, class: 'sponsors_list_item-logos', target: '_blank', title: stamps.name, 'data-toggle' => 'tooltip'
     h3.sponsors_title LOGO SPONSORS
     .sponsors_list
       - data.sponsors.logos.each do |logos|
         = link_to image_tag(logos.logo_image_url), logos.url, class: 'sponsors_list_item-logos', target: '_blank', title: logos.name, 'data-toggle' => 'tooltip'
+    h3.sponsors_title MEDIA SPONSORS
+    .sponsors_list
+      - data.sponsors.medias.each do |medias|
+        = link_to image_tag(medias.logo_image_url), medias.url, class: 'sponsors_list_item-medias', target: '_blank', title: medias.name, 'data-toggle' => 'tooltip'
 
     .sponsors_description
       h4 スポンサーについて

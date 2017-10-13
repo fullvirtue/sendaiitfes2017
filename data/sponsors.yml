@@ -25,6 +25,11 @@ silvers:
     url: https://www.ericsson.com/jp/ja/about-us/japan
     logo_image_url: /assets/images/sponsors/ericsson.png
 
+stamps:
+  - name: RALLY
+    url: https://rallyapp.jp/
+    logo_image_url: /assets/images/sponsors/rally.png
+
 logos:
   - name: グレープシティ株式会社
     url: http://www.grapecity.com/tools/jp/?sendaiitfes2017/
@@ -59,15 +64,10 @@ medias:
     url: https://iotnews.jp/
     logo_image_url: /assets/images/sponsors/IoTNews.png
 
-
 # drinks:
 #   - name: 
 #     url: http://about.smartnews.com/ja/about/
 #     logo_image_url: /assets/images/sponsors/smartnews.png
-# goods:
-#   - name: 
-#     url: http://spicelife.jp
-#     logo_image_url: /assets/images/sponsors/spicelife.png
 
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
