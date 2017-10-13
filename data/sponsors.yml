@@ -73,9 +73,15 @@ communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
     logo_image_url: /assets/images/sponsors/postudy.png
+  - name: Product Manager Conference
+    url: http://pmconf.jp/
+    logo_image_url: /assets/images/sponsors/pmconf.png
   - name: APMP日本支部
     url: https://www.apmp.jp/
     logo_image_url: /assets/images/sponsors/apmp.jpg
+  - name: すくすくスクラム仙台
+    url: https://sukusuku-sendai.doorkeeper.jp
+    logo_image_url: /assets/images/sponsors/sukusuku.jpg
   - name: はじめてのIT勉強会
     url: http://xn--it-383a7bxbd1kq83yq6gfn6a.com/
     logo_image_url: /assets/images/sponsors/hajimete.png
