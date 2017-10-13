@@ -84,9 +84,9 @@ $(function() {
     var ww = $(window).width();
     var wh = $(window).height();
 
-    $('video').offset({
-      top: ($(".wrapper").height() - $('video').height()) * .5,
-      left: (ww - $('video').width()) * .5
+    $('#videos').offset({
+      top: ($(".wrapper").height() - $('#videos').height()) * .5,
+      left: (ww - $('#videos').width()) * .5
     });
 
     $('.countdown').height($('.countdown_wrapper').height() + 26);

@@ -52,3 +52,15 @@
     }
   }
 }
+
+video#wow {
+  width: 60%;
+  margin: auto;
+  display: block;
+  min-width: inherit;
+
+  @media (max-width: $screen-xs-max) {
+    width: 100%;
+  }
+
+}
