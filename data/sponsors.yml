@@ -21,6 +21,9 @@ silvers:
   - name: サイボウズ株式会社
     url: https://www.cybozu.com/
     logo_image_url: /assets/images/sponsors/cybozu.png
+  - name: エリクソン・ジャパン株式会社
+    url: https://www.ericsson.com/jp/ja/about-us/japan
+    logo_image_url: /assets/images/sponsors/ericsson.png
 
 logos:
   - name: グレープシティ株式会社
