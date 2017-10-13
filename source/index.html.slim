@@ -418,6 +418,20 @@ section.section
       - data.sponsors.communities.each do |communities|
         = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
 
+    .sponsors_description
+      h4 後援コミュニティについて
+      p 仙台IT文化祭 2017 では、本カンファレンスにご協賛いただける後援コミュニティを募集しております。仙台IT文化祭を支えるコミュニティとして、コミュニティをアピールできるまたとない機会です。後援プログラムの詳細については、以下の資料をご参照ください。皆様のご支援をお待ちしております。
+      = link_to 'http://2017.sendaiitfes.org/assets/files/sendaiitfes_community_letter_2017.pdf', target: '_blank', rel: 'nofollow'
+        i.fa.fa-file-pdf-o
+        | &nbsp;
+        | 仙台IT文化祭2017 ご後援のお願い
+        br/
+      = link_to 'http://2017.sendaiitfes.org/assets/files/sendaiitfes_community_certificate_2017.docx', target: '_blank', rel: 'nofollow'
+        i.fa.fa-file-pdf-o
+        | &nbsp;
+        | 仙台IT文化祭2017_後援確認書
+
+
 section.section.hidden-xs
   .container
     .row
