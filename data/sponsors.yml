@@ -35,6 +35,12 @@ logos:
   - name: APMP日本支部
     url: https://www.apmp.jp/
     logo_image_url: /assets/images/sponsors/apmp.jpg
+  - name: 株式会社ウフル
+    url: http://uhuru.co.jp/
+    logo_image_url: /assets/images/sponsors/uhuru.png
+  - name: 株式会社セカンドファクトリー
+    url: http://www.2ndfactory.com/
+    logo_image_url: /assets/images/sponsors/2ndFactory.jpg
   - name: 株式会社マクロミル
     url: https://www.macromill.com/
     logo_image_url: /assets/images/sponsors/macromill.png
@@ -49,6 +55,9 @@ medias:
   - name: 月刊I/O
     url: http://www.kohgakusha.co.jp/io/
     logo_image_url: /assets/images/sponsors/io.png
+  - name: IoTNEWS
+    url: https://iotnews.jp/
+    logo_image_url: /assets/images/sponsors/IoTNews.png
 
 
 # drinks:
