@@ -369,6 +369,11 @@ section.section
     .sponsors_list
       - data.sponsors.golds.each do |golds|
         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
+    - if data.sponsors.silvers.present?
+      h3.sponsors_title SILVER SPONSORS
+      .sponsors_list
+        - data.sponsors.silvers.each do |silvers|
+          = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
     h3.sponsors_title MEDIA SPONSORS
     .sponsors_list
       - data.sponsors.medias.each do |medias|
@@ -396,11 +401,6 @@ section.section
         | &nbsp;
         | Rebirth!東北 2016 開催のご報告
 
-/     - if data.sponsors.silvers.present?
-/       h3.sponsors_title SILVER SPONSORS
-/       .sponsors_list
-/         - data.sponsors.silvers.each do |silvers|
-/           = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
 /     h3.sponsors_title DRINK SPONSORS
 /     .sponsors_list
 /       - data.sponsors.drinks.each do |drinks|

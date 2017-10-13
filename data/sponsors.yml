@@ -17,6 +17,11 @@ golds:
     url: https://pe-bank.jp/
     logo_image_url: /assets/images/sponsors/pebank.jpg
 
+silvers:
+  - name: サイボウズ株式会社
+    url: https://cybozu.co.jp/company/job/recruitment/list/product_manager.html
+    logo_image_url: /assets/images/sponsors/cybozu.png
+
 logos:
   - name: グレープシティ株式会社
     url: http://www.grapecity.com/tools/jp/?sendaiitfes2017/
@@ -42,10 +47,7 @@ medias:
     url: http://www.kohgakusha.co.jp/io/
     logo_image_url: /assets/images/sponsors/io.png
 
-# silvers:
-#   - name: 株式会社お金のデザイン
-#     url: https://theo.blue/
-#     logo_image_url: /assets/images/sponsors/money-design.png
+
 # drinks:
 #   - name: スマートニュース株式会社
 #     url: http://about.smartnews.com/ja/about/
