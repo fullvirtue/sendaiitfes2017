@@ -33,6 +33,9 @@ logos:
   - name: 株式会社ラナエクストラクティブ
     url: http://www.ranaextractive.com/
     logo_image_url: /assets/images/sponsors/ranaextractive.png
+  - name: 株式会社ヘプタゴン
+    url: https://heptagon.co.jp/
+    logo_image_url: /assets/images/sponsors/heptagon.png
 
 medias:
   - name: 月刊I/O
