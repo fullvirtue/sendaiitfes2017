@@ -2,6 +2,10 @@
   padding: 80px 0;
   border-bottom: 1px solid #ddd;
 
+  .message {
+    width: 60%;
+  }
+
   &:nth-child(even) {
     background-color: #fff;
   }
@@ -55,8 +59,16 @@
     }
   }
 
+  p {
+    margin: 0px 0 24px;
+  }
+
   @media (max-width: $screen-xs-max) {
     padding: 40px 0;
+
+    .message {
+      width: 90%;
+    }
 
     &_title {
       font-size: 1.7em;
@@ -68,35 +80,6 @@
     }
   }
 
-  .instagram {
-    width: 90%;
-    margin: 0 auto 20px;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-  }
-
-  .instagram li {
-    padding: 20px;
-  }
-
-  .instagram li img {
-    width: 320px;
-    height: auto;
-  }
-
-  @media screen and (max-width: 47.9375em) {
-    .instagram li {
-      width: 40%;
-      padding: 10px;
-    }
-
-    .instagram li img {
-      width: 100%;
-    }
-  }
 }
 
 .section-wow {
