@@ -17,6 +17,11 @@ golds:
     url: https://pe-bank.jp/
     logo_image_url: /assets/images/sponsors/pebank.jpg
 
+tshirts:
+  - name: SUZURI
+    url: https://suzuri.jp/
+    logo_image_url: /assets/images/sponsors/suzuri.png
+
 silvers:
   - name: サイボウズ株式会社
     url: https://www.cybozu.com/

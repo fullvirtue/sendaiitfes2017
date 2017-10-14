@@ -93,6 +93,7 @@ helpers do
     arr = []
     data.sponsors.platinas.each { |sp| arr << sp }
     data.sponsors.golds.each { |sg| arr << sg }
+    data.sponsors.tshirts.each { |ts| arr << ts }
     data.sponsors.sivers.each { |ss| arr << ss }
     data.sponsors.drinks.each { |sd| arr << sd }
     data.sponsors.media.each { |sm| arr << sm }
