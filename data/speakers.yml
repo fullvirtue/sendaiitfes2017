@@ -1,5 +1,4 @@
 normals:
-＃大関さん、小泉さん、八子さん、ちょまどさん、澤さん
   - name: 大関 興治
     organization: 株式会社セカンドファクトリー 
     organization2: ブエナピンタ株式会社
@@ -29,7 +28,6 @@ normals:
     profile_image_url: /assets/images/speakers/MadokaSawa.jpg
     title: マイクロソフトテクノロジーセンター センター長
     profile: "立教大学経済学部卒。生命保険のIT子会社勤務を経て、1997年、マイクロソフト（現日本マイクロソフト）に転職。情報共有系コンサルタントを経てプリセールスSEへ。競合対策専門営業チームマネージャ、ポータル＆コラボレーショングループマネージャ、クラウドプラットフォーム営業本部本部長などを歴任。2011年7月、マイクロソフトテクノロジーセンター センター長に就任。2014年4月、日本アンガーマネジメント協会公認ファシリテータとなる。2015年2月より、サイバークライムセンター日本サテライトの責任者も兼任。2015年7月、シニアファシリテーターに昇格。著書に「外資系エリートのシンプルな伝え方」、「マイクロソフト伝説マネジャーの 世界№1プレゼン術」"
-# 初日午前 -> 初日午後 -> 二日目午前 -> 二日目午後
   - name: 目代 昌幸
     organization: 株式会社ソノリテ
     title: シニア・エバンジェリスト
@@ -301,7 +299,7 @@ normals:
 #    profile_image_url: /assets/images/speakers/xxxxxx.jpg
 #    title: 
 #    profile: ""
-#    link: 
+#    link:
   - name: 重松 卓郎
     organization: エリクソン・ジャパン株式会社
     profile_image_url: /assets/images/speakers/TakuoShigematu.jpg
