@@ -72,7 +72,7 @@ medias:
 specials:
   - name: Microsoft MVPs
     url: https://www.microsoft.com/ja-jp/communities/mvp/default.aspx
-    logo_image_url: /assets/images/sponsors/mvp.png
+    logo_image_url: /assets/images/sponsors/microsoftmvp.png
   - name: JAZUG (Japan Azure User Group)
     url: https://jazug.connpass.com/
     logo_image_url: /assets/images/sponsors/jazug.png
