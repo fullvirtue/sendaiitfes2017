@@ -301,7 +301,7 @@ normals:
 #    profile_image_url: /assets/images/speakers/xxxxxx.jpg
 #    title: 
 #    profile: ""
-#    link: 
+#    link: #
   - name: 重松 卓郎
     organization: エリクソン・ジャパン株式会社
     profile_image_url: /assets/images/speakers/TakuoShigematu.jpg
