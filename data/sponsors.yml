@@ -69,6 +69,17 @@ medias:
 #     url: http://about.smartnews.com/ja/about/
 #     logo_image_url: /assets/images/sponsors/smartnews.png
 
+specials:
+  - name: Microsoft MVPs
+    url: https://www.microsoft.com/ja-jp/communities/mvp/default.aspx
+    logo_image_url: /assets/images/sponsors/mvp.png
+  - name: JAZUG (Japan Azure User Group)
+    url: https://jazug.connpass.com/
+    logo_image_url: /assets/images/sponsors/jazug.png
+  - name: .NETラボ
+    url: http://dotnetlab.net/
+    logo_image_url: /assets/images/sponsors/dotnetlabo.png
+
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
