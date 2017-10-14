@@ -438,7 +438,7 @@ section.section
   .container
     h2.section_title OFFICIAL COMMUNITIES
     .sponsors_list
-      - data.sponsors.communities.each do |specials|
+      - data.sponsors.specials.each do |specials|
         = link_to image_tag(specials.logo_image_url), specials.url, class: 'sponsors_list_item-specials', target: '_blank', title: specials.name, 'data-toggle' => 'tooltip'
     .sponsors_list
       - data.sponsors.communities.each do |communities|

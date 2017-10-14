@@ -64,11 +64,6 @@ medias:
     url: https://iotnews.jp/
     logo_image_url: /assets/images/sponsors/IoTNews.png
 
-# drinks:
-#   - name: 
-#     url: http://about.smartnews.com/ja/about/
-#     logo_image_url: /assets/images/sponsors/smartnews.png
-
 specials:
   - name: Microsoft MVPs
     url: https://www.microsoft.com/ja-jp/communities/mvp/default.aspx
@@ -106,4 +101,8 @@ communities:
     url: http://www.odyssey-com.co.jp/
     logo_image_url: /assets/images/sponsors/odyssey-com.bmp
 
+# drinks:
+#   - name: 
+#     url: http://about.smartnews.com/ja/about/
+#     logo_image_url: /assets/images/sponsors/smartnews.png
 
