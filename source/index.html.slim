@@ -388,7 +388,7 @@ section.section
     .sponsors_list
       - data.sponsors.golds.each do |golds|
         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
-    h3.sponsors_title T-SHIRTS SPONSORS
+    h3.sponsors_title 👕 T-SHIRTS SPONSORS
     .sponsors_list
       - data.sponsors.tshirts.each do |tshirts|
         = link_to image_tag(tshirts.logo_image_url), tshirts.url, class: 'sponsors_list_item-tshirts', target: '_blank', title: tshirts.name, 'data-toggle' => 'tooltip'
