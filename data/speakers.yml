@@ -168,7 +168,7 @@ normals:
     link: https://event.rakuten.co.jp/okaimonopanda/
   - name: 半谷 充生
     organization: 楽天株式会社
-    profile_image_url: /assets/images/profile_images/MitsuoHangai.jpg
+    profile_image_url: /assets/images/speakers/MitsuoHangai.jpg
     title: 仙台プロデュースグループ
     github: https://github.com/bangucs
     twitter: https://twitter.com/bangucs
@@ -200,7 +200,7 @@ normals:
     twitter: https://twitter.com/135yshr
     facebook: https://www.facebook.com/135yshr
     link: http://blog.praisefirst.jp/
-    profile_image_url: /assets/images/profile_images/YoshihiroIsago.jpg
+    profile_image_url: /assets/images/speakers/YoshihiroIsago.jpg
   - name: 関 満徳
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
@@ -208,7 +208,7 @@ normals:
     twitter: https://twitter.com/fullvirtue
     facebook: https://facebook.com/fullvirtue
     link: http://fullvirtue.com/
-    profile_image_url: /assets/images/profile_images/MitsunoriSeki.png
+    profile_image_url: /assets/images/speakers/MitsunoriSeki.png
   - name: 松本 吉生
     organization: 兵庫県立神戸工業高等学校
     title: 主幹教諭
