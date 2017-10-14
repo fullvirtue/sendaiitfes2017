@@ -289,3 +289,16 @@ normals:
     title: 取締役社長（CTO）
     profile: "宇宙開発関連組織でウェブマスターとしての経験を積んだ後、IT業界へ。以来、Webコンテンツの実装工程に多数従事。2004年2月より株式会社ミツエーリンクスに参加、現在は取締役社長（CTO）。クライアントワークとしては、主にフロントエンドの設計や実装、関連ガイドラインの策定に従事。ウェブアクセシビリティ基盤委員会（WAIC）委員。"
     link: https://www.mitsue.co.jp/
+#  - name: 色摩 あゆみ
+#    organization: 株式会社マクロミル
+#    profile_image_url: /assets/images/speakers/xxxxxx.jpg
+#    title: 
+#    profile: ""
+#    link: 
+  - name: 重松 卓郎
+    organization: エリクソン・ジャパン株式会社
+    profile_image_url: /assets/images/speakers/TakuoShigematu.jpg
+    title: ローカルデリバリーユニット部門長
+    profile: "エリクソン・ジャパンで、通信事業様向けに通信インフラサービスのセールス、オペレーションに
+携わってきました。今年は、エリクソン仙台の立ち上げをリードしています。"
+    link: http://www.ericsson.com/jp/ja/about-us/japan
