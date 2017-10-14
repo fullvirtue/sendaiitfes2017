@@ -1,4 +1,5 @@
 normals:
+＃大関さん、小泉さん、八子さん、ちょまどさん、澤さん
   - name: 大関 興治
     organization: 株式会社セカンドファクトリー 
     organization2: ブエナピンタ株式会社
@@ -23,6 +24,12 @@ normals:
     profile_image_url: /assets/images/speakers/MadokaChiyoda.png
     profile: "C# とお絵描きと松屋が好きです。"
     twitter: https://twitter.com/chomado
+  - name: 澤 円
+    organization: 日本マイクロソフト株式会社
+    profile_image_url: /assets/images/speakers/MadokaSawa.jpg
+    title: マイクロソフトテクノロジーセンター センター長
+    profile: "立教大学経済学部卒。生命保険のIT子会社勤務を経て、1997年、マイクロソフト（現日本マイクロソフト）に転職。情報共有系コンサルタントを経てプリセールスSEへ。競合対策専門営業チームマネージャ、ポータル＆コラボレーショングループマネージャ、クラウドプラットフォーム営業本部本部長などを歴任。2011年7月、マイクロソフトテクノロジーセンター センター長に就任。2014年4月、日本アンガーマネジメント協会公認ファシリテータとなる。2015年2月より、サイバークライムセンター日本サテライトの責任者も兼任。2015年7月、シニアファシリテーターに昇格。著書に「外資系エリートのシンプルな伝え方」、「マイクロソフト伝説マネジャーの 世界№1プレゼン術」"
+# 初日午前 -> 初日午後 -> 二日目午前 -> 二日目午後
   - name: 目代 昌幸
     organization: 株式会社ソノリテ
     title: シニア・エバンジェリスト
@@ -70,7 +77,7 @@ normals:
     profile_image_url: /assets/images/speakers/MasakiYamamoto.jpg
     profile: "10年以上、モバイル端末やWebシステムのアプリケーション開発に携わり2015年に独立。2017年4月より株式会社SRIAの技術フェロー就任。de:code 2017 に登壇。 .NET や Java のアプリケーション開発を得意とする。　好きな Azure のサービスは Azure App Service と Azure Container Instances。Microsoft MVP for Microsoft Azure 2014.7 〜 2018.6"
     microsoftmvpcategoly: Microsoft Azure
-  - name: 胡田 正彦
+  - name: 胡田 昌彦
     organization: 日本ビジネスシステムズ株式会社
     title: パートナーアライアンス本部クラウドアライアンス開発部部長
     profile_image_url: /assets/images/speakers/MasahikoEbisuda.jpg
@@ -301,11 +308,6 @@ normals:
     title: ローカルデリバリーユニット部門長
     profile: "エリクソン・ジャパンで、通信事業様向けに通信インフラサービスのセールス、オペレーションに携わってきました。今年は、エリクソン仙台の立ち上げをリードしています。"
     link: http://www.ericsson.com/jp/ja/about-us/japan
-  - name: 澤 円
-    organization: 日本マイクロソフト株式会社
-    profile_image_url: /assets/images/speakers/MadokaSawa.jpg
-    title: マイクロソフトテクノロジーセンター センター長
-    profile: "立教大学経済学部卒。生命保険のIT子会社勤務を経て、1997年、マイクロソフト（現日本マイクロソフト）に転職。情報共有系コンサルタントを経てプリセールスSEへ。競合対策専門営業チームマネージャ、ポータル＆コラボレーショングループマネージャ、クラウドプラットフォーム営業本部本部長などを歴任。2011年7月、マイクロソフトテクノロジーセンター センター長に就任。2014年4月、日本アンガーマネジメント協会公認ファシリテータとなる。2015年2月より、サイバークライムセンター日本サテライトの責任者も兼任。2015年7月、シニアファシリテーターに昇格。著書に「外資系エリートのシンプルな伝え方」、「マイクロソフト伝説マネジャーの 世界№1プレゼン術」"
   - name: 佐藤 直生
     organization: 日本マイクロソフト株式会社
     profile_image_url: /assets/images/speakers/NaokiSato.png
