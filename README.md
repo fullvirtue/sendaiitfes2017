@@ -1,5 +1,8 @@
 # 仙台IT文化祭 2017 公式Webサイト
 
+Travis Status  
+[![Build Status](https://travis-ci.org/fullvirtue/sendaiitfes2017.svg?branch=master)](https://travis-ci.org/fullvirtue/sendaiitfes2017)
+
 ## ■0. よくハマるポイント
 
 * UTF-8 を文字コードに指定する必要があります。（SHIFT_JISだとビルドエラーが起きます）
