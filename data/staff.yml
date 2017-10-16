@@ -93,12 +93,6 @@ secretariat:
     facebook: https://facebook.com/fullvirtue
     link: http://fullvirtue.com/
     profile_image_url: /assets/images/profile_images/MitsunoriSeki.png
-  - name: 國吉 麻美
-    organization: 株式会社エクシード・ワン
-    github: https://github.com/AsaKuni
-    twitter: https://twitter.com/AsamiKuniyoshi
-    facebook: https://www.facebook.com/asami.kuniyoshi.9292
-    profile_image_url: /assets/images/profile_images/AsamiKuniyoshi.jpg
   - name: 佐々木 加代子
     organization: 株式会社アイネックス
     title: 教育ソリューション部 リーダー
@@ -119,13 +113,6 @@ secretariat:
     twitter: https://twitter.com/yugoes1021
     facebook: https://www.facebook.com/yugoes1021
     profile_image_url: /assets/images/speakers/YugoShimizu.jpg
-  - name: 瀬尾 佳隆
-    organization: 瀬尾ソフト
-    title: 代表
-    github: https://github.com/seosoft
-    twitter: https://twitter.com/seosoft
-    facebook: https://www.facebook.com/seosoft
-    profile_image_url: /assets/images/speakers/YoshitakaSeo.jpg
   - name: 高橋 健一
     organization: GMOペパボ株式会社
     title: エンジニア
@@ -146,3 +133,46 @@ secretariat:
     twitter: https://twitter.com/hiroyukimori
     facebook: https://www.facebook.com/h.m.hiroyuki.mori
     profile_image_url: /assets/images/speakers/HiroyukiMori.jpg
+  - name: 榊原 伸也
+    organization: オモシロインク
+    title: アイデアマン
+    twitter: https://twitter.com/SinyaSakakibara
+    facebook: https://www.facebook.com/Shinya.Sakakibara
+    profile_image_url: /assets/images/profile_images/ShinyaSakakibara.jpg
+  - name: 中村 敦志
+    organization: 富士通株式会社
+    github: https://github.com/fujitsumssol
+    twitter: https://twitter.com/10ban_atsukun
+    facebook: https://www.facebook.com/atsushin
+    link: http://mssolazure.wordpress.com
+    profile_image_url: /assets/images/profile_images/AtsushiNakamura.jpg
+  - name: 鶴田 貴則
+    organization: Studioさきあると
+    title: 代表
+    github: https://github.com/sakiaruto
+    twitter: https://twitter.com/sakiaruto
+    facebook: https://www.facebook.com/sakiaruto
+    profile_image_url: /assets/images/profile_images/TakanoriTsuruta.jpg
+  - name: 知念 裕子
+    organization: 株式会社サイト・パブリス
+    title: ソリューション事業部エンジニア チーフ
+    github: https://github.com/r00040yc
+    facebook: https://www.facebook.com/sakiaruto
+    profile_image_url: /assets/images/profile_images/YukoChinen.jpg
+  - name: 宮川 麻里
+    organization: フリーランス
+    github: https://github.com/Mari-Miyakawa
+    facebook: https://www.facebook.com/mari.miyakawa.355
+    link: http://mnote365.com
+    profile_image_url: /assets/images/speakers/MariMiyakawa.jpg
+  - name: 森山 京平
+    organization: 日本マイクロソフト 株式会社
+    title: クラウドソリューションアーキテクト
+    github: https://github.com/sasukeh
+    twitter: https://twitter.com/MoriyamaKyohei
+    facebook: https://www.facebook.com/Kyohei.Moriyama
+    link: https://sasukeh.github.io/
+    profile_image_url: /assets/images/speakers/KyoheiMoriyama.jpg
+  - name: 那須 悟
+    github: https://github.com/SatoruNasu
+    profile_image_url: /assets/images/speakers/SatoruNasu.jpg
