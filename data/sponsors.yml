@@ -105,6 +105,47 @@ communities:
   - name: 株式会社オデッセイ コミュニケーションズ
     url: http://www.odyssey-com.co.jp/
     logo_image_url: /assets/images/sponsors/odyssey-com.bmp
+  - name: SCRUM GATHERING Tokyo
+    url: https://2018.scrumgatheringtokyo.org/
+    logo_image_url: /assets/images/sponsors/rsgt.png
+
+personals:
+  - name: 関 満徳 様
+    url: http://fullvirtue.com
+    logo_image_url: /assets/images/profile_images/MitsunoriSeki.png
+  - name: 吉島 良平 様
+    url: http://www.pbc.co.jp/blog
+    logo_image_url: /assets/images/profile_images/RyoheiYoshijima.jpg
+  - name: 半谷 充生 様
+    url: https://twitter.com/bangucs
+    logo_image_url: /assets/images/profile_images/MitsuoHangai.jpg
+  - name: 石澤 直人 様
+    url: https://blog.youyo.info/
+    logo_image_url: /assets/images/sponsors/NawotoIshizawa.png
+  - name: 地主 雅信 様
+    url: 
+    logo_image_url: /assets/images/sponsors/MasanobuJinushi.jpg
+  - name: 小野寺 孝之 様
+    url: 
+    logo_image_url: /assets/images/speakers/blank_user.png
+  - name: 阿部 智 様
+    url: https://www.facebook.com/satc.abe
+    logo_image_url: /assets/images/sponsors/SatoshiAbe.jpg
+  - name: 力武 克彰 様
+    url: 
+    logo_image_url: /assets/images/speakers/blank_user.png
+  - name: 齋正範 様
+    url: https://twitter.com/tototti
+    logo_image_url: /assets/images/sponsors/tototti.png
+  - name: 式町 久美子 様
+    url: https://www.apmp.jp/
+    logo_image_url: /assets/images/sponsors/tototti.png
+  - name: 川野 琢也 様
+    url: https://www.apmp.jp/
+    logo_image_url: /assets/images/sponsors/tototti.png
+  - name: 西野 貴志 様
+    url: 
+    logo_image_url: /assets/images/sponsors/TakashiNishino.jpg
 
 # drinks:
 #   - name: 

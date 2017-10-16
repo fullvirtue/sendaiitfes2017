@@ -440,6 +440,19 @@ section.section
 
 section.section
   .container
+    h2.section_title PERSONAL SPONSORS / ORGANIZATIONS SPONSORS
+    .sponsors_list
+      - data.sponsors.personals.each do |personals|
+        = link_to image_tag(personals.logo_image_url), personals.url, class: 'sponsors_list_item-personals', target: '_blank', title: personals.name, 'data-toggle' => 'tooltip'
+
+    .sponsors_description
+      h4 個人スポンサー／団体スポンサーについて
+      p 仙台IT文化祭個人スポンサーとは、仙台IT文化祭の開催を個人で出資・応援していただける方のことで、スポンサーとして大募集しております！仙台IT文化祭専用シャツ贈呈、優先入場と専用席で聴講可能など、個人スポンサー／団体スポンサーだけの嬉しい特典が盛りだくさん！詳細については、以下のリンク先をご参照ください。皆様のご支援をお待ちしております。
+      = link_to 'https://sendaiitfes.doorkeeper.jp/events/65929', target: '_blank', rel: 'nofollow'
+        | 個人スポンサー／団体スポンサーにご協賛いただける方はこちら
+
+section.section
+  .container
     h2.section_title OFFICIAL COMMUNITIES
     .sponsors_list
       - data.sponsors.specials.each do |specials|
