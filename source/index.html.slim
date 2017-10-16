@@ -440,7 +440,7 @@ section.section
 
 section.section
   .container
-    h2.section_title PERSONAL SPONSORS / ORGANIZATIONS SPONSORS
+    h2.section_title PERSONAL / ORGANIZATIONS SPONSORS
     .sponsors_list
       - data.sponsors.personals.each do |personals|
         = link_to image_tag(personals.logo_image_url), personals.url, class: 'sponsors_list_item-personals', target: '_blank', title: personals.name, 'data-toggle' => 'tooltip'
