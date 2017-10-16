@@ -100,6 +100,7 @@ helpers do
     data.sponsors.goods.each { |sgo| arr << sgo }
     data.sponsors.specials.each { |sgs| arr << sgs }
     data.sponsors.communities.each { |sc| arr << sc }
+    data.sponsors.personals.each { |ps| arr << ps }
     arr
   end
 end
