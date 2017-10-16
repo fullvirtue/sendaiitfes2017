@@ -82,6 +82,39 @@
     line-height: 1.8;
   }
 
+  &_program {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+    &_item {
+      margin-bottom: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      flex: 1 1 auto;
+      padding: 8px;
+      border-radius: 4px;
+      text-align: center;
+      margin-right: 20px;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0 2px 3px rgba(0,0,0,.1);
+    }
+
+    &_image {
+      width: 160px;
+      height: 160px;
+
+      @media (max-width: $screen-sm-max) {
+        width: 140px;
+        height: 140px;
+      }
+    }
+  }
+
   &_timetable {
     display: flex;
     flex-wrap: wrap;
