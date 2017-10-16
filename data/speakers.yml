@@ -1,4 +1,4 @@
-﻿normals:
+normals:
   - name: 大関 興治
     organization: 株式会社セカンドファクトリー
     organization2: ブエナピンタ株式会社
@@ -33,7 +33,7 @@
     organization: グロースエクスパートナーズ株式会社
     title: ITアーキテクト
     profile_image_url: /assets/images/speakers/MitsunoriSeki.png
-    profile: "Comming Soon!!"
+    profile: ""
     twitter: https://twitter.com/fullvirtue
     facebook: https://facebook.com/fullvirtue
     github: https://github.com/fullvirtue
@@ -59,7 +59,7 @@
     organization: 楽天株式会社
     title: 仙台プロデュースグループ
     profile_image_url: /assets/images/speakers/MitsuoHangai.jpg
-    profile: "Comming Soon!!"
+    profile: ""
     twitter: https://twitter.com/bangucs
     facebook: https://www.facebook.com/mitsuo.hangai
     github: https://github.com/bangucs
@@ -74,7 +74,7 @@
     link: http://www.ranaextractive.com
   - name: 眞鍋 忠喜
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 目代 昌幸
     organization: 株式会社ソノリテ
     title: シニア・エバンジェリスト
@@ -170,7 +170,7 @@
   - name: VOLLY Project
     organization: 株式会社ラナエクストラクティブ
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
     link: https://kidstone.net/s/KIDSTONE/page/volly?ima=1215
   - name: 友部 充貴
     organization: 株式会社メディアステーション
@@ -244,10 +244,10 @@
     link: http://uwabami.jp/
   - name: 安藤 寿之
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 田中 亨
     profile_image_url: /assets/images/speakers/ToruTanaka.jpg
-    profile: "Comming Soon!!"
+    profile: ""
     microsoftmvpcategoly: Excel
   - name: 東 賢
     organization: インフラジスティックス・ジャパン株式会社
@@ -261,21 +261,21 @@
     twitter: https://twitter.com/hiroyuki_mori
   - name: 桑島 義行
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 林 智久
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 那須 悟
-    profile_image_url: /assets/images/speakers/SatoruNasu.png
-    profile: "Comming Soon!!"
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
   - name: 式町 久美子
     organization: 一般社団法人日本プロポーザルマネジメント協会
     title: 代表理事
     profile_image_url: /assets/images/speakers/KumikoShikimachi.jpg
-    profile: "Comming Soon!!"
+    profile: ""
   - name: CyberZ
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 木達 一仁
     organization: 株式会社ミツエーリンクス
     title: 取締役社長（CTO）
@@ -290,17 +290,17 @@
     github: https://github.com/ihcomega56
   - name: 植木 光代
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 江畑 彩
     organization: 株式会社アットウェア
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 渡辺 央好
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: "2014年1月に東京からスタートした Java好きな女性のためのエンジニアコミュニティです。"
   - name: 新田 順也
     profile_image_url: /assets/images/speakers/JyunyaNitta.png
-    profile: "Comming Soon!!"
+    profile: ""
     microsoftmvpcategoly: Word
   - name: Rochelle Koppe
     organization: ジャパン・インターカルチュラル・コンサルティング
@@ -340,15 +340,15 @@
     microsoftmvpcategoly: Windows Development
   - name: 國吉 麻美
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 宇留野 彩子
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 眞壁 豊
     organization: 東北文教大学
     title: 准教授
     profile_image_url: /assets/images/speakers/YutakaMakabe.jpg
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 久保 彩
     organization: 株式会社クニエ
     title: シニアコンサルタント
@@ -373,7 +373,7 @@
   - name: 牛尾 剛
     organization: Microsoft Corporation
     profile_image_url: /assets/images/speakers/TsuyoshiUshio.jpg
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 前本 知志
     organization: HoloLab
     organization2: 株式会社システムフレンド/一般社団法人TMCN
@@ -385,7 +385,7 @@
     organization: 株式会社アイティーブレーン
     title: ETAP部　部長
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
     twitter: https://twitter.com/BEACH_SIDE
     facebook: https://www.facebook.com/atsushi.yokohama
     github: https://github.com/beachside-project
@@ -393,8 +393,8 @@
   - name: 森山 京平
     organization: 日本マイクロソフト
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
   - name: 中村憲一郎
     organization: 日本マイクロソフト
     profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "Comming Soon!!"
+    profile: ""
