@@ -95,6 +95,12 @@
         height: 140px;
       }
 
+      &-personals {
+        @extend .sponsors_list_item;
+        width: 130px;
+        height: 130px;
+      }
+
       &-communities {
         @extend .sponsors_list_item;
         width: 120px;
