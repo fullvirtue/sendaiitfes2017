@@ -105,47 +105,47 @@ communities:
   - name: 株式会社オデッセイ コミュニケーションズ
     url: http://www.odyssey-com.co.jp/
     logo_image_url: /assets/images/sponsors/odyssey-com.bmp
+  - name: SCRUM GATHERING Tokyo
+    url: https://2018.scrumgatheringtokyo.org/
+    logo_image_url: /assets/images/sponsors/rsgt.png
 
 personals:
-  - name: 関 満徳
+  - name: 関 満徳 様
     url: http://fullvirtue.com
     logo_image_url: /assets/images/profile_images/MitsunoriSeki.png
-  - name: 吉島 良平
+  - name: 吉島 良平 様
     url: http://www.pbc.co.jp/blog
     logo_image_url: /assets/images/profile_images/RyoheiYoshijima.jpg
-  - name: 半谷 充生
+  - name: 半谷 充生 様
     url: https://twitter.com/bangucs
     logo_image_url: /assets/images/profile_images/MitsuoHangai.jpg
-  - name: 石澤 直人
+  - name: 石澤 直人 様
     url: https://blog.youyo.info/
-    logo_image_url: /assets/images/profile_images/NawotoIshizawa.png
-
-
-
-https://i.youyo.io/profile/profile_t.png
-
-
-
-式町久美子
-
-
-齋正範
-https://twitter.com/tototti
-https://pbs.twimg.com/profile_images/2124962922/gogogogo_icon_400x400.png
-力武克彰
-
-
-阿部智
-https://www.facebook.com/satc.abe
-https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/21557516_1466274986796338_8406264285131150517_n.jpg?oh=d5ad8da9c41a51d8651ad59f1a1bc4be&oe=5A472E26
-小野寺　孝之
-
-
-地主 雅信
-
-https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c12.0.160.160/p160x160/181702_108641045880814_5623050_n.jpg?oh=ac04a8a66a2d9608e03d0206d3928d6b&oe=5A7C273B
-
-
+    logo_image_url: /assets/images/sponsors/NawotoIshizawa.png
+  - name: 地主 雅信 様
+    url: 
+    logo_image_url: /assets/images/sponsors/MasanobuJinushi.jpg
+  - name: 小野寺 孝之 様
+    url: 
+    logo_image_url: /assets/images/speakers/blank_user.png
+  - name: 阿部 智 様
+    url: https://www.facebook.com/satc.abe
+    logo_image_url: /assets/images/sponsors/SatoshiAbe.jpg
+  - name: 力武 克彰 様
+    url: 
+    logo_image_url: /assets/images/speakers/blank_user.png
+  - name: 齋正範 様
+    url: https://twitter.com/tototti
+    logo_image_url: /assets/images/sponsors/tototti.png
+  - name: 式町 久美子 様
+    url: https://www.apmp.jp/
+    logo_image_url: /assets/images/sponsors/tototti.png
+  - name: 川野 琢也 様
+    url: https://www.apmp.jp/
+    logo_image_url: /assets/images/sponsors/tototti.png
+  - name: 西野 貴志 様
+    url: 
+    logo_image_url: /assets/images/sponsors/TakashiNishino.jpg
 
 # drinks:
 #   - name: 
