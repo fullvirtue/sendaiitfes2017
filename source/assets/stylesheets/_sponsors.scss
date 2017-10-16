@@ -13,19 +13,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-right: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
       margin-bottom: 20px;
       padding: 10px;
       background-color: #fff;
       border: 1px solid #eee;
-
-      @media (max-width: $screen-xs-max) {
-        margin-right: 0;
-      }
-
-      &:last-child {
-        margin-right: 0;
-      }
 
       img {
         max-width: 100%;
