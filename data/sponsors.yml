@@ -16,6 +16,9 @@ golds:
   - name: 株式会社PE-BANK
     url: https://pe-bank.jp/
     logo_image_url: /assets/images/sponsors/pebank.jpg
+  - name: 株式会社アーセス
+    url: https://arces.co.jp
+    logo_image_url: /assets/images/sponsors/arces.png
 
 tshirts:
   - name: SUZURI
