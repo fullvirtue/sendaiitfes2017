@@ -23,38 +23,39 @@ normals:
     profile_image_url: /assets/images/speakers/MadokaChiyoda.png
     profile: "C# とお絵描きと松屋が好きです。"
     twitter: https://twitter.com/chomado
+  - name: 山岡 まどか
+    organization: 楽天株式会社
+    title: 顧客戦略統括部　お買いものパンダプロデューサー
+    profile_image_url: /assets/images/speakers/yamaoka.jpg
+    profile: "一橋大学卒業後、2003年新卒でリクルートに入社。新規サービス企画、メディアプロデュース等を経て、2010年楽天へ入社。楽天お買いものパンダは2013年の立ち上げ時から現在に至るまでプロデューサーとして育てている。 "
   - name: 澤 円
     organization: 日本マイクロソフト株式会社
     title: マイクロソフトテクノロジーセンター センター長
     profile_image_url: /assets/images/speakers/MadokaSawa.jpg
     profile: "立教大学経済学部卒。生命保険のIT子会社勤務を経て、1997年、マイクロソフト（現日本マイクロソフト）に転職。情報共有系コンサルタントを経てプリセールスSEへ。競合対策専門営業チームマネージャ、ポータル＆コラボレーショングループマネージャ、クラウドプラットフォーム営業本部本部長などを歴任。2011年7月、マイクロソフトテクノロジーセンター センター長に就任。2014年4月、日本アンガーマネジメント協会公認ファシリテータとなる。2015年2月より、サイバークライムセンター日本サテライトの責任者も兼任。2015年7月、シニアファシリテーターに昇格。著書に「外資系エリートのシンプルな伝え方」、「マイクロソフト伝説マネジャーの 世界№1プレゼン術」"
     twitter: https://twitter.com/madoka510
-  - name: 関 満徳
-    organization: グロースエクスパートナーズ株式会社
-    title: ITアーキテクト
-    profile_image_url: /assets/images/speakers/MitsunoriSeki.png
+  - name: 松本 吉生
+    organization: 兵庫県立神戸工業高等学校
+    title: 主幹教諭
+    profile_image_url: /assets/images/speakers/YoshioMatsumto.jpg
+    profile: "兵庫県立神戸工業高等学校　主幹教諭　Microsoft MVP,マイクロソフト認定教育イノベーター（MIEE）高等学校の学籍管理システムをSQL Serverで構築運用し、2004年からマイクロソフトMVPを14年連続受賞。現在は工業高校でC#プログラミングやMicro:bitを使ったマイコンボードの実習を実践している。 "
+    microsoftmvpcategoly: Data Platform
+  - name: 松本 あきひろ
+    organization: 小学生マインクラフト名人
+    profile_image_url: /assets/images/speakers/AkihiroMatsumoto.jpg
+    profile: "XBOX 360とPS VITA、Windows 10、そしてオリジナルのPC版のマインクラフトをやり、レッドストーン回路を極めた小学生。"
+  - name: uwabami
+    organization: アートユニット／イラストレーター
+    profile_image_url: /assets/images/speakers/uwabami.jpg
+    profile: "ムトウアキヒト・はらだかおるによるアートユニット。仙台出身。仙台第一高校卒、宮城一女卒。２０１０年８月結成。"
+    twitter: https://twitter.com/uwabami_jp
+    facebook: https://www.facebook.com/uwabami-170558203001989/
+    link: http://uwabami.jp/
+  - name: VOLLY Project
+    organization: 株式会社ラナエクストラクティブ
+    profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
-    twitter: https://twitter.com/fullvirtue
-    facebook: https://facebook.com/fullvirtue
-    github: https://github.com/fullvirtue
-    link: http://fullvirtue.com/
-  - name: 吉島 良平
-    organization: Pacific Business Consulting, Inc.
-    title: 取締役/戦略事業推進室長
-    profile_image_url: /assets/images/speakers/RyoheiYoshijima.jpg
-    profile: "グローバル市場におけるMicrosoft Dynamics ERPの導入＆コンサルティング、セミナープレゼンテーションを生業としています。<br />2002年度にマイクロソフト社がNavision社のAxapta（現Dynamics AX）とNavision（現Dynamics NAV)という2つのERP製品を買収する前から、これらの製品にに携わっています。<br />2001年より、30か国のDynamics ERP導入に関わり、地球70周ほどのDynamicsな活動を継続中。この15年間は毎月半分を海外にて楽しく？/寂しく？過ごしています。"
-    facebook: https://www.facebook.com/dynamics.japan
-    github: Ryo＠D365
-    microsoftmvpcategoly: Business Solutions
-  - name: 砂金 善弘
-    organization: 一般社団法人マジカルコンパス
-    title: 理事
-    profile_image_url: /assets/images/speakers/YoshihiroIsago.jpg
-    profile: ""
-    twitter: https://twitter.com/135yshr
-    facebook: https://www.facebook.com/135yshr
-    github: https://github.com/135yshr
-    link: http://blog.praisefirst.jp/
+    link: https://kidstone.net/s/KIDSTONE/page/volly?ima=1215
   - name: 半谷 充生
     organization: 楽天株式会社
     title: 仙台プロデュースグループ
@@ -64,74 +65,24 @@ normals:
     facebook: https://www.facebook.com/mitsuo.hangai
     github: https://github.com/bangucs
     link: http://bangucs.tumblr.com/
-  - name: 太田 伸志
-    organization: 株式会社ラナエクストラクティブ
-    title: 代表取締役社長兼CEO
-    profile_image_url: /assets/images/speakers/oota.jpg
-    profile: "2000年東北学院大学経済学部経済学科卒。東京と仙台を拠点に展開するクリエイティブエージェンシー、株式会社ラナエクストラクティブ代表取締役社長兼CEO。クリエイティブディレクターとしてSONY、資生堂、Honda、サッポロビールなど、大手企業のデジタルプロモーションを多数手がける他、全国各地で「まちづくり x クリエイティブ」の可能性を広げる事業も展開中。武蔵野美術大学・専修大学・東北学院大学の非常勤講師も務める。作家・イラストレーター・唎酒師でもある。"
-    twitter: https://twitter.com/shinjioota
-    facebook: https://www.facebook.com/shinji.oota.3
-    link: http://www.ranaextractive.com
-  - name: 眞鍋 忠喜
+  - name: 軽部 真子
+    organization: 株式会社サーバーワークス
+    title: マネージドサービス部
+    profile_image_url: /assets/images/speakers/MakoKarube.jpg
+    profile: "1980 宮城県大崎市鹿島台出身、1996 宮城工業高等専門学校 情報デザイン学科、2001 東京でSE、2006 宮城に戻る、2007 仙台のベンチャー企業ではたらく、2016 忍者はじめる、2017 現在に至る（株式会社サーバーワークス）"
+  - name: 友部 充貴
+    organization: 株式会社メディアステーション
+    title: 人事部人事課長
+    profile_image_url: /assets/images/speakers/MitsutakaTomobe.jpg
+    profile: "大学3年生時にスポーツ関連企業のスタートアップに参画。その後、外資系大手ホテルグループでチーフ、アシスタントセールスマネージャーを務めたのち、2011年から本格的に人事としてのキャリアをスタート。採用、教育、労務、制度企画といった人事領域全般のキャリアを積み、近年はITのみならず様々な業界の人事制度新設や改定を実現している。 "
+  - name: CyberZ
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
-  - name: 目代 昌幸
-    organization: 株式会社ソノリテ
-    title: シニア・エバンジェリスト
-    profile_image_url: /assets/images/speakers/MasayukiMokudai.jpg
-    profile: "Office365を活用して中小企業のITインフラを安価で適切に活用するためのコンサルティングを提供しています。<br />「私が楽なとき、それは「みんなが楽してるとき」だから私は楽がしたい」をモットーに、IT担当者がラクになるために、中小企業ITラクにすることを日々考え情報発信しています。 "
-  - name: 山本 誠樹
-    organization: 株式会社 SRIA
-    title: 技術フェロー
-    profile_image_url: /assets/images/speakers/MasakiYamamoto.jpg
-    profile: "10年以上、モバイル端末やWebシステムのアプリケーション開発に携わり2015年に独立。2017年4月より株式会社SRIAの技術フェロー就任。de:code 2017 に登壇。 .NET や Java のアプリケーション開発を得意とする。　好きな Azure のサービスは Azure App Service と Azure Container Instances。Microsoft MVP for Microsoft Azure 2014.7 〜 2018.6"
-    twitter: https://www.facebook.com/nnasaki
-    facebook: nnasaki
-    github: nnasaki
-    microsoftmvpcategoly: Microsoft Azure
-  - name: 髙尾 哲朗
-    organization: .NETラボ、株式会社エフシーケー
-    profile_image_url: /assets/images/speakers/TetsuroTakao.jpg
-    profile: "システム構築のプロセス評価、改善、策定、開発フレームワークの設計、実装管理、プリセールスやプロジェクトの立ち上げなどを行っています。"
-    microsoftmvpcategoly: Visual Studio and Development Technologies
-  - name: 石田 真彩
-    organization: 株式会社オープンストリーム
-    profile_image_url: /assets/images/speakers/MayaIshida.jpg
-    profile: "ハロウィン期間はコスプレでディズニーに出没し、週末はフラダンサーとなるクラウドアーキテクト。Microsoft MVP(Azure)。Java女子部・PyLadies Tokyo・JJUG・Geek Women Japanを運営する極度のコミュニティ厨。 "
-  - name: 古飯塚 譲
-    organization: 株式会社ラナエクストラクティブ
-    title: プランナー
-    profile_image_url: /assets/images/speakers/koizuka.jpg
-    profile: "1989年埼玉県生まれ。2015年専修大学ネットワーク情報学部ネットワーク情報学科卒。新卒で株式会社ラナエクストラクティブに入社。話題喚起を目的としたプランニングを得意とし、アダストリア、楽天、Columbiaなど大手企業のプロモーションから、ブランディングまで手掛ける。Yahoo! JAPAN インターネットクリエイティブアワード Silverを受賞。プランニングだけに留まらず、サウンドデザイナーとしても活動している。"
-    link: http://www.ranaextractive.com
   - name: 色摩 あゆみ
     organization: 株式会社マクロミル
     title: 新卒採用担当（仙台オフィス）
     profile_image_url: /assets/images/speakers/AyumiShikama.jpg
     profile: "2014年新卒入社。リサーチディレクターとして "
-  - name: 松本 吉生
-    organization: 兵庫県立神戸工業高等学校
-    title: 主幹教諭
-    profile_image_url: /assets/images/speakers/YoshioMatsumto.jpg
-    profile: "兵庫県立神戸工業高等学校　主幹教諭　Microsoft MVP,マイクロソフト認定教育イノベーター（MIEE）高等学校の学籍管理システムをSQL Serverで構築運用し、2004年からマイクロソフトMVPを14年連続受賞。現在は工業高校でC#プログラミングやMicro:bitを使ったマイコンボードの実習を実践している。 "
-  - name: 松本 あきひろ
-    organization: 小学生マインクラフト名人
-    profile_image_url: /assets/images/speakers/AkihiroMatsumoto.jpg
-    profile: "XBOX 360とPS VITA、Windows 10、そしてオリジナルのPC版のマインクラフトをやり、レッドストーン回路を極めた小学生。"
-  - name: 胡田 昌彦
-    organization: 日本ビジネスシステムズ株式会社
-    title: パートナーアライアンス本部クラウドアライアンス開発部部長
-    profile_image_url: /assets/images/speakers/MasahikoEbisuda.jpg
-    profile: "1979年茨城県鹿嶋市生まれ。2002年3月に筑波大学第3学群情報学類卒業後、2002年に日本ビジネスシステムズ株式会社に入社。Windowsインフラ系を中心に数名から数万人規模までの様々な企業向けシステムの設計、構築、運用に携わる。4年目からは社内のエンジニアの技術的なバックサポートおよび教育に携わる。並行してプロダクト検証や技術的困難に直面したプロジェクトへの直接参画を行う。2013年ごろからSystem Centerの全コンポーネントに対して積極的に取り組む。2015年ごろからはAzure,Azure Stack, Azure ActiveDirectoryを軸にしながらMicrosoft Cloud Platform全体に対して取り組み中。著書に「Windowsインフラ管理者入門」。"
-    twitter: https://twitter.com/ebi
-    facebook: masahiko.ebisuda
-    github: ebibibi
-    microsoftmvpcategoly: Cloud and Datacenter Management
-  - name: 山岡 まどか
-    organization: 楽天株式会社
-    title: 顧客戦略統括部　お買いものパンダプロデューサー
-    profile_image_url: /assets/images/speakers/yamaoka.jpg
-    profile: "一橋大学卒業後、2003年新卒でリクルートに入社。新規サービス企画、メディアプロデュース等を経て、2010年楽天へ入社。楽天お買いものパンダは2013年の立ち上げ時から現在に至るまでプロデューサーとして育てている。 "
   - name: 小泉 勝志郎
     organization: 株式会社テセラクト
     organization2: シニアプログラミングネットワーク
@@ -143,54 +94,73 @@ normals:
     facebook: https://www.facebook.com/katsushiro.koizumi
     github: https://github.com/koi_zoom1
     link: https://www.tesseract.site/
+  - name: 式町 久美子
+    organization: 一般社団法人日本プロポーザルマネジメント協会
+    title: 代表理事
+    profile_image_url: /assets/images/speakers/KumikoShikimachi.jpg
+    profile: ""
+  - name: 砂金 善弘
+    organization: 一般社団法人マジカルコンパス
+    title: 理事
+    profile_image_url: /assets/images/speakers/YoshihiroIsago.jpg
+    profile: ""
+    twitter: https://twitter.com/135yshr
+    facebook: https://www.facebook.com/135yshr
+    github: https://github.com/135yshr
+    link: http://blog.praisefirst.jp/
+  - name: 関 満徳
+    organization: グロースエクスパートナーズ株式会社
+    title: ITアーキテクト
+    profile_image_url: /assets/images/speakers/MitsunoriSeki.png
+    profile: ""
+    twitter: https://twitter.com/fullvirtue
+    facebook: https://facebook.com/fullvirtue
+    github: https://github.com/fullvirtue
+    link: http://fullvirtue.com/
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 吉島 良平
+    organization: Pacific Business Consulting, Inc.
+    title: 取締役/戦略事業推進室長
+    profile_image_url: /assets/images/speakers/RyoheiYoshijima.jpg
+    profile: "グローバル市場におけるMicrosoft Dynamics ERPの導入＆コンサルティング、セミナープレゼンテーションを生業としています。<br />2002年度にマイクロソフト社がNavision社のAxapta（現Dynamics AX）とNavision（現Dynamics NAV)という2つのERP製品を買収する前から、これらの製品にに携わっています。<br />2001年より、30か国のDynamics ERP導入に関わり、地球70周ほどのDynamicsな活動を継続中。この15年間は毎月半分を海外にて楽しく？/寂しく？過ごしています。"
+    facebook: https://www.facebook.com/dynamics.japan
+    github: Ryo＠D365
+    microsoftmvpcategoly: Business Solutions
+  - name: 工藤 薫 
+    organization: WOW株式会社
+    title: Executive Director
+    title2: Designer
+    profile_image_url: /assets/images/speakers/KaoruKudo.jpg
+    profile: ""
+  - name: 眞鍋 忠喜
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+  - name: 安藤 寿之
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+  - name: 古飯塚 譲
+    organization: 株式会社ラナエクストラクティブ
+    title: プランナー
+    profile_image_url: /assets/images/speakers/koizuka.jpg
+    profile: "1989年埼玉県生まれ。2015年専修大学ネットワーク情報学部ネットワーク情報学科卒。新卒で株式会社ラナエクストラクティブに入社。話題喚起を目的としたプランニングを得意とし、アダストリア、楽天、Columbiaなど大手企業のプロモーションから、ブランディングまで手掛ける。Yahoo! JAPAN インターネットクリエイティブアワード Silverを受賞。プランニングだけに留まらず、サウンドデザイナーとしても活動している。"
+    link: http://www.ranaextractive.com
+  - name: 目代 昌幸
+    organization: 株式会社ソノリテ
+    title: シニア・エバンジェリスト
+    profile_image_url: /assets/images/speakers/MasayukiMokudai.jpg
+    profile: "Office365を活用して中小企業のITインフラを安価で適切に活用するためのコンサルティングを提供しています。<br />「私が楽なとき、それは「みんなが楽してるとき」だから私は楽がしたい」をモットーに、IT担当者がラクになるために、中小企業ITラクにすることを日々考え情報発信しています。 "
+    microsoftmvpcategoly: Office Servers and Services
   - name: 宮川 麻里
     title: フリーランス
     profile_image_url: /assets/images/speakers/MariMiyakawa.jpg
     profile: "Microsoft 認定トレーナーとして Windows Server / Office 365 / Microsoft Azure / Enterprise Mobility + Securityなど認定コースやカスタマイズ研修、および技術支援など実施<br />Microsoft Certified Trainer/Microsoft MVP for Office Servers and Services 受賞 "
-  - name: 北川 剛
-    organization: アマゾン ウェブ サービス ジャパン株式会社
-    title: プラットホームビジネス開発部 ビジネス開発マネージャー(データベース)
-    profile_image_url: /assets/images/speakers/TsuyoshiKitagawa.jpg
-    profile: "新卒で日本オラクルに入社し、日本マイクロソフト、AWS と会社は変わりましたが一貫してリレーショナルデータベースを担当。最初は当然オンプレミスでしたが、今ではサービスとしてのデータベースまで広がりました。<br />佐賀県出身、東京都の陸の孤島在住。NIKU が大好きで週末はハンバーガーを食べるためにロードバイクで走り回っています。"
-    twitter: https://twitter.com/tskitaga
-    facebook: tsuyoshi.kitagawa
-  - name: 木澤 朋和
-    organization: .NETラボ
-    profile_image_url: /assets/images/speakers/TomokazuKizawa.jpg
-    profile: "某国内メーカーグループ会社のエンジニア<br />マイクロソフト製品や技術をお伝えするポッドキャスト番組を毎週配信しています。<br />Windows-podcast.com"
-    twitter: https://twitter.com/tkrx178
-    facebook: https://www.facebook.com/tkizawa
-    microsoftmvpcategoly: Windows and Devices for IT
-  - name: 櫻庭 祐一
-    organization: Java in the Box
-    profile_image_url: /assets/images/speakers/YuichiSakuraba.jpg
-    profile: "Java SEと共に22年。日本人ではじめてのJava Champion。"
-    twitter: https://twitter.com/skrb
-    github: skrb
-  - name: VOLLY Project
-    organization: 株式会社ラナエクストラクティブ
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-    link: https://kidstone.net/s/KIDSTONE/page/volly?ima=1215
-  - name: 友部 充貴
-    organization: 株式会社メディアステーション
-    title: 人事部人事課長
-    profile_image_url: /assets/images/speakers/MitsutakaTomobe.jpg
-    profile: "大学3年生時にスポーツ関連企業のスタートアップに参画。その後、外資系大手ホテルグループでチーフ、アシスタントセールスマネージャーを務めたのち、2011年から本格的に人事としてのキャリアをスタート。採用、教育、労務、制度企画といった人事領域全般のキャリアを積み、近年はITのみならず様々な業界の人事制度新設や改定を実現している。 "
+    microsoftmvpcategoly: Office Servers and Services
   - name: 山﨑 淳朗
     organization: PiecePoint株式会社
     title: ITアーキテクト
     profile_image_url: /assets/images/speakers/AtsuoYamasaki.jpg
     profile: "2010年10月：SharePoint を中心とした提案活動をめざし独立 <br />2011年1月：Microsoft MVP for SharePointを受賞 <br />2011年2月：PiecePoint株式会社設立 <br />2012年2月：コミュニティ「Japan SharePoint Group」設立<br />現在は、関西を中心にSharePoint関連ソリューションの提案活動を実施。 <br />業務範囲は、SharePoint全般、Webパーツ開発、ワークフロー、構築、 Business Intelligence など提案から実装までを行う。<br /> SharePointのコミュニティを、 http://jpsps.com で定期的に開催中です。 "
-  - name: 澤田 賢也
-    organization: 総合サービス株式会社
-    title: システム事業部統括部長
-    profile_image_url: /assets/images/speakers/MasayaSawada.jpg
-    profile: "中小企業の情報システム部門に勤務。<br />Windows Server Essentials のホワイトペーパーを多数執筆するかたわら、情報システム部門に必要な運用管理にかんするコンサルティングを行っている。<br />また、Azureの導入支援や運用に関するセミナーや勉強会を定期的に実施している。<br />２００９年よりMicrosoft の中小企業向けソリューションである「Small Business Servre」のMVPを受賞。<br />現在まで、９年連続受賞。 "
-  - name: 寺田 佳央
-    organization: Java Champion 日本マイクロソフト株式会社
-    profile_image_url: /assets/images/speakers/YoshioTerada.png
-    profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br />2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br />2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br />2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。 "
+    microsoftmvpcategoly: Office Servers and Services
   - name: 杉本 和也
     organization: CData Software Japan 合同会社
     title: Lead Engineer
@@ -205,6 +175,7 @@ normals:
     title: シニアテクニカルアーキテクト
     profile_image_url: /assets/images/speakers/YugoShimizu.jpg
     profile: "2017年2月 に Microsoft MVP for Data Platform を初受賞。現在は株式会社セカンドファクトリーでシニアテクニカルアーキテクトとして活動。キャリアの最初は金融系システムの開発者。そこから開発をしながら、オンプレミスの仮想環境、クラウド環境を時代とともに経験。最近は Microsoft Power BI を軸として、Microsoft Azure をベースに IoT、AI、ChatBot などのプロジェクトに携わる。 "
+    microsoftmvpcategoly: Data Platform
   - name: 鈴木 雅宏
     organization: ソフトバンクテクノロジー株式会社
     profile_image_url: /assets/images/speakers/MasahiroSuzuki.jpg
@@ -212,6 +183,49 @@ normals:
     twitter: https://twitter.com/masa717suzuki
     facebook: https://www.facebook.com/profile.php?id=100008295275878
     microsoftmvpcategoly: Business Solutions
+  - name: 山本 誠樹
+    organization: 株式会社 SRIA
+    title: 技術フェロー
+    profile_image_url: /assets/images/speakers/MasakiYamamoto.jpg
+    profile: "10年以上、モバイル端末やWebシステムのアプリケーション開発に携わり2015年に独立。2017年4月より株式会社SRIAの技術フェロー就任。de:code 2017 に登壇。 .NET や Java のアプリケーション開発を得意とする。　好きな Azure のサービスは Azure App Service と Azure Container Instances。Microsoft MVP for Microsoft Azure 2014.7 〜 2018.6"
+    twitter: https://www.facebook.com/nnasaki
+    facebook: nnasaki
+    github: nnasaki
+    microsoftmvpcategoly: Microsoft Azure
+  - name: 胡田 昌彦
+    organization: 日本ビジネスシステムズ株式会社
+    title: パートナーアライアンス本部クラウドアライアンス開発部部長
+    profile_image_url: /assets/images/speakers/MasahikoEbisuda.jpg
+    profile: "1979年茨城県鹿嶋市生まれ。2002年3月に筑波大学第3学群情報学類卒業後、2002年に日本ビジネスシステムズ株式会社に入社。Windowsインフラ系を中心に数名から数万人規模までの様々な企業向けシステムの設計、構築、運用に携わる。4年目からは社内のエンジニアの技術的なバックサポートおよび教育に携わる。並行してプロダクト検証や技術的困難に直面したプロジェクトへの直接参画を行う。2013年ごろからSystem Centerの全コンポーネントに対して積極的に取り組む。2015年ごろからはAzure,Azure Stack, Azure ActiveDirectoryを軸にしながらMicrosoft Cloud Platform全体に対して取り組み中。著書に「Windowsインフラ管理者入門」。"
+    twitter: https://twitter.com/ebi
+    facebook: masahiko.ebisuda
+    github: ebibibi
+    microsoftmvpcategoly: Cloud and Datacenter Management
+  - name: 北川 剛
+    organization: アマゾン ウェブ サービス ジャパン株式会社
+    title: プラットホームビジネス開発部 ビジネス開発マネージャー(データベース)
+    profile_image_url: /assets/images/speakers/TsuyoshiKitagawa.jpg
+    profile: "新卒で日本オラクルに入社し、日本マイクロソフト、AWS と会社は変わりましたが一貫してリレーショナルデータベースを担当。最初は当然オンプレミスでしたが、今ではサービスとしてのデータベースまで広がりました。<br />佐賀県出身、東京都の陸の孤島在住。NIKU が大好きで週末はハンバーガーを食べるためにロードバイクで走り回っています。"
+    twitter: https://twitter.com/tskitaga
+    facebook: tsuyoshi.kitagawa
+  - name: 澤田 賢也
+    organization: 総合サービス株式会社
+    title: システム事業部統括部長
+    profile_image_url: /assets/images/speakers/MasayaSawada.jpg
+    profile: "中小企業の情報システム部門に勤務。<br />Windows Server Essentials のホワイトペーパーを多数執筆するかたわら、情報システム部門に必要な運用管理にかんするコンサルティングを行っている。<br />また、Azureの導入支援や運用に関するセミナーや勉強会を定期的に実施している。<br />２００９年よりMicrosoft の中小企業向けソリューションである「Small Business Servre」のMVPを受賞。<br />現在まで、９年連続受賞。 "
+    microsoftmvpcategoly: Cloud and Datacenter Management
+  - name: 髙尾 哲朗
+    organization: .NETラボ、株式会社エフシーケー
+    profile_image_url: /assets/images/speakers/TetsuroTakao.jpg
+    profile: "システム構築のプロセス評価、改善、策定、開発フレームワークの設計、実装管理、プリセールスやプロジェクトの立ち上げなどを行っています。"
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 木澤 朋和
+    organization: .NETラボ
+    profile_image_url: /assets/images/speakers/TomokazuKizawa.jpg
+    profile: "某国内メーカーグループ会社のエンジニア<br />マイクロソフト製品や技術をお伝えするポッドキャスト番組を毎週配信しています。<br />Windows-podcast.com"
+    twitter: https://twitter.com/tkrx178
+    facebook: https://www.facebook.com/tkizawa
+    microsoftmvpcategoly: Windows and Devices for IT
   - name: 石野 光仁
     profile_image_url: /assets/images/speakers/MitsuhitoIshino.jpg
     profile: "新潟県で、ソフトを書く仕事をしています。<br />2002年にC#に出会ってから、ずっとC# 押しでここまで来ました。<br />C#を学び、C#を書き、C#を話していたら、たくさんの人に出会えることが出来ました。<br />そんなC#を魅力を、みなさんと共有できたらと思います。<br />主催コミュニティ：Niigata.NET"
@@ -223,6 +237,7 @@ normals:
     title: ITアーキテクト
     profile_image_url: /assets/images/speakers/FujioKojima.jpg
     profile: "福井県で、C#/C++プログラミングをやったり教えたりしてます。<br />所属コミュニティ: Hokuriku.NET、FITEA、こみゅぷらす "
+    microsoftmvpcategoly: Visual Studio and Development Technologies
   - name: 鈴木 孝明
     organization: 株式会社グラニ
     profile_image_url: /assets/images/speakers/TakaakiSuzuki.jpg
@@ -235,152 +250,44 @@ normals:
   - name: 室星 亮太
     profile_image_url: /assets/images/speakers/RyotaMurohosi.png
     profile: "新潟出身 千葉在住<br />業務 : モバイルアプリ開発他<br />趣味 : ゲーム開発<br />所属コミュニティ : 日本Androidの会 Unity部<br />プログラミングが大好きで、 C#が大好きで、 .NETが大好きで、 LINQが大好きで、 JVM言語が大好きで、 ゲームで遊ぶことが大好きで、 ゲーム開発が大好きで、 頑張るのが大好きで、 Unityが大好きだったから...！ "
-  - name: uwabami
-    organization: アートユニット／イラストレーター
-    profile_image_url: /assets/images/speakers/uwabami.jpg
-    profile: "ムトウアキヒト・はらだかおるによるアートユニット。仙台出身。仙台第一高校卒、宮城一女卒。２０１０年８月結成。"
-    twitter: https://twitter.com/uwabami_jp
-    facebook: https://www.facebook.com/uwabami-170558203001989/
-    link: http://uwabami.jp/
-  - name: 安藤 寿之
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-  - name: 田中 亨
-    profile_image_url: /assets/images/speakers/ToruTanaka.jpg
-    profile: ""
-    microsoftmvpcategoly: Excel
-  - name: 東 賢
-    organization: インフラジスティックス・ジャパン株式会社
-    title: シニアUXアーキテクト/代表取締役
-    profile_image_url: /assets/images/speakers/KenAzuma.jpg
-    profile: "日本を含む APAC 地域におけるセールス ディレクターであると同時に、UX アーキテクト・テクノロジー コンサルタントとして活動。業界において 20 年以上の経験を踏まえ、お客様に対して UX アーキテクチャ・UX デザインとシステム開発に関連するトレーニングやメンタリング、コンサルテーションを実施。Microsoft Regional Director として定期的にユーザーインターフェイスやクライアントサイドテクノロジーに関する講演を行う。兵庫県の流通鍵大学において、流通科学学士号、経営組織論修士号を取得。Microsoft MVP (2007 – 2011 Client Application Dev / 2011 – 2016 Windows Touch and Tablet PC) / Windows Insider MVP (2015 – 2017現在) / Microsoft Regional Director (2015-2017現在) "
-  - name: 森 博之
-    organization: フリーランス
-    profile_image_url: /assets/images/speakers/HiroyukiMori.jpg
-    profile: ".NET Framework関連の開発技術を主としたシステムエンジニア・テクニカルライター・セミナー講師を行っています。 "
-    twitter: https://twitter.com/hiroyuki_mori
-  - name: 桑島 義行
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-  - name: 林 智久
-    profile_image_url: /assets/images/speakers/IkuhisaHayashi.png
-    profile: ""
-  - name: 那須 悟
-    profile_image_url: /assets/images/speakers/SatoruNasu.png
-    profile: ""
-  - name: 式町 久美子
-    organization: 一般社団法人日本プロポーザルマネジメント協会
-    title: 代表理事
-    profile_image_url: /assets/images/speakers/KumikoShikimachi.jpg
-    profile: ""
-  - name: CyberZ
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-  - name: 木達 一仁
-    organization: 株式会社ミツエーリンクス
-    title: 取締役社長（CTO）
-    profile_image_url: /assets/images/speakers/KazuhitoKidachi.jpg
-    profile: "宇宙開発関連組織でウェブマスターとしての経験を積んだ後、IT業界へ。以来、Webコンテンツの実装工程に多数従事。2004年2月より株式会社ミツエーリンクスに参加、現在は取締役社長（CTO）。クライアントワークとしては、主にフロントエンドの設計や実装、関連ガイドラインの策定に従事。ウェブアクセシビリティ基盤委員会（WAIC）委員。 "
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 石田 真彩
+    organization: 株式会社オープンストリーム
+    profile_image_url: /assets/images/speakers/MayaIshida.jpg
+    profile: "ハロウィン期間はコスプレでディズニーに出没し、週末はフラダンサーとなるクラウドアーキテクト。Microsoft MVP(Azure)。Java女子部・PyLadies Tokyo・JJUG・Geek Women Japanを運営する極度のコミュニティ厨。 "
+    microsoftmvpcategoly: Microsoft Azure
+  - name: 櫻庭 祐一
+    organization: Java in the Box
+    profile_image_url: /assets/images/speakers/YuichiSakuraba.jpg
+    profile: "Java SEと共に22年。日本人ではじめてのJava Champion。"
+    twitter: https://twitter.com/skrb
+    github: skrb
+  - name: 寺田 佳央
+    organization: Java Champion 日本マイクロソフト株式会社
+    profile_image_url: /assets/images/speakers/YoshioTerada.png
+    profile: "2001 年 サン・マイクロシステムズ株式会社に入社し GlassFish エバンジェリストとして活動。<br />2010年 オラクルのサン買収後、日本オラクル株式会社で Java エバンジェリストとして活動。Java の最新技術情報の提供や、Java コミュニティ活動の活性化を、日本 Java ユーザ・グループ(JJUG)と共に行ってきた。<br />2015年7月、日本マイクロソフト株式会社に移籍し、移籍後もなお Java エバンジェリストとして、マイクロソフト・プラットフォームにおける Java の利用促進・啓蒙活動を実施中。<br />2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。 "
   - name: 横田 紋奈
     organization: Java女子部・株式会社FOLIO
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/speakers/JAVAjyoshibu.jpg
     profile: "Java女子部の部長。よこなと呼ばれています。株式会社FOLIOでバックエンドエンジニアとしてScalaやRubyを書きながら証券システムを作っています。おいしいものがすきです。"
     twitter: https://twitter.com/ihcomega
     facebook: https://www.facebook.com/ayana.yokota.71
     github: https://github.com/ihcomega56
   - name: 植木 光代
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/speakers/JAVAjyoshibu.jpg
     profile: ""
   - name: 江畑 彩
     organization: 株式会社アットウェア
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/speakers/JAVAjyoshibu.jpg
     profile: ""
   - name: 渡辺 央好
-    profile_image_url: /assets/images/speakers/blank_user.png
+    profile_image_url: /assets/images/speakers/JAVAjyoshibu.jpg
     profile: "2014年1月に東京からスタートした Java好きな女性のためのエンジニアコミュニティです。"
-  - name: 新田 順也
-    profile_image_url: /assets/images/speakers/JyunyaNitta.png
-    profile: ""
-    microsoftmvpcategoly: Word
-  - name: Rochelle Koppe
-    organization: ジャパン・インターカルチュラル・コンサルティング
-    profile_image_url: /assets/images/speakers/RocchelleKopp.jpg
-    profile: "人事管理と異文化理解を専門とする経営コンサルタント、ジャパン・インターカルチュラル・コンサルティング社長。日本企業の組織活性化とグローバル人材育成を支援している。朝日新聞、ニューズウィークジャパン、ハフポストなどに連載。『英語の品格』や『日本企業の社員は、なぜこんなにもモチベーションが低いのか? 』をはじめ著書多数。 "
-  - name: 中村 薫
-    organization: HoloLab
-    profile_image_url: /assets/images/speakers/KaoruNakamura.jpg
-    profile: "HoloLens好きが高じてコミュニティと会社を作りました。"
-    twitter: https://twitter.com/kaorun55
-    facebook: kaorun55
-    github: kaorun55
-    microsoftmvpcategoly: Windows Development
-  - name: 加賀田 猛
-    profile_image_url: /assets/images/speakers/TakeshiKagata.jpg
-    profile: "・Microsoft MVP "
-  - name: 軽部 真子
-    organization: 株式会社サーバーワークス
-    title: マネージドサービス部
-    profile_image_url: /assets/images/speakers/MakoKarube.jpg
-    profile: "1980 宮城県大崎市鹿島台出身、1996 宮城工業高等専門学校 情報デザイン学科、2001 東京でSE、2006 宮城に戻る、2007 仙台のベンチャー企業ではたらく、2016 忍者はじめる、2017 現在に至る（株式会社サーバーワークス）"
-  - name: 重松 卓郎
-    organization: エリクソン・ジャパン株式会社
-    title: ローカルデリバリーユニット部門長
-    profile_image_url: /assets/images/speakers/TakuoShigematu.jpg
-    profile: "エリクソン・ジャパンで、通信事業様向けに通信インフラサービスのセールス、オペレーションに携わってきました。今年は、エリクソン仙台の立ち上げをリードしています。 "
-  - name: Takuo Robert Nishi
-    organization: Microsoft Corporation
-    title: Windows & Devices Group / Enterprise Mobility & Management / Senior Program Manager
-    profile_image_url: /assets/images/speakers/TakuoRobertNishi.png
-    profile: "米 Microsoft Corporation にて Microsoft Intune 開発部の Program Manager として活動。 "
-  - name: 初音 玲
-    organization: HoloLab
-    profile_image_url: /assets/images/speakers/AkiraHatsune.jpg
-    profile: "HoloLensアプリやWindows MRアプリの開発は、Unity x UWPという2つの要素を知ることでできることの幅が格段に広がります。MRらしいアプリをつくるための開発方法をわかりやすく紹介する50分です。実機がなくてもダイジョブです。"
-    twitter: https://twitter.com/hatsune_
-    microsoftmvpcategoly: Windows Development
-  - name: 國吉 麻美
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
-  - name: 宇留野 彩子
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: ""
   - name: 眞壁 豊
     organization: 東北文教大学
     title: 准教授
     profile_image_url: /assets/images/speakers/YutakaMakabe.jpg
     profile: ""
-  - name: 久保 彩
-    organization: 株式会社クニエ
-    title: シニアコンサルタント
-    profile_image_url: /assets/images/speakers/AyaKubo.jpg
-    profile: "「株式会社クニエ シニアコンサルタント。グロービス経営大学院経営学修士（MBA）。 大学卒業後、精密機器メーカー入社。業務システム系SI案件に従事。内部統制PJ、生産性改善PJ、基幹業務改革プロジェクトのIT上流のコンサルとして活動。2014年退職しシンガポールへ転居。滞在中に大学院へ入学し、帰国後、現職のコンサルティング会社へ転職。サービスビジネスにおける事業モデル変革、オムニチャネルを活用した顧客サービス戦略立案、顧客体験デザインなどの分野で、業務・システムの両面から、お客様の企業文化に即したコンサルティングに注力している。」"
-  - name: 上山 晃弘
-    organization: HoloLab
-    profile_image_url: /assets/images/speakers/AkihiroUeyama.jpg
-    profile: "HoloLens好きなのでHoloLabに入りました．HoloLens，VR，音声合成など作りたいものを作ってます．"
-    twitter: https://twitter.com/akihiro01051
-    facebook: akihiro.ueyama.50
-    github: https://github.com/akihiro0105
-  - name: 佐藤 直生
-    organization: 日本マイクロソフト株式会社
-    title: パートナー事業本部 Azureテクノロジスト
-    profile_image_url: /assets/images/speakers/NaokiSato.png
-    profile: "2010年にMicrosoftに入社以降、一貫してMicrosoft Azureのテクノロジスト/エバンジェリストとして、技術啓蒙、技術支援活動を行っている。 "
-  - name: 河合 浩之
-    organization: novel's
-    profile_image_url: /assets/images/speakers/HiroyukiKawai.jpg
-    profile: "Microsoft MVP for PowerPointを2011年より連続受賞。パワーポイントの革新的な“表現力”を探求し、プレゼンテーションの新たな世界を切り拓く。現在はプレゼンテーションの書籍執筆を中心に、企業のドキュメントコンサルティングやプレゼンテーションスライド制作、各種セミナー活動などを展開。 "
-  - name: 牛尾 剛
-    organization: Microsoft Corporation
-    profile_image_url: /assets/images/speakers/TsuyoshiUshio.jpg
-    profile: ""
-  - name: 前本 知志
-    organization: HoloLab
-    organization2: 株式会社システムフレンド/一般社団法人TMCN
-    title: Co-founder
-    title2: 取締役/Co-founder
-    profile_image_url: /assets/images/speakers/blank_user.png
-    profile: "数年前よりモーションセンサーの面白さに取りつかれKINECTを趣味で触り始め、会社にXRや医療機器開発のチームができる。センサー系コミュニティTMCNや、HoloLensに特化した株式会社ホロラボの立ち上げメンバー。 "
   - name: 横浜　篤
     organization: 株式会社アイティーブレーン
     title: ETAP部　部長
@@ -398,3 +305,126 @@ normals:
     organization: 日本マイクロソフト
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
+  - name: 太田 伸志
+    organization: 株式会社ラナエクストラクティブ
+    title: 代表取締役社長兼CEO
+    profile_image_url: /assets/images/speakers/oota.jpg
+    profile: "2000年東北学院大学経済学部経済学科卒。東京と仙台を拠点に展開するクリエイティブエージェンシー、株式会社ラナエクストラクティブ代表取締役社長兼CEO。クリエイティブディレクターとしてSONY、資生堂、Honda、サッポロビールなど、大手企業のデジタルプロモーションを多数手がける他、全国各地で「まちづくり x クリエイティブ」の可能性を広げる事業も展開中。武蔵野美術大学・専修大学・東北学院大学の非常勤講師も務める。作家・イラストレーター・唎酒師でもある。"
+    twitter: https://twitter.com/shinjioota
+    facebook: https://www.facebook.com/shinji.oota.3
+    link: http://www.ranaextractive.com
+  - name: 重松 卓郎
+    organization: エリクソン・ジャパン株式会社
+    title: ローカルデリバリーユニット部門長
+    profile_image_url: /assets/images/speakers/TakuoShigematu.jpg
+    profile: "エリクソン・ジャパンで、通信事業様向けに通信インフラサービスのセールス、オペレーションに携わってきました。今年は、エリクソン仙台の立ち上げをリードしています。 "
+  - name: 木達 一仁
+    organization: 株式会社ミツエーリンクス
+    title: 取締役社長（CTO）
+    profile_image_url: /assets/images/speakers/KazuhitoKidachi.jpg
+    profile: "宇宙開発関連組織でウェブマスターとしての経験を積んだ後、IT業界へ。以来、Webコンテンツの実装工程に多数従事。2004年2月より株式会社ミツエーリンクスに参加、現在は取締役社長（CTO）。クライアントワークとしては、主にフロントエンドの設計や実装、関連ガイドラインの策定に従事。ウェブアクセシビリティ基盤委員会（WAIC）委員。 "
+  - name: 池田 道哉
+    organization: 株式会社マクロミル
+    title: リサーチディレクション部 仙台RDユニット長
+
+    profile_image_url: /assets/images/speakers/MichiyaIkeda.jpg
+    profile: ""
+    facebook: https://www.facebook.com/michiya.ikeda
+    github: https://github.com/michiyaikeda
+  - name: 田中 亨
+    profile_image_url: /assets/images/speakers/ToruTanaka.jpg
+    profile: ""
+    microsoftmvpcategoly: Excel
+  - name: 林 智久
+    profile_image_url: /assets/images/speakers/IkuhisaHayashi.png
+    profile: ""
+  - name: 那須 悟
+    profile_image_url: /assets/images/speakers/SatoruNasu.png
+    profile: ""
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 新田 順也
+    profile_image_url: /assets/images/speakers/JyunyaNitta.png
+    profile: ""
+    microsoftmvpcategoly: Word
+  - name: 加賀田 猛
+    profile_image_url: /assets/images/speakers/TakeshiKagata.jpg
+    profile: "・Microsoft MVP "
+    microsoftmvpcategoly: Data Platform
+  - name: 河合 浩之
+    organization: novel's
+    profile_image_url: /assets/images/speakers/HiroyukiKawai.jpg
+    profile: "Microsoft MVP for PowerPointを2011年より連続受賞。パワーポイントの革新的な“表現力”を探求し、プレゼンテーションの新たな世界を切り拓く。現在はプレゼンテーションの書籍執筆を中心に、企業のドキュメントコンサルティングやプレゼンテーションスライド制作、各種セミナー活動などを展開。 "
+    microsoftmvpcategoly: PowerPoint
+  - name: 東 賢
+    organization: インフラジスティックス・ジャパン株式会社
+    title: シニアUXアーキテクト/代表取締役
+    profile_image_url: /assets/images/speakers/KenAzuma.jpg
+    profile: "日本を含む APAC 地域におけるセールス ディレクターであると同時に、UX アーキテクト・テクノロジー コンサルタントとして活動。業界において 20 年以上の経験を踏まえ、お客様に対して UX アーキテクチャ・UX デザインとシステム開発に関連するトレーニングやメンタリング、コンサルテーションを実施。Microsoft Regional Director として定期的にユーザーインターフェイスやクライアントサイドテクノロジーに関する講演を行う。兵庫県の流通鍵大学において、流通科学学士号、経営組織論修士号を取得。Microsoft MVP (2007 – 2011 Client Application Dev / 2011 – 2016 Windows Touch and Tablet PC) / Windows Insider MVP (2015 – 2017現在) / Microsoft Regional Director (2015-2017現在) "
+    microsoftmvpcategoly: Regional Director
+  - name: Rochelle Koppe
+    organization: ジャパン・インターカルチュラル・コンサルティング
+    profile_image_url: /assets/images/speakers/RocchelleKopp.jpg
+    profile: "人事管理と異文化理解を専門とする経営コンサルタント、ジャパン・インターカルチュラル・コンサルティング社長。日本企業の組織活性化とグローバル人材育成を支援している。朝日新聞、ニューズウィークジャパン、ハフポストなどに連載。『英語の品格』や『日本企業の社員は、なぜこんなにもモチベーションが低いのか? 』をはじめ著書多数。 "
+  - name: Takuo Robert Nishi
+    organization: Microsoft Corporation
+    title: Windows & Devices Group / Enterprise Mobility & Management / Senior Program Manager
+    profile_image_url: /assets/images/speakers/TakuoRobertNishi.png
+    profile: "米 Microsoft Corporation にて Microsoft Intune 開発部の Program Manager として活動。 "
+  - name: 久保 彩
+    organization: 株式会社クニエ
+    title: シニアコンサルタント
+    profile_image_url: /assets/images/speakers/AyaKubo.jpg
+    profile: "「株式会社クニエ シニアコンサルタント。グロービス経営大学院経営学修士（MBA）。 大学卒業後、精密機器メーカー入社。業務システム系SI案件に従事。内部統制PJ、生産性改善PJ、基幹業務改革プロジェクトのIT上流のコンサルとして活動。2014年退職しシンガポールへ転居。滞在中に大学院へ入学し、帰国後、現職のコンサルティング会社へ転職。サービスビジネスにおける事業モデル変革、オムニチャネルを活用した顧客サービス戦略立案、顧客体験デザインなどの分野で、業務・システムの両面から、お客様の企業文化に即したコンサルティングに注力している。」"
+  - name: 牛尾 剛
+    organization: Microsoft Corporation
+    profile_image_url: /assets/images/speakers/TsuyoshiUshio.jpg
+    profile: ""
+  - name: 森 博之
+    organization: フリーランス
+    profile_image_url: /assets/images/speakers/HiroyukiMori.jpg
+    profile: ".NET Framework関連の開発技術を主としたシステムエンジニア・テクニカルライター・セミナー講師を行っています。 "
+    twitter: https://twitter.com/hiroyuki_mori
+    microsoftmvpcategoly: Visual Studio and Development Technologies
+  - name: 中村 薫
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/KaoruNakamura.jpg
+    profile: "HoloLens好きが高じてコミュニティと会社を作りました。"
+    twitter: https://twitter.com/kaorun55
+    facebook: kaorun55
+    github: kaorun55
+    microsoftmvpcategoly: Windows Development
+  - name: 初音 玲
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/AkiraHatsune.jpg
+    profile: "HoloLensアプリやWindows MRアプリの開発は、Unity x UWPという2つの要素を知ることでできることの幅が格段に広がります。MRらしいアプリをつくるための開発方法をわかりやすく紹介する50分です。実機がなくてもダイジョブです。"
+    twitter: https://twitter.com/hatsune_
+    microsoftmvpcategoly: Windows Development
+  - name: 上山 晃弘
+    organization: HoloLab
+    profile_image_url: /assets/images/speakers/AkihiroUeyama.jpg
+    profile: "HoloLens好きなのでHoloLabに入りました．HoloLens，VR，音声合成など作りたいものを作ってます．"
+    twitter: https://twitter.com/akihiro01051
+    facebook: akihiro.ueyama.50
+    github: https://github.com/akihiro0105
+  - name: 前本 知志
+    organization: HoloLab
+    organization2: 株式会社システムフレンド/一般社団法人TMCN
+    title: Co-founder
+    title2: 取締役/Co-founder
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: "数年前よりモーションセンサーの面白さに取りつかれKINECTを趣味で触り始め、会社にXRや医療機器開発のチームができる。センサー系コミュニティTMCNや、HoloLensに特化した株式会社ホロラボの立ち上げメンバー。 "
+    microsoftmvpcategoly: Windows Development
+  - name: 桑島 義行
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+  - name: 國吉 麻美
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+  - name: 宇留野 彩子
+    profile_image_url: /assets/images/speakers/blank_user.png
+    profile: ""
+  - name: 佐藤 直生
+    organization: 日本マイクロソフト株式会社
+    title: パートナー事業本部 Azureテクノロジスト
+    profile_image_url: /assets/images/speakers/NaokiSato.png
+    profile: "2010年にMicrosoftに入社以降、一貫してMicrosoft Azureのテクノロジスト/エバンジェリストとして、技術啓蒙、技術支援活動を行っている。 "
