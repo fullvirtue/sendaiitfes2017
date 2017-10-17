@@ -2,8 +2,8 @@
   padding: 80px 0;
   border-bottom: 1px solid #ddd;
 
-  .message {
-    width: 60%;
+  .sp-desc {
+    display: none;
   }
 
   &:nth-child(even) {
@@ -60,14 +60,19 @@
   }
 
   p {
-    margin: 0px 0 24px;
+    margin: 0 0 24px;
   }
 
   @media (max-width: $screen-xs-max) {
     padding: 40px 0;
 
-    .message {
-      width: 90%;
+    .pc-desc {
+      display: none;
+    }
+
+    .sp-desc {
+      display: block;
+      padding: 0;
     }
 
     &_title {
