@@ -43,12 +43,6 @@ organizers:
     github: https://github.com/kaorukudo
     facebook: https://www.facebook.com/kaoru.kudo.7
     profile_image_url: /assets/images/profile_images/KaoruKudo.jpg
-  - name: 佐藤 浩太郎
-    organization: 株式会社メルカリ
-    title: CSグループ
-    github: https://github.com/satok310
-    facebook: https://www.facebook.com/kotaro.sato.39
-    profile_image_url: /assets/images/profile_images/KotaroSato.jpg
   - name: 早川 智子
     organization: 株式会社メンバーズ
     title: リソースディベロップメント室 室長 <br />兼 ニアショア推進室 室長
@@ -61,13 +55,6 @@ organizers:
     twitter: https://twitter.com/hornets79
     facebook: https://www.facebook.com/keisuke.hikita.5
     profile_image_url: /assets/images/profile_images/KeisukeHikita.jpg
-  - name: 古山 隆幸
-    organization: 一般社団法人イトナブ石巻
-    title: 代表理事
-    github: https://github.com/takayukifuruyama
-    facebook: https://www.facebook.com/takayuki.furuyama
-    link: http://itnav.jp/about/
-    profile_image_url: /assets/images/profile_images/TakayukiFuruyama.jpg
   - name: 山本 誠樹
     organization: 株式会社SRIA
     title: 技術フェロー
