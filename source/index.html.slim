@@ -412,7 +412,7 @@ section.section
         - if data.speakers.normals.present?
           - data.speakers.normals.each do |normals|
             .speakers_list_item
-              = image_tag normals.profile_image_url, class: 'speakers_list_image'
+              = image_tag '/assets/images/speakers/blank_user.png', class: 'speakers_list_image', 'data-echo' => normals.profile_image_url
               .speakers_list_name = normals.name
               - if normals.microsoftmvpcategoly.present?
                 .speakers_list_microsoftmvpcategoly = "Microsoft MVP for " + normals.microsoftmvpcategoly
@@ -583,3 +583,12 @@ section.section
         <div class="fb-like" data-href="http://2017.sendaiitfes.org/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
       .socialBtns_twitter
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="sendaiitfes">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+| <script src="/assets/javascripts/echo.js"></script>
+| <script>
+|  echo.init({
+|    offset: 100,
+|    throttle: 250,
+|    unload: false,
+|  });
+| </script>
