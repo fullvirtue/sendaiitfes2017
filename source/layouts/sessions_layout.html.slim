@@ -133,6 +133,54 @@ html
                         - if speaker.link
                           = link_to speaker.link, target: '_blank' do
                             i.fa.fa-link
+                - if speaker.name == current_page.data.co_author_3
+                  .session_introduction_block
+                    = image_tag speaker.profile_image_url, class: 'session_introduction_image'
+                    .session_introduction_profileBlock
+                      .session_introduction_profile
+                        .session_introduction_title
+                          | 登壇者プロフィール
+                        = speaker.profile
+                        | (
+                        = speaker.name
+                        | )
+                      .session_introduction_socialLinks
+                        - if speaker.twitter
+                          = link_to speaker.twitter, target: '_blank' do
+                            i.fa.fa-twitter-square
+                        - if speaker.facebook
+                          = link_to speaker.facebook, target: '_blank' do
+                            i.fa.fa-facebook-square
+                        - if speaker.github
+                          = link_to speaker.github, target: '_blank' do
+                            i.fa.fa-github-square
+                        - if speaker.link
+                          = link_to speaker.link, target: '_blank' do
+                            i.fa.fa-link
+                - if speaker.name == current_page.data.co_author_4
+                  .session_introduction_block
+                    = image_tag speaker.profile_image_url, class: 'session_introduction_image'
+                    .session_introduction_profileBlock
+                      .session_introduction_profile
+                        .session_introduction_title
+                          | 登壇者プロフィール
+                        = speaker.profile
+                        | (
+                        = speaker.name
+                        | )
+                      .session_introduction_socialLinks
+                        - if speaker.twitter
+                          = link_to speaker.twitter, target: '_blank' do
+                            i.fa.fa-twitter-square
+                        - if speaker.facebook
+                          = link_to speaker.facebook, target: '_blank' do
+                            i.fa.fa-facebook-square
+                        - if speaker.github
+                          = link_to speaker.github, target: '_blank' do
+                            i.fa.fa-github-square
+                        - if speaker.link
+                          = link_to speaker.link, target: '_blank' do
+                            i.fa.fa-link
 
         .session_footer
           time.session_addDate[itemprop='datePublished']
