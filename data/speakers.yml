@@ -56,6 +56,16 @@ normals:
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
     link: https://kidstone.net/s/KIDSTONE/page/volly?ima=1215
+  - name: Yuta Uozumi
+    organization: 株式会社ラナエクストラクティブ、SjQ++
+    profile_image_url: /assets/images/speakers/yutauozumi.jpg
+    profile: "1978年奈良県出身。サウンド、アートとメディア技術を組み合わせた創作を行う。慶應義塾大学SFCにて「メディアデザイン」プログラムに所属後、博士号取得(政策・メディア)。ニューヨーク電子音楽祭をはじめ、バルセロナ、コペンハーゲンなど、海外でも公演を行う。2013年、音と映像を組み合わせたプロジェクト「SjQ++」が、メディアアートの国際的アワードであるアルス・エレクトロニカ／準グランプリ(Award of Distinction)をデジタル・ミュージック部門にて受賞。"
+    link: http://sjq.jp/
+  - name: 城 隆之 / no.9
+    organization: アーティスト/サウンドデザイナー
+    profile_image_url: /assets/images/speakers/no9.jpg
+    profile: ""
+    link: http://www.nano-graph.com/no9/
   - name: 半谷 充生
     organization: 楽天株式会社
     title: 仙台プロデュースグループ
@@ -131,7 +141,9 @@ normals:
     title: Executive Director
     title2: Designer
     profile_image_url: /assets/images/speakers/KaoruKudo.jpg
-    profile: ""
+    profile: "2001年WOW入社。広告映像から、様々な展示スペースにおけるインスタレーション映像、メーカーと共同で開発するユーザーインターフェイスのデザインなど様々な分野のビジュアルデザインを手がける。"
+    link: http://www.w0w.co.jp/
+    facebook: https://www.facebook.com/kaoru.kudo.7
   - name: 眞鍋 忠喜
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
@@ -305,6 +317,11 @@ normals:
     organization: 日本マイクロソフト
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
+  - name: 村上 悠
+    organization: team Fantasy-sta.（JR東日本 有志ユニット）
+    profile_image_url: /assets/images/speakers/murakami.jpg
+    profile: "2005年JR東日本に入社。主に駅周辺の商業施設、ホテルなどの不動産開発を行う。現在は渋谷の再開発プロジェクトを担当。「遊ぶように働き、働くように遊ぶ」という生き方を提案する team Fantasy-sta.を主宰。アート×ホテル「Art BOX」、森×ホテル「Green BOX」、埼京線沿線まちづくり「SAIKYO DIALOGUE LINE」、秩父発のまちづくりツアー「ソトものツアーズ」、イントレプレナーのための「次代のジェダイプロジェクト」など、組織を越境しながら様々なプロジェクトを仕掛ける。元Community Crossing Japanディレクター。一般社団法人つむぎやアライアンスメンバー。"
+    link: https://teamfantasysta.themedia.jp/
   - name: 太田 伸志
     organization: 株式会社ラナエクストラクティブ
     title: 代表取締役社長兼CEO
