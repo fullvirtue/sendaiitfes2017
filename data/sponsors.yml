@@ -69,6 +69,9 @@ logos:
   - name: ダイワボウ情報システム株式会社
     url: http://www.pc-daiwabo.co.jp/
     logo_image_url: /assets/images/sponsors/dis.png
+  - name: 株式会社リクルートキャリア
+    url: https://job.rikunabi.com/2019/?vos=r9ursp0001
+    logo_image_url: /assets/images/sponsors/recruitcareer.svg
 
 goods:
   - name: CData Software Japan 合同会社
