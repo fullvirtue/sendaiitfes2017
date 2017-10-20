@@ -28,6 +28,8 @@ normals:
     title: 顧客戦略統括部　お買いものパンダプロデューサー
     profile_image_url: /assets/images/speakers/yamaoka.jpg
     profile: "一橋大学卒業後、2003年新卒でリクルートに入社。新規サービス企画、メディアプロデュース等を経て、2010年楽天へ入社。楽天お買いものパンダは2013年の立ち上げ時から現在に至るまでプロデューサーとして育てている。 "
+    twitter: https://twitter.com/madokax
+    link: https://event.rakuten.co.jp/okaimonopanda/
   - name: 澤 円
     organization: 日本マイクロソフト株式会社
     title: マイクロソフトテクノロジーセンター センター長
@@ -138,7 +140,7 @@ normals:
     microsoftmvpcategoly: Business Solutions
   - name: 工藤 薫 
     organization: WOW株式会社
-    title: Executive Director
+    title: Executive Director/Designer
     title2: Designer
     profile_image_url: /assets/images/speakers/KaoruKudo.jpg
     profile: "2001年WOW入社。広告映像から、様々な展示スペースにおけるインスタレーション映像、メーカーと共同で開発するユーザーインターフェイスのデザインなど様々な分野のビジュアルデザインを手がける。"
@@ -150,12 +152,6 @@ normals:
   - name: 安藤 寿之
     profile_image_url: /assets/images/speakers/blank_user.png
     profile: ""
-  - name: 古飯塚 譲
-    organization: 株式会社ラナエクストラクティブ
-    title: プランナー
-    profile_image_url: /assets/images/speakers/koizuka.jpg
-    profile: "1989年埼玉県生まれ。2015年専修大学ネットワーク情報学部ネットワーク情報学科卒。新卒で株式会社ラナエクストラクティブに入社。話題喚起を目的としたプランニングを得意とし、アダストリア、楽天、Columbiaなど大手企業のプロモーションから、ブランディングまで手掛ける。Yahoo! JAPAN インターネットクリエイティブアワード Silverを受賞。プランニングだけに留まらず、サウンドデザイナーとしても活動している。"
-    link: http://www.ranaextractive.com
   - name: 目代 昌幸
     organization: 株式会社ソノリテ
     title: シニア・エバンジェリスト
@@ -319,6 +315,7 @@ normals:
     profile: ""
   - name: 村上 悠
     organization: team Fantasy-sta.（JR東日本 有志ユニット）
+    title: 代表
     profile_image_url: /assets/images/speakers/murakami.jpg
     profile: "2005年JR東日本に入社。主に駅周辺の商業施設、ホテルなどの不動産開発を行う。現在は渋谷の再開発プロジェクトを担当。「遊ぶように働き、働くように遊ぶ」という生き方を提案する team Fantasy-sta.を主宰。アート×ホテル「Art BOX」、森×ホテル「Green BOX」、埼京線沿線まちづくり「SAIKYO DIALOGUE LINE」、秩父発のまちづくりツアー「ソトものツアーズ」、イントレプレナーのための「次代のジェダイプロジェクト」など、組織を越境しながら様々なプロジェクトを仕掛ける。元Community Crossing Japanディレクター。一般社団法人つむぎやアライアンスメンバー。"
     link: https://teamfantasysta.themedia.jp/
@@ -329,6 +326,12 @@ normals:
     profile: "2000年東北学院大学経済学部経済学科卒。東京と仙台を拠点に展開するクリエイティブエージェンシー、株式会社ラナエクストラクティブ代表取締役社長兼CEO。クリエイティブディレクターとしてSONY、資生堂、Honda、サッポロビールなど、大手企業のデジタルプロモーションを多数手がける他、全国各地で「まちづくり x クリエイティブ」の可能性を広げる事業も展開中。武蔵野美術大学・専修大学・東北学院大学の非常勤講師も務める。作家・イラストレーター・唎酒師でもある。"
     twitter: https://twitter.com/shinjioota
     facebook: https://www.facebook.com/shinji.oota.3
+    link: http://www.ranaextractive.com
+  - name: 古飯塚 譲
+    organization: 株式会社ラナエクストラクティブ
+    title: プランナー
+    profile_image_url: /assets/images/speakers/koizuka.jpg
+    profile: "1989年埼玉県生まれ。2015年専修大学ネットワーク情報学部ネットワーク情報学科卒。新卒で株式会社ラナエクストラクティブに入社。話題喚起を目的としたプランニングを得意とし、アダストリア、楽天、Columbiaなど大手企業のプロモーションから、ブランディングまで手掛ける。Yahoo! JAPAN インターネットクリエイティブアワード Silverを受賞。プランニングだけに留まらず、サウンドデザイナーとしても活動している。"
     link: http://www.ranaextractive.com
   - name: 重松 卓郎
     organization: エリクソン・ジャパン株式会社
