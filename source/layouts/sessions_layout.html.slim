@@ -53,6 +53,20 @@ html
                     span.session_speaker_organization = speaker.organization
                     span.session_speaker_title = speaker.title
                   .session_speaker_name[itemprop='name'] = current_page.data.co_author
+            - if speaker.name == current_page.data.co_author_2
+              .session_speaker_block
+                .session_speaker_names
+                  .session_speaker_orgs
+                    span.session_speaker_organization = speaker.organization
+                    span.session_speaker_title = speaker.title
+                  .session_speaker_name[itemprop='name'] = current_page.data.co_author_2
+            - if speaker.name == current_page.data.co_author_3
+              .session_speaker_block
+                .session_speaker_names
+                  .session_speaker_orgs
+                    span.session_speaker_organization = speaker.organization
+                    span.session_speaker_title = speaker.title
+                  .session_speaker_name[itemprop='name'] = current_page.data.co_author_3
 
         .article_body[itemprop='articleBody']
           = yield
