@@ -32,6 +32,9 @@ silvers:
   - name: エリクソン・ジャパン株式会社
     url: https://www.ericsson.com/jp/ja/about-us/japan
     logo_image_url: /assets/images/sponsors/ericsson.png
+  - name: パーソルキャリア株式会社
+    url: https://www.persol-career.co.jp/
+    logo_image_url: /assets/images/sponsors/persolcareer.png
 
 stamps:
   - name: RALLY
