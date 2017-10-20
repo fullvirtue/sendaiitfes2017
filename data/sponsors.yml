@@ -60,9 +60,47 @@ logos:
   - name: 株式会社ラナエクストラクティブ
     url: http://www.ranaextractive.com/
     logo_image_url: /assets/images/sponsors/ranaextractive.png
+  - name: 楽天株式会社
+    url: http://corp.rakuten.co.jp/careers/engineering/
+    logo_image_url: /assets/images/sponsors/rakuten.png
   - name: 株式会社ヘプタゴン
     url: https://heptagon.co.jp/
     logo_image_url: /assets/images/sponsors/heptagon.png
+
+goods:
+  - name: CData Software Japan 合同会社
+    url: http://www.cdata.com/jp/
+    logo_image_url: /assets/images/sponsors/cdata.jpg
+  - name: Microsoft MVPs
+    url: https://www.microsoft.com/ja-jp/communities/mvp/default.aspx
+    logo_image_url: /assets/images/sponsors/microsoftmvp.png
+  - name: 三陸石鹸工房Kuriya
+    url: https://i-local.jp/
+    logo_image_url: /assets/images/sponsors/kuriya.png
+  - name: インフォテリア株式会社
+    url: https://www.infoteria.com/jp/
+    logo_image_url: /assets/images/sponsors/infoteria.png
+  - name: サイボウズ株式会社
+    url: https://www.cybozu.com/
+    logo_image_url: /assets/images/sponsors/cybozu.png
+  - name: 株式会社パシフィックビジネスコンサルティング
+    url: http://www.pbc.co.jp/
+    logo_image_url: /assets/images/sponsors/pbc.png
+  - name: 株式会社サーバーワークス
+    url: https://www.serverworks.co.jp/
+    logo_image_url: /assets/images/sponsors/serverworks.png
+  - name: 楽天株式会社
+    url: http://corp.rakuten.co.jp/careers/engineering/
+    logo_image_url: /assets/images/sponsors/rakuten.png
+  - name: 株式会社オデッセイ コミュニケーションズ
+    url: http://www.odyssey-com.co.jp/
+    logo_image_url: /assets/images/sponsors/odyssey-com.bmp
+  - name: 株式会社セカンドファクトリー
+    url: http://www.2ndfactory.com/
+    logo_image_url: /assets/images/sponsors/2ndFactory.jpg
+  - name: 株式会社ウフル
+    url: http://uhuru.co.jp/
+    logo_image_url: /assets/images/sponsors/uhuru.png
 
 medias:
   - name: 月刊I/O

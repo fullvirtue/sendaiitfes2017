@@ -95,12 +95,14 @@ helpers do
     data.sponsors.golds.each { |sg| arr << sg }
     data.sponsors.tshirts.each { |ts| arr << ts }
     data.sponsors.sivers.each { |ss| arr << ss }
-    data.sponsors.drinks.each { |sd| arr << sd }
-    data.sponsors.media.each { |sm| arr << sm }
+    data.sponsors.stamps.each { |st| arr << st }
+    data.sponsors.logos.each { |lg| arr << lg }
     data.sponsors.goods.each { |sgo| arr << sgo }
+    data.sponsors.media.each { |sm| arr << sm }
     data.sponsors.specials.each { |sgs| arr << sgs }
     data.sponsors.communities.each { |sc| arr << sc }
     data.sponsors.personals.each { |ps| arr << ps }
+    data.sponsors.drinks.each { |sd| arr << sd }
     arr
   end
 end

@@ -468,6 +468,10 @@ section.section
     .sponsors_list
       - data.sponsors.logos.each do |logos|
         = link_to image_tag(logos.logo_image_url), logos.url, class: 'sponsors_list_item-logos', target: '_blank', title: logos.name, 'data-toggle' => 'tooltip'
+    h3.sponsors_title LOGO SPONSORS
+    .sponsors_list
+      - data.sponsors.goods.each do |goods|
+        = link_to image_tag(goods.logo_image_url), goods.url, class: 'sponsors_list_item-goods', target: '_blank', title: goods.name, 'data-toggle' => 'tooltip'
     h3.sponsors_title MEDIA SPONSORS
     .sponsors_list
       - data.sponsors.medias.each do |medias|
