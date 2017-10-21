@@ -183,13 +183,13 @@ personals:
     logo_image_url: /assets/images/sponsors/MasanobuJinushi.jpg
   - name: 小野寺 孝之 様
     url: 
-    logo_image_url: /assets/images/speakers/blank_user.png
+    logo_image_url: /assets/images/sponsors/TakayukiOnodera.jpg
   - name: 阿部 智 様
     url: https://www.facebook.com/satc.abe
     logo_image_url: /assets/images/sponsors/SatoshiAbe.jpg
   - name: 力武 克彰 様
     url: 
-    logo_image_url: /assets/images/speakers/blank_user.png
+    logo_image_url: /assets/images/sponsors/YoshiakiRikitake.jpg
   - name: 齋正範 様
     url: https://twitter.com/tototti
     logo_image_url: /assets/images/sponsors/tototti.png
@@ -199,9 +199,18 @@ personals:
   - name: 川野 琢也 様
     url: https://www.apmp.jp/
     logo_image_url: /assets/images/speakers/TakuyaKawano.jpg
-  - name: 西野 貴志 様
+  - name: 川口 恭伸 様
+    url: https://2018.scrumgatheringtokyo.org/
+    logo_image_url: /assets/images/sponsors/YasunobuKawaguchi.jpg
+  - name: 中村 敦志 様
     url: 
-    logo_image_url: /assets/images/sponsors/TakashiNishino.jpg
+    logo_image_url: /assets/images/profile_images/AtsushiNakamura.jpg
+  - name: 千葉 雄飛 様
+    url: 
+    logo_image_url: /assets/images/sponsors/YuhiChiba.jpg
+  - name: 綿引 琢磨 様
+    url: 
+    logo_image_url: /assets/images/speakers/blank_user.png
 
 # drinks:
 #   - name: 
