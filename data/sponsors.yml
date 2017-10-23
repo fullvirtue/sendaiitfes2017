@@ -57,6 +57,15 @@ logos:
   - name: 株式会社セカンドファクトリー
     url: http://www.2ndfactory.com/
     logo_image_url: /assets/images/sponsors/2ndFactory.jpg
+  - name: 一般社団法人マジカルコンパス
+    url: http://magicalcompath.org
+    logo_image_url: /assets/images/sponsors/magicalcompath.jpg
+  - name: グロースエクスパートナーズ株式会社
+    url: http://www.gxp.co.jp/
+    logo_image_url: /assets/images/sponsors/growthxpartners.png
+  - name: 株式会社SRIA
+    url: https://www.sria.co.jp/
+    logo_image_url: /assets/images/sponsors/sria.png
   - name: ビバーチェプラス合同会社
     url: http://vivaceplus.com/
     logo_image_url: /assets/images/sponsors/vivaceplus.png
