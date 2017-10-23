@@ -178,49 +178,55 @@ communities:
     logo_image_url: /assets/images/sponsors/tdc.png
 
 personals:
-  - name: 関 満徳 様
+  - name: 原 亮 様 (33口)
+    url: http://htus.jp
+    logo_image_url: /assets/images/profile_images/RyoHara.png
+  - name: 関 満徳 様 (33口)
     url: http://fullvirtue.com
     logo_image_url: /assets/images/profile_images/MitsunoriSeki.png
-  - name: 吉島 良平 様
+  - name: 関 満徳 様 (33口)
+    url: http://fullvirtue.com
+    logo_image_url: /assets/images/profile_images/MitsunoriSeki.png
+  - name: 吉島 良平 様 (33口)
     url: http://www.pbc.co.jp/blog
     logo_image_url: /assets/images/profile_images/RyoheiYoshijima.jpg
-  - name: 半谷 充生 様
-    url: https://twitter.com/bangucs
-    logo_image_url: /assets/images/profile_images/MitsuoHangai.jpg
-  - name: 石澤 直人 様
-    url: https://blog.youyo.info/
-    logo_image_url: /assets/images/sponsors/NawotoIshizawa.png
-  - name: 地主 雅信 様
-    url: 
-    logo_image_url: /assets/images/sponsors/MasanobuJinushi.jpg
-  - name: 小野寺 孝之 様
-    url: 
-    logo_image_url: /assets/images/sponsors/TakayukiOnodera.jpg
-  - name: 阿部 智 様
-    url: https://www.facebook.com/satc.abe
-    logo_image_url: /assets/images/sponsors/SatoshiAbe.jpg
-  - name: 力武 克彰 様
-    url: 
-    logo_image_url: /assets/images/sponsors/YoshiakiRikitake.jpg
-  - name: 齋正範 様
-    url: https://twitter.com/tototti
-    logo_image_url: /assets/images/sponsors/tototti.png
-  - name: 式町 久美子 様
-    url: https://www.apmp.jp/
-    logo_image_url: /assets/images/speakers/KumikoShikimachi.jpg
-  - name: 川野 琢也 様
-    url: https://www.apmp.jp/
-    logo_image_url: /assets/images/speakers/TakuyaKawano.jpg
-  - name: 川口 恭伸 様
-    url: https://2018.scrumgatheringtokyo.org/
-    logo_image_url: /assets/images/sponsors/YasunobuKawaguchi.jpg
-  - name: 中村 敦志 様
+  - name: 中村 敦志 様 (10口)
     url: 
     logo_image_url: /assets/images/profile_images/AtsushiNakamura.jpg
-  - name: 千葉 雄飛 様
+  - name: 阿部 智 様 (5口)
+    url: https://www.facebook.com/satc.abe
+    logo_image_url: /assets/images/sponsors/SatoshiAbe.jpg
+  - name: 千葉 雄飛 様 (3口)
     url: 
     logo_image_url: /assets/images/sponsors/YuhiChiba.jpg
-  - name: 綿引 琢磨 様
+  - name: 半谷 充生 様 (2口)
+    url: https://twitter.com/bangucs
+    logo_image_url: /assets/images/profile_images/MitsuoHangai.jpg
+  - name: 石澤 直人 様 (1口)
+    url: https://blog.youyo.info/
+    logo_image_url: /assets/images/sponsors/NawotoIshizawa.png
+  - name: 地主 雅信 様 (1口)
+    url: 
+    logo_image_url: /assets/images/sponsors/MasanobuJinushi.jpg
+  - name: 小野寺 孝之 様 (1口)
+    url: 
+    logo_image_url: /assets/images/sponsors/TakayukiOnodera.jpg
+  - name: 力武 克彰 様 (1口)
+    url: 
+    logo_image_url: /assets/images/sponsors/YoshiakiRikitake.jpg
+  - name: 齋正範 様 (1口)
+    url: https://twitter.com/tototti
+    logo_image_url: /assets/images/sponsors/tototti.png
+  - name: 式町 久美子 様 (1口)
+    url: https://www.apmp.jp/
+    logo_image_url: /assets/images/speakers/KumikoShikimachi.jpg
+  - name: 川野 琢也 様 (1口)
+    url: https://www.apmp.jp/
+    logo_image_url: /assets/images/speakers/TakuyaKawano.jpg
+  - name: 川口 恭伸 様 (1口)
+    url: https://2018.scrumgatheringtokyo.org/
+    logo_image_url: /assets/images/sponsors/YasunobuKawaguchi.jpg
+  - name: 綿引 琢磨 様 (1口)
     url: 
     logo_image_url: /assets/images/speakers/blank_user.png
 
