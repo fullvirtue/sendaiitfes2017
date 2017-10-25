@@ -99,6 +99,9 @@ logos:
   - name: 株式会社パソナテック
     url: https://www.pasonatech.co.jp
     logo_image_url: /assets/images/sponsors/pasonatech.jpg
+  - name: 株式会社ナナイロ
+    url: https://nanairo-inc.jp/
+    logo_image_url: /assets/images/sponsors/nanairo.jpg
 
 goods:
   - name: CData Software Japan 合同会社
