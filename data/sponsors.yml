@@ -241,6 +241,9 @@ personals:
   - name: 綿引 琢磨 様 (1口)
     url: 
     logo_image_url: /assets/images/speakers/blank_user.png
+  - name: 小泉 勝志郎 様 (1口)
+    url: https://www.facebook.com/SeniorProgrmming/
+    logo_image_url: /assets/images/sponsors/KatsushiroKoizumi.jpg
 
 # drinks:
 #   - name: 
