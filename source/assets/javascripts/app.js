@@ -19,7 +19,7 @@ function fmt2(n) {
 
 
 var startDateTime = new Date();
-var endDateTime = new Date("October 28,2017 00:00:00");
+var endDateTime = new Date("October 28,2017 12:00:00");
 var left = 0;
 var a_day = 24 * 60 * 60 * 1000;
 
