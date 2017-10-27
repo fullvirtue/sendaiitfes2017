@@ -211,6 +211,9 @@ personals:
   - name: 千葉 雄飛 様 (3口)
     url: 
     logo_image_url: /assets/images/sponsors/YuhiChiba.jpg
+  - name: 原 亮 様 (3口)
+    url: http://www.hararyo.com/
+    logo_image_url: /assets/images/sponsors/RyoHara.jpg
   - name: 半谷 充生 様 (2口)
     url: https://twitter.com/bangucs
     logo_image_url: /assets/images/profile_images/MitsuoHangai.jpg
@@ -247,6 +250,9 @@ personals:
   - name: 佐藤 嘉浩 様 (1口)
     url: http://www.yosato.net
     logo_image_url: /assets/images/sponsors/YoshihiroSato.jpg
+  - name: 安藤 明伸 様 (1口)
+    url: 
+    logo_image_url: /assets/images/sponsors/AkinobuAndo.png
 
 # drinks:
 #   - name: 
