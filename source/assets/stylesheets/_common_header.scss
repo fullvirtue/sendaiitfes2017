@@ -58,10 +58,17 @@ video {
 }
 
 .countdown {
-  background: #000;
+  //background: #000;
   height: 72px;
   position: relative;
   margin-top: 0;
+  overflow: hidden;
+}
+
+.visual-image {
+  position: relative;
+  left: 50%; /* 画像の左端が画面中央にくる */
+  margin-left: -1280px; /* 画像幅1600pxの半分だけ左に移動する */
 }
 
 .countdown #day, .countdown #hour, .countdown #min, .countdown #sec {

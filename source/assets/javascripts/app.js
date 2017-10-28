@@ -89,7 +89,7 @@ $(function() {
       left: (ww - $('#videos').width()) * .5
     });
 
-    $('.countdown').height($('.countdown_wrapper').height() + 26);
+    // $('.countdown').height($('.countdown_wrapper').height() + 26);
   }
 
   $(window).on('load resize', function() {
