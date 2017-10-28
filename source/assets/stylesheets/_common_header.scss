@@ -199,8 +199,19 @@ video {
   .onlySP {
     display: block
   }
+
   .countdown {
-    margin-top: 0
+    //background: #000;
+    height: 178px;
+    position: relative;
+    margin-top: 0;
+    overflow: hidden;
+  }
+
+  .visual-image {
+    position: relative;
+    left: 50%; /* 画像の左端が画面中央にくる */
+    margin-left: -252px; /* 画像幅1600pxの半分だけ左に移動する */
   }
   .countdown_wrapper {
     margin: 0 auto;
