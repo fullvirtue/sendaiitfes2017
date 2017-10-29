@@ -63,12 +63,13 @@ video {
   position: relative;
   margin-top: 0;
   overflow: hidden;
+  background-color: #8fc320;
 }
 
 .visual-image {
   position: relative;
   left: 50%; /* 画像の左端が画面中央にくる */
-  margin-left: -1280px; /* 画像幅1600pxの半分だけ左に移動する */
+  margin-left: -425px; /* 画像幅1600pxの半分だけ左に移動する */
 }
 
 .countdown #day, .countdown #hour, .countdown #min, .countdown #sec {
@@ -202,16 +203,26 @@ video {
 
   .countdown {
     //background: #000;
-    height: 178px;
+    //height: 178px;
+    height: auto;
     position: relative;
     margin-top: 0;
     overflow: hidden;
+    background-color: #8fc320;
   }
 
   .visual-image {
+    //position: relative;
+    //left: 50%; /* 画像の左端が画面中央にくる */
+    //margin-left: -252px; /* 画像幅1600pxの半分だけ左に移動する */
     position: relative;
-    left: 50%; /* 画像の左端が画面中央にくる */
-    margin-left: -252px; /* 画像幅1600pxの半分だけ左に移動する */
+    left: 0;
+    margin-left: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
   .countdown_wrapper {
     margin: 0 auto;

@@ -74,17 +74,20 @@
       z-index: 5;
       width: 100%;
       top: -200px;
+      display: none;
     }
 
     @media screen and (max-width: 720px) {
       .largeHeader_signup {
         position: initial;
+        display: none;
       }
     }
   }
 
   &_signup {
     margin: 30px auto 30px;
+    display: none;
 
     &_button {
       border-radius: 4px;
